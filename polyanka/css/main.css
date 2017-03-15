@@ -108,6 +108,7 @@ color: #9d1c20;
 	-webkit-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
+	min-width: 1200px;
 }
 .offer_circle{
 	display: block;
