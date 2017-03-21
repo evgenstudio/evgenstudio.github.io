@@ -47,7 +47,7 @@ header{
 	min-height: 600px;
 	height: 100vh;
 	color: #fff;
-	background: url("../bgg.jpg");
+	background: url("bgg.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
