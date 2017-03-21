@@ -44,8 +44,7 @@ h1,h2,h3,h4,h5,h6,p{
 	margin-bottom: 0;
 }
 header{
-	min-height: 600px;
-	height: 100vh;
+	min-height: 900px;
 	color: #fff;
 	background: url("bgg.jpg");
 	-webkit-background-size: cover;
@@ -179,8 +178,7 @@ h2{
 
 .section1{
 	padding-top: 35px;
-	min-height: 800px;
-	height: 100vh;
+	min-height: 900px;
 }
 .for_tabs{
 	display: block;
