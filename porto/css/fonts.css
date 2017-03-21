@@ -1,0 +1,21 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "Fira Sans";
+	src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "Open Sans Condensed";
+	src:	url("../fonts/Open_Sans_Condensed/OpenSans-CondBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Roboto Condensed";
+	src:	url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
