@@ -95,7 +95,7 @@ background: rgba(43,30,16,0.4);
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-width: 60%;
+width: 70%;
 margin-top: 230px;
 position: relative;}
 h1{
@@ -103,12 +103,13 @@ h1{
 	color: #fff;
 	letter-spacing: 0.02em;
 text-align: center;
-	position: relative;
 	line-height: 1;
 	font-weight: 600;
-    font-family: 'Open Sans Condensed', sans-serif;
-  font-family: "TimesNewRoman";
-   
+    font-family: 'Open Sans Condensed', sans-serif;  
+}
+h1 span{
+	font-size: 80px;
+	vertical-align: top;
 }
 h6{
 	font-size: 30px;
@@ -117,7 +118,7 @@ h6{
 	text-align: center;
 	text-transform: uppercase;
     font-family: 'Fira Sans', sans-serif;
-    font-family: "TimesNewRoman";
+ 
 	font-weight: 100;
 }
 .row-menu{
@@ -167,7 +168,7 @@ h6{
 .reserve p{
 	text-transform: uppercase;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-family: "TimesNewRoman";
+
 	font-size: 20px;
 	color: #fff;
 }
@@ -175,7 +176,7 @@ h2{
 	text-align: center;
 	font-size: 42px;
 	font-family: 'Fira Sans', sans-serif;
-	font-family: "TimesNewRoman";
+
 	text-transform: uppercase;
 	display: block;
 }
@@ -224,7 +225,7 @@ border-left: 0.5px solid #2b1e10;
 .for_tabs .tab p{
 	font-size: 21px;
 	font-family: 'Roboto Condensed';
-	font-family: "TimesNewRoman";
+
 	text-transform: uppercase;
 }
 .content_history p{
@@ -232,13 +233,13 @@ border-left: 0.5px solid #2b1e10;
 	font-size: 19px;
 	letter-spacing: 0.01em;
 	font-family: 'Roboto Condensed';
-	font-family: "TimesNewRoman";
+
 }
 .content{
 	padding-top: 80px;
 }
 .history_img{
-	width: 80%;
+	width: 90%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

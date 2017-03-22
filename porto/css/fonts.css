@@ -19,9 +19,17 @@
 	font-weight: normal;
 }
 @font-face {
-	font-family: "TimesNewRoman";
-	src:	url("../fonts/7454.ttf") format("truetype");
+	font-family: "Marks";
+	src:	url("../fonts/Rosamunda Two.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 /* font-family: "RobotoMedium"; */
+
+@font-face {
+	font-family: "Lobster";
+	src:	url("../fonts/Lobster-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
