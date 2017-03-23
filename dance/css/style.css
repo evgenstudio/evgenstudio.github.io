@@ -1,0 +1,320 @@
+html, body {
+	background: #ffffff;
+	margin:0;
+	padding: 0;
+	font-family: "Caros";
+}
+
+.logo img{
+	margin-right:20px;
+	margin-top:13px;
+	margin-left:5px;
+}
+
+.logo-text h3 {
+	margin-top: 25px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	margin-right:70px;
+	color: #3c1e92;
+	font-family: "caros black";
+	font-size:26px;
+}
+
+.logo-text span {
+	margin-top: 0;
+	margin-left: 0;
+    color: #a5a4c3;
+    font-size:13px;
+    font-family: "caros light";
+}
+
+.address img {
+	margin:0;
+	margin-top: -20px;
+	position: relative;
+    display: inline-block;
+}
+
+.address span {
+	margin-top: 35px;
+	margin-left: 14px;
+	margin-right:105px;
+	color: #a5a4c3;
+	font-size:13px;
+	font-family: "caros light";
+	position: relative;
+    display: inline-block;
+}
+
+.phone img {
+	margin:0;
+	margin-top: 0;
+	position: relative;
+    display: inline-block;
+}
+
+.phone span {
+	margin:0;
+	margin-top: 35px;
+	margin-left: 14px;
+	color: #3c1e92;
+	position: relative;
+    display: inline-block;
+    font-size:20px;
+}
+
+.phone a {
+	margin:0;
+	margin-left:70px;
+	margin-top:15px;
+	font-size:15px;
+}
+
+.nav {
+	float: none;
+    text-align: center;
+	font-size:16px;
+	font-family: "caros medium";
+	border-bottom:2px solid #ff0099;
+}
+
+.nav ul{
+	float: none;
+	display: inline-block;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+
+.nav ul li{
+	list-style-type: none;
+	margin-top:35px;
+	margin-bottom: 25px;
+	margin-right: 90px;
+	display: inline-block;
+	position: relative; 	
+}
+
+.nav a {
+	text-decoration: none;
+    color:#ff0099;
+}
+
+.nav a:hover { 
+	color: #ff66cc;
+	padding-bottom:27px;
+    border-bottom:2px solid #ff0099;
+}
+
+.photo{
+	width: 100%;
+	display: block;
+}
+.section1{
+	height: 600px;
+	background: url("../images/bg.png") no-repeat 50% 100%;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
+.Headline h3 {
+	margin-top: 145px;
+	font-family: "Caros ExtraLight";
+	font-size: 46px;
+	color: #333399;
+}
+
+.Headline p {
+	margin-top: 35px;
+	font-family: "Caros Medium";
+	font-size: 22px;
+	color: #ff0099;
+}
+
+footer{
+	height: 1000px;
+}
+.for_kids{
+	height: 600px;
+	background: url("../images/kids.png") no-repeat 50%;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+
+.news1 img {
+	margin-top: 90px;display: block;
+	margin-left: auto; margin-right: auto;
+}
+.news1, .news2, .news3{
+	height: 375px;
+}
+.news1{
+	 border-bottom:2px solid #99ccff;	
+}
+.news2 img {
+	margin-top: 78px;display: block;margin-left: auto; margin-right: auto;
+}
+
+.news3 img {
+	margin-top: 78px;display: block; margin-left: auto; margin-right: auto;
+}
+ 
+ .news1:hover,
+ .news2:hover,
+ .news3:hover{
+ 	border-bottom: none;
+
+ }
+.news1 h3 {
+	font-family: "Caros Regular";
+	font-size: 16px;
+	text-align: center;
+	color: #333399;
+	margin-top: 70px;	
+}
+
+.news1 p {
+	font-family: "Caros";
+	font-size: 13px;
+	text-align: center;
+	color: #9999cc;
+	margin-top: 35px;
+	padding-bottom:80px;
+   
+}
+
+.news2 h3 {
+	font-family: "Caros Regular";
+	font-size: 16px;
+	vertical-align: center;
+	text-align: center;
+	color: #333399;
+	margin-top: 50px;	 
+}
+
+.news2 p {
+	font-family: "Caros";
+	font-size: 13px;
+	vertical-align: center;
+	text-align: center;
+	color: #9999cc;
+	margin-top: 30px;	 
+}
+
+.news3 h3 {
+	font-family: "Caros Regular";
+	font-size: 16px;
+	text-align: center;
+	color: #333399;
+	margin-top: 60px;		
+}
+
+.news3 p {
+	font-family: "Caros";
+	font-size: 13px;
+	text-align: center;
+	color: #9999cc;
+	margin-top: 37px;
+
+}
+
+.news3 a {
+	color: #333399;
+	margin-left: 130px;
+	margin-top: 40px;
+			
+}
+
+.news3 {
+	padding-bottom:35px;
+    border-bottom:2px solid #99ccff;
+}
+.news2{
+	padding-bottom: 35px;
+	border-bottom: 2px solid #ff974d;
+}
+.Order1 h2{
+	margin-top: 80px;
+	font-family: "Caros ExtraLight";
+	font-size: 34px;
+	color: #333399;
+	line-height: 1.4;
+}
+
+.Order1 p {
+	margin-top: 45px;
+	font-family: "Caros Medium";
+	font-size: 18px;
+	color: #ff0099;
+}
+.section1__button{
+	
+	width: 300px;
+	height: 65px;
+
+  margin-top: 60px;
+  padding: 0;
+}
+.button{
+	background: #e7158d;
+		text-align: center;
+  box-shadow: 0px 6px 32px 0px rgba(231, 21, 141, 0.48);
+  border-radius: 32px;
+  border: none;
+}
+.button p{
+  font-size: 16px;
+  font-family: "Caros Medium";
+  color: rgb(255, 255, 255);
+  line-height: 3;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.fa{
+	font-weight: 100;
+}
+.section3{
+	background: #f7f6fc;
+	margin-top: 80px;
+	padding-bottom: 50px;
+}
+.Order2__img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 33px;
+	margin-bottom: 23px;
+}
+.Order2__text{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(165, 164, 195);
+  line-height: 1.2;
+  text-align: center;
+}
+.Order2__button{
+	width: 300px;
+	height: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Order2__input{
+	width: 300px;
+	border-radius: 32px;
+	height: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	background: url("../images/input_bg.png");
+	margin-top: 18px;
+	margin-bottom: 20px;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(60, 30, 146);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600;
+}

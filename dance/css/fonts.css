@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Caros";
+	src: url("../fonts/cretype - Caros.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros Thin";
+	src: url("../fonts/cretype - Caros Thin.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros Medium";
+	src: url("../fonts/cretype - Caros Medium.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros Light";
+	src: url("../fonts/cretype - Caros Light.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros Italic";
+	src: url("../fonts/cretype - Caros Italic.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros Heavy";
+	src: url("../fonts/cretype - Caros Heavy.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros ExtraLight";
+	src: url("../fonts/cretype - Caros ExtraLight.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Caros ExtraBold";
+	src: url("../fonts/cretype - Caros ExtraBold.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros Bold";
+	src: url("../fonts/cretype - Caros Bold.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caros Black";
+	src: url("../fonts/cretype - Caros Black.otf");
+	font-style: normal;
+	font-weight: normal;
+}
