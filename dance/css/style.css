@@ -4,6 +4,7 @@ html, body {
 	padding: 0;
 	font-family: "Caros";
 	vertical-align: baseline;
+
 }
 
 .container {
@@ -31,7 +32,7 @@ header{
 	margin-left: 22px;
 	margin-right:32px;
 	color: #3c1e92;
-	font-family: "caros black";
+	font-family: "caros ExtraBold";
 	font-size:26px;
 }
 
@@ -93,8 +94,10 @@ header{
 	font-size:16px;
 	vertical-align: center;
 	text-align: center;
-	font-family: "caros medium";
+	font-family: "caros Medium";
 	padding-bottom:25px;
+}
+header{
 	border-bottom:2px solid #ff0099;
 }
 
@@ -131,9 +134,9 @@ header{
 }
 .section1{
 	height: 600px;
-	background: url("../images/bg.png") no-repeat 50% 100%;
-	-webkit-background-size: 100% auto;
-	background-size: 100% auto;
+	background: url("../images/bg.png") no-repeat 50% 70%;
+	-webkit-background-size: auto;
+	background-size: auto;
 }
 
 .Headline h3 {
@@ -162,9 +165,9 @@ footer{
 }
 .absol_img{
 	position: absolute;
-	top: 0%;
-	left: -25%;
-	width: 150%;
+	top: -50px;
+	left: -30%;
+	width: 160%;
 }
 
 
@@ -438,4 +441,11 @@ top: -40px;
 }
 .dzizh1{
 	margin-top: 65px;
+}
+.section4 .container{
+	background: url("../images/divider.png") 46.1% 260px no-repeat, 
+	url("../images/divider.png") 46.1% 650px no-repeat,
+	url("../images/divider.png") 46.1% 1040px no-repeat
+	;
+	
 }
