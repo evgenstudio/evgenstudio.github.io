@@ -1,5 +1,5 @@
 @font-face {
-	font-family: "Caros";
+	font-family: "Caros Regular";
 	src: url("../fonts/cretype - Caros.otf");
 	font-style: normal;
 	font-weight: normal;
@@ -63,6 +63,13 @@
 @font-face {
 	font-family: "Caros Black";
 	src: url("../fonts/cretype - Caros Black.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "roboto regular";
+	src: url("../fonts/3966.ttf");
 	font-style: normal;
 	font-weight: normal;
 }

@@ -3,10 +3,24 @@ html, body {
 	margin:0;
 	padding: 0;
 	font-family: "Caros";
+	vertical-align: baseline;
 }
 
+.container {
+	max-width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.section4 .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+header{
+	padding-top: 10px;
+}
 .logo img{
-	margin-right:20px;
+
+	margin-right:22px;
 	margin-top:13px;
 	margin-left:5px;
 }
@@ -14,68 +28,73 @@ html, body {
 .logo-text h3 {
 	margin-top: 25px;
 	margin-bottom: 5px;
-	margin-left: 0;
-	margin-right:70px;
+	margin-left: 22px;
+	margin-right:32px;
 	color: #3c1e92;
 	font-family: "caros black";
 	font-size:26px;
 }
 
-.logo-text span {
-	margin-top: 0;
-	margin-left: 0;
+.logo-text p {
+	margin-top: 5px;
+	margin-left: 11px;
+	padding-left: 11px;
     color: #a5a4c3;
     font-size:13px;
-    font-family: "caros light";
+    font-family: "roboto regular";
+    line-height:14px;
 }
 
 .address img {
-	margin:0;
-	margin-top: -20px;
+	vertical-align: baseline;
 	position: relative;
     display: inline-block;
 }
 
-.address span {
-	margin-top: 35px;
-	margin-left: 14px;
-	margin-right:105px;
+.address h5 {
+	margin-top: 36px;
+	margin-left: 13px;
+	font-family: "roboto regular";
 	color: #a5a4c3;
-	font-size:13px;
-	font-family: "caros light";
 	position: relative;
     display: inline-block;
 }
 
 .phone img {
-	margin:0;
-	margin-top: 0;
 	position: relative;
     display: inline-block;
+    
 }
 
 .phone span {
-	margin:0;
 	margin-top: 35px;
-	margin-left: 14px;
+	margin-left: 4px;
 	color: #3c1e92;
-	position: relative;
-    display: inline-block;
     font-size:20px;
+    display: inline-block;
+    vertical-align: baseline;
+      font-family: "Caros Medium";
+
 }
 
 .phone a {
 	margin:0;
+	color: #333399;
 	margin-left:70px;
-	margin-top:15px;
+	margin-top:10px;
+	font-family: "roboto regular";
 	font-size:15px;
+	border-bottom: 1px solid #ccccff;
 }
 
 .nav {
 	float: none;
     text-align: center;
 	font-size:16px;
+	vertical-align: center;
+	text-align: center;
 	font-family: "caros medium";
+	padding-bottom:25px;
 	border-bottom:2px solid #ff0099;
 }
 
@@ -90,8 +109,7 @@ html, body {
 .nav ul li{
 	list-style-type: none;
 	margin-top:35px;
-	margin-bottom: 25px;
-	margin-right: 90px;
+	margin-right: 75px;
 	display: inline-block;
 	position: relative; 	
 }
@@ -103,7 +121,7 @@ html, body {
 
 .nav a:hover { 
 	color: #ff66cc;
-	padding-bottom:27px;
+	padding-bottom:24px;
     border-bottom:2px solid #ff0099;
 }
 
@@ -137,10 +155,18 @@ footer{
 }
 .for_kids{
 	height: 600px;
-	background: url("../images/kids.png") no-repeat 50%;
-	-webkit-background-size: auto 100%;
-	background-size: auto 100%;
+	position: relative;
+	/*background: url("../images/kids.png") no-repeat 50%;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;*/
 }
+.absol_img{
+	position: absolute;
+	top: 0%;
+	left: -25%;
+	width: 150%;
+}
+
 
 .news1 img {
 	margin-top: 90px;display: block;
@@ -175,8 +201,8 @@ footer{
 }
 
 .news1 p {
-	font-family: "Caros";
-	font-size: 13px;
+	font-family: "roboto regular";
+	font-size: 15px;
 	text-align: center;
 	color: #9999cc;
 	margin-top: 35px;
@@ -194,12 +220,13 @@ footer{
 }
 
 .news2 p {
-	font-family: "Caros";
-	font-size: 13px;
+	font-family: "roboto regular";
+	font-size: 15px;
 	vertical-align: center;
 	text-align: center;
 	color: #9999cc;
 	margin-top: 30px;	 
+
 }
 
 .news3 h3 {
@@ -211,8 +238,8 @@ footer{
 }
 
 .news3 p {
-	font-family: "Caros";
-	font-size: 13px;
+	font-family: "roboto regular";
+	font-size: 15px;
 	text-align: center;
 	color: #9999cc;
 	margin-top: 37px;
@@ -223,6 +250,7 @@ footer{
 	color: #333399;
 	margin-left: 130px;
 	margin-top: 40px;
+	font-family: "roboto regular";
 			
 }
 
@@ -317,4 +345,97 @@ footer{
   line-height: 1.2;
   text-align: center;
   font-weight: 600;
+}
+
+
+.section4 h2{
+  font-size: 34px;
+  font-family: "Caros ExtraLight";
+  color: rgb(231, 21, 141);
+margin-top: 70px;
+margin-bottom: 50px;
+}
+.section4 .dzizh1{
+	height: 80px;
+	background: url('../images/sect_bg.png') 50% -15px;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.section4 .dzizh1 .col-sm-4{height: 80px;}
+.section4 .dzizh1 .col-sm-4 p{
+  font-size: 18px;
+  font-family: "Caros Medium";
+  color: rgb(60, 30, 146);
+  line-height: 1.2;
+  text-align: left;
+
+margin-top: 30px;}
+
+
+.section4 .dzizh1 .col-sm-6 button{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 32px 0px rgba(60, 30, 146, 0.07);
+  width: 140px;
+  height: 40px;
+	border-radius: 20px;
+	border: none;
+	margin-top: 20px;
+}
+.section4 .dzizh1 .col-sm-6 button p{
+  font-size: 16px;
+  font-family: "Caros Medium";
+  color: rgb(58, 193, 223);
+  line-height: 1.2;
+  margin: 0px;
+}
+.my_img{
+	width: 320px;
+	display: block;
+	margin-left: auto;
+}
+.dzizh2{
+	padding-top: 33px;
+}
+.sect4__text{
+	padding-top: 7px;
+	width: 90%;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(148, 148, 175);
+  line-height: 1.2;
+  text-align: left;
+}
+.buttonb{
+	background: none;
+  background-color: rgb(58, 193, 223);
+  box-shadow: 0px 6px 32px 0px rgba(58, 193, 223, 0.48);
+	display: block;
+	border-radius: 30px;
+	border: none;
+}
+
+.section4__button{
+  width: 300px;
+  height: 60px;
+  margin-top: 45px;
+
+}
+.section4 .section4__button p{
+  font-size: 16px;
+  font-family: "Caros Medium";
+  color: rgb(255, 255, 255);
+  line-height: 3.75;
+  text-align: center;
+}
+.section3{
+	position: relative;
+}
+.my_absol3{
+	display: block;
+	width: 100%;
+position: absolute;
+top: -40px;
+}
+.dzizh1{
+	margin-top: 65px;
 }
