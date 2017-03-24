@@ -153,9 +153,7 @@ header{
 	color: #ff0099;
 }
 
-footer{
-	height: 1000px;
-}
+
 .for_kids{
 	height: 600px;
 	position: relative;
@@ -438,6 +436,7 @@ margin-top: 30px;}
 	width: 100%;
 position: absolute;
 top: -40px;
+z-index: 1000;
 }
 .dzizh1{
 	margin-top: 65px;
@@ -449,3 +448,201 @@ top: -40px;
 	;
 	
 }
+footer{
+	background: #3f3b53;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+footer .for_logo{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #ffffff;
+}
+footer .for_logo img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;
+	margin-top: 10px;
+}
+footer h4{
+  font-size: 26px;
+  font-family: "Caros ExtraBold";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+display: inline-block;
+vertical-align: middle;
+margin-top: 0;
+}
+.left_footer p{
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.42);
+  line-height: 1.2;
+  text-align: left;
+display: inline-block;
+}
+.for_text{
+	display: inline-block;
+	width: 60%;
+	padding-left: 22px;
+	vertical-align: top;
+	padding-top: 5px;
+}
+.where_footer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  width: 205px;
+text-align: center;
+vertical-align: middle;
+padding-top: 33px;
+border-bottom: 1px solid #797687;
+padding-bottom: 3px;
+}
+.phone_icon_footer{
+	display: inline-block;
+	width: 26px;
+	vertical-align: top;
+	margin-top: 30px;
+	margin-right: 10px;
+	float: right;
+}
+.for_text_right{
+	display: inline-block;
+	margin-top: 30px;
+	text-align: right;
+	float: right;
+}
+.for_text_right p{
+  font-size: 20px;
+  font-family: "Caros Medium";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+.for_text_right a{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  padding-bottom: 1px;
+  width: 200px;
+  border-bottom: 1px solid #797687;
+}
+.for_map{
+	width: 100%;
+	height:450px ;	
+}
+.reviews h2{
+	margin-top: 80px;
+	margin-bottom: 60px;
+  font-size: 34px;
+  font-family: "Caros ExtraLight";
+  color: rgb(231, 21, 141);
+  line-height: 1.412;
+}
+.review_profile{
+	padding-top: 32px;
+	padding-left: 40px;
+	border: 2px solid #f7f6fc;
+	border-radius: 7px;
+	width: 100%;
+	padding-bottom: 42px;
+}
+p.name{
+  font-size: 18px;
+  font-family: "Caros Medium";
+  color: rgb(60, 30, 146);
+  line-height: 1.2;
+  text-align: left;
+display: inline-block;
+}
+.review_video{
+	position: relative;
+}
+.avatar{
+	display: inline-block;
+	margin-right: 35px;}
+.review{
+	margin-top: 30px;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(165, 164, 195);
+  line-height: 1.2;
+  text-align: left;
+}
+.play{
+	width: 62px;
+	height: 62px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #e7158d;
+	border: none;
+	text-align: center;
+	margin-right: 15px;
+} 
+.play img{
+	margin-top: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 32px;
+	height: auto;
+}
+.play+p{
+  font-size: 16px;
+  font-family: "Caros Medium";
+  color: rgb(255, 255, 255);
+text-align: left;
+display: inline-block;
+vertical-align: top;
+margin-top: 20px;
+}
+.review_video_but{
+	position: absolute;
+	display: block;
+	left: 50%;
+	top: 50%;
+	height: 62px;
+	margin-top: -31px;
+	margin-left: -104px;
+}
+
+
+.card{
+height: 260px;
+background: #f7f6fc;
+padding-top: 75px;
+position: relative;
+margin-top: 70px;
+}
+.card p{
+  font-size: 18px;
+  font-family: "Caros Medium";
+  
+  color: #3c1e92;
+  line-height: 1.2;
+  text-align: left;
+
+}
+.card p span{
+	color: rgb(231, 21, 141);
+}
+.review_absol{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    margin-left: -260px;
+    margin-top: -160px;
+    z-index: 100;
+
+}
+
+
+
