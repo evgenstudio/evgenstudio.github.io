@@ -10,7 +10,7 @@
 <!--Штучка ниже для иконок, очень удобно -->
 
 <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-
+<link rel="stylesheet" type="text/css" href="libs/jquery.fancybox.min.css">
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/fonts.css">
@@ -55,22 +55,27 @@
       <div class="col-sm-3 phone">
         <img src="images/phone_Icon.png">
         <span>8(926)133-78-10</span>
-        <a href="#">Перезвоните мне</a>
+        <a class="open_modal">Перезвоните мне</a>
       </div>
     </div> 
   </div>
 </div>
+<div id="nav">
 <div class="container">
   <div class=nav>
     <ul>
-      <li><a href="#">Направления</a></li>
-      <li><a href="#">Наши теренеры</a></li>
-      <li><a href="#">Наш зал</a></li>
-      <li><a href="#">Успехи</a></li>
-      <li><a href="#">Расписание</a></li>
-      <li style="margin-right: 0px;""><a href="#" ">Контакты</a></li>
+      <li><a class="to_section4">Направления</a></li>
+      <li><a class="to_professionals">Наши теренеры</a></li>
+      <li><a class="to_club">Наш зал</a></li>
+      <li><a class="to_kids">Успехи</a></li>
+      <li><a class="to_groups">Расписание</a></li>
+      <li  class="conta"><a href="#" class="to_contacts">Контакты</a></li>
+      <li class="for_sticky">
+        <a >8(926)133-78-10</a>
+      </li>
     </ul>
   </div>
+</div>
 </div>
 </header>
 
@@ -86,7 +91,7 @@
       </h3>
       <p>Под руководством танцора международного класса</p> 
       <a href="#"><!--<img src="images/Base.png">-->
-        <button class="button section1__button">
+        <button class="button section1__button open_modal">
           <p>Записаться на тренировку <i class="fa fa-chevron-right" aria-hidden="true"></i></p>
         </button>
       </a>
@@ -122,7 +127,7 @@
       <p>У нас собственный уютный зал.
         Это удобно — детям не нужно ездить в разные места
       </p>
-      <a href="#">Посмотреть зал</a>
+      <a class="to_club">Посмотреть зал</a>
     </div>
   </div>  
 </div>
@@ -188,7 +193,7 @@
         <p class="sect4__text">В этом возрасте мы развиваем в малышах музыкальные и хореографические способности. <br><br>
 
           Повышаем самооценку, а также укрепляем физически, чтобы сформировать красивое крепкое тело и правильную осанку.</p>
-          <button class="buttonb section4__button">
+          <button class="buttonb section4__button open_modal">
             <p>Записаться на пробное занятие</p>
           </button>
         </div>
@@ -205,7 +210,7 @@
         </div>
         <div class="col-sm-1 for_divider"></div>
         <div class="col-sm-6">
-          <button style="width:auto;padding-left:15px; padding-right:15px;">
+          <button style="width:auto;padding-left:15px; padding-right:15px;" >
             <p style="color:#ff984f">Самба, ча-ча-ча, румба, пасодобль, джайв</p>
           </button>
         </div>
@@ -222,7 +227,7 @@
           <p class="sect4__text">Латина сочетает в себе зажигательный ритм и чёткость движений.
             <br><br>
             Потому, если хотите, чтобы ваш ребенок вырос энергичным, раскрепощенным и стройным, выбирайте латиноамериканские танцы. </p>
-            <button class="buttonb section4__button" style="background-color: rgb(255, 151, 77);
+            <button class="buttonb section4__button open_modal" style="background-color: rgb(255, 151, 77);
             box-shadow: 0px 6px 32px 0px rgba(255, 151, 77, 0.48);">
             <p>Записаться на пробное занятие</p>
           </button>
@@ -254,7 +259,7 @@
         </div>
         <div class="col-xs-6">
           <p class="sect4__text">Танцы европейской программы — это потрясающая осанка, безупречные манеры, фраки темных тонов с бабочкой у мальчиков и эффектные вечерние платья у девочек. </p>
-          <button class="buttonb section4__button" style="  background-color: rgb(88, 210, 175);
+          <button class="buttonb section4__button open_modal" style="  background-color: rgb(88, 210, 175);
           box-shadow: 0px 6px 32px 0px rgba(88, 210, 175, 0.48); margin-top:80px;
           ">
           <p>Записаться на пробное занятие</p>
@@ -276,6 +281,18 @@
   </div>
   <div class="row">
     <div class="col-xs-6 sportsman_profile sportsman_profile1">
+
+    
+      <div class="review_video_but">
+      <a class="fancymy" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0">
+              <button class="play">
+                <img src="images/icon_play.png" alt="">
+              </button>
+            
+              <p>Смотреть отзыв</p>
+              </a>
+            </div>
+
     <img src="images/sportsman1.png" alt="" class="sportman_avatar">
     <div class="sportsman_descr"><h6 class="sportsman_name">Маргарита Белова</h6>
     <p class="sportsman_who">танцор международного класса 
@@ -287,6 +304,12 @@
     </div>
     </div>
     <div class="col-xs-6 sportsman_profile sportsman_profile2">
+        <div class="review_video_but">
+              <button class="play">
+                <img src="images/icon_play.png" alt="">
+              </button>
+              <p>Смотреть отзыв</p>
+            </div>
     <img src="images/sportsman2.png" alt="" class="sportman_avatar">
      <div class="sportsman_descr"><h6 class="sportsman_name">Рысин Павел</h6>
     <p class="sportsman_who" style="margin-top:-10px">педагог-балетмейстер, окончил 
@@ -367,15 +390,15 @@
     <h2>В зале есть чем заняться</h2>
     <div class="row">
       <div class="col-xs-4">
-        <img src="images/club_img.png" alt="">
+       <a href="images/club_img.png" class="club_fancy" data-fancybox="group"><img src="images/club_img.png" alt=""></a>
         <p>Идеальная чистота</p>
       </div>
       <div class="col-xs-4">
-        <img src="images/club_img.png" alt="">
+       <a href="images/club_img.png" class="club_fancy" data-fancybox="group"> <img src="images/club_img.png" alt=""></a>
         <p>Новые зеркала</p>
       </div>
       <div class="col-xs-4">
-        <img src="images/club_img.png" alt="">
+       <a href="images/club_img.png" class="club_fancy" data-fancybox="group"><img src="images/club_img.png" alt=""></a>
         <p>Диванчики для родителей</p>
       </div>
     </div>
@@ -449,7 +472,7 @@
       </div>
       <div class="col-xs-6">
         <p class="name">Лана</p>
-        <button>
+        <button class="">
           <p style="color:#3ac1df">за 3 месяца 5 кубков</p>
         </button>
           <p>С Ланой мы начали с нуля. Поначалу девочка была зажата и не слышала музыку. 
@@ -464,7 +487,7 @@
       </div>
       <div class="col-xs-6">
         <p class="name">Настя</p>
-        <button>
+        <button class="">
           <p style="color:#ff974d">6 месяцев тренировок. Берет призовые места 
 на каждом соревновании</p>
         </button>
@@ -478,7 +501,7 @@
       </div>
       <div class="col-xs-6">
         <p class="name">Ульяна</p>
-        <button>
+        <button class="">
           <p style="color:#5ad2b1">за полгода стала взяла 15 кубков</p>
         </button>
           <p>Год назад Ульяна стояла на последнем, 7 месте, в категории H3. 
@@ -521,7 +544,7 @@
           <div class="price">
             <p>3 499 ₽</p>
           </div>
-          <button class="button">
+          <button class="button open_modal">
             <p>Купить абонемент</p>
           </button>
         </div>
@@ -538,7 +561,7 @@
           <div class="price">
             <p>3 999 ₽</p>
           </div>
-          <button>
+          <button class=" open_modal">
              <p>Купить абонемент</p></button>
         </div>
       </div>
@@ -554,7 +577,7 @@
           <div class="price">
             <p>2 499 ₽</p>
           </div>
-          <button>
+          <button class=" open_modal">
             <p>Купить абонемент</p></button>
         </div>
       </div>
@@ -569,7 +592,7 @@
           </div>
           
         </div>
-        <button class="sep_but">
+        <button class="sep_but open_modal">
             <p>Оставить заявку</p></button>
         </div>
       </div>
@@ -702,7 +725,7 @@
             <div class="for_text_right"><p class="phone">
               8(926)133-78-10
             </p>
-            <a href="">Перезвоните мне</a>
+            <a class=" open_modal">Перезвоните мне</a>
           </div>
           <img src="images/phone_Icon.png" class="phone_icon_footer">
         </div>
@@ -711,22 +734,77 @@
   </footer>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="libs/jquery-3.2.0.min.js"></script>
+  <script src="libs/jquery.sticky.js"></script>
+  <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+  <script src="libs/jquery.fancybox.min.js"></script>
   <script>
-    $("button").click(function(){
+  $(document).ready(function(){
+    $(".open_modal").click(function(){
       $(".modal_bg").addClass("active");
       $(".modal").addClass("active");
-    })
+    });
 
-    $("modal_bg").click(function(){
-      alert("fuck");
-      if($('modal_bg').hasClass('active')){
-        alert("hello");
+    $(".modal_bg").click(function(){
+ 
+      if($('.modal_bg').hasClass('active')){
+  
       $(".modal_bg.active").removeClass("active");
       $(".modal.active").removeClass("active");
       }
-    })
+    });
 
+
+  /* This is basic - uses default settings */
+  
+  $(".fancymy").fancybox();
+  
+  /* Using custom settings */
+  
+  $("a#inline").fancybox({
+    'hideOnContentClick': true
+  });
+
+  /* Apply fancybox to multiple items */
+  
+
+   $("a.to_section4").click(function() {
+    $.scrollTo($(".section4"), 800, {
+      offset: -65
+    });
+  });
+   $("a.to_professionals").click(function() {
+    $.scrollTo($(".professionals"), 800, {
+      offset: -65
+    });
+  });
+   $("a.to_club").click(function() {
+    $.scrollTo($(".our_club"), 800, {
+      offset: -65
+    });
+  });
+   $("a.to_kids").click(function() {
+    $.scrollTo($(".kids"), 800, {
+      offset: -50
+    });
+  });
+   $("a.to_groups").click(function() {
+    $.scrollTo($(".groups"), 800, {
+      offset: -65
+    });
+  });
+    $("a.to_contacts").click(function() {
+    $.scrollTo($("footer"), 800, {
+      offset: -65
+    });
+  });
+
+     $("#nav").sticky({topSpacing:0});
+
+
+
+
+});
   </script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
