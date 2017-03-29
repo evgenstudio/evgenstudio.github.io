@@ -1,0 +1,474 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+    outline-offset: 0px;
+}
+*:focus{
+	outline:none;
+}
+/*Элемент выше для того, чтобы не было цвето у фокусированных*/
+
+p,h1,h2,h3,h4,h5,h6{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+body {
+	font-family: "Gabriola", sans-serif;
+	font-size: 20px;
+	background: rgba(226,232,237,0.2);
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+header{
+	padding-top: 7px;
+	background: url('../img/header_bg.png') no-repeat 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 600px;
+	height: 100vh;
+	position: relative;
+}
+header .top_menu p{
+	font-family: "Century";
+	font-size: 15px;
+	color: #fff;
+}
+header .top_menu p.bold{
+	font-size: 18px;
+	font-weight: bold;
+}
+header .menu{
+	padding-top: 7px;
+}
+ header .menu p{
+	font-family: "Century";
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	display: inline-block;
+	margin-left: 35px;
+	margin-right: 35px;	
+}
+.logo{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: -50px;
+}
+.left_menu{
+	background: url("../img/menu_left.png") no-repeat 100%;
+	height: 40px;
+	padding-top: 5px;
+	-webkit-background-size: 70% 100%;
+	background-size: 70% 100%;
+	text-align: right;
+}
+.right_menu{
+	background: url("../img/menu_right.png") no-repeat 0%;
+	height: 40px;
+	padding-top: 5px;
+	-webkit-background-size: 70% 100%;
+	background-size: 70% 100%;
+	text-align: left;
+}
+.for_h1{
+	margin-top: 280px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+	width: 80%;
+}
+h1{
+	font-family: "Romana";
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+	display: inline-block;
+	line-height: 55px;
+}
+.for_h1 .vip{
+font-family: "Semilia";
+font-size: 60px;
+color: #fff;
+display: inline-block;
+vertical-align: top; 
+margin-left: 15px;
+line-height: 1;
+}
+.for_h1 h6{
+	font-family: "Gabriola";
+	font-size: 34px;
+	line-height: 1;
+	color: #fff;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 7px;
+}
+h2{
+	color: #01061C;
+	font-family: "Cent";
+	font-size: 40px;
+	width: auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+.about__content{
+	color: #01061C;
+	font-size: 27px;
+	line-height: 30px;
+	margin-top: 70px;
+	width: 600px;display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about, .about2, .about3{
+	height: 800px;
+	padding-top: 40px;
+	position: relative;
+}
+.about1_img{
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: url("../img/2.jpg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.about3_img{
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: url("../img/33.jpg") no-repeat 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.about2_img{
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: url("../img/eat.jpg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.overlay{
+	display: block;
+	width: 100%;
+	height: 100%;
+	 background: linear-gradient(to right, rgba(1,6,28,0.3), rgba(1,6,28,0.6));
+	 /*
+	background: linear-gradient(to right, rgba(1,6,28,0.1), rgba(1,6,28,1);*/
+}
+.about .container, 
+.about2 .container,
+.about3 .container{
+	width: 1450px;
+}
+.about__button{
+	width: 180px;
+	height: 60px;
+	border-radius: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #01061C;
+	background: none;
+	margin-top: 150px;
+}
+.about__button p{
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+section.menu{
+	padding-top: 50px;
+	background: rgba(239,248,249,0.6);
+}
+section.menu h2{
+	margin-bottom: 100px;
+}
+section.menu .container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.menu_big_slider{
+	height: 600px;
+	width: 100%;
+}
+.menu_big_slider .item{
+	height: 600px;
+	position: relative;
+}
+.item{
+	display: none;
+}
+.item.active{
+	display: block;
+}
+.menu_big_slider .item1{
+background: url("../img/44.jpg") no-repeat 50%;
+-webkit-background-size: cover;
+background-size: cover;
+} 
+.overlay_item{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(1,6,28,0.3);
+}
+.item h3{
+	text-align: center;
+	font-family: "Century";
+	font-size: 80px;
+	color: #fff;
+	font-weight: 100;
+	position: relative;
+line-height: 6;}
+.menu_button{
+	background: rgba(1,6,28,1);
+	width: 250px;
+	height: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	border: none;
+	position: relative;
+}
+.menu_button p{
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 60px;
+	position: relative;
+}
+.row_choose .col-xs-4{
+position: relative;
+height: 200px;
+padding-left:0;
+padding-right: 0;
+}
+.item_choose{
+	height: 100%;
+	cursor: pointer;
+}
+.item_choose.active .overlay_item{
+	display: none;
+}
+.item_choose1{
+	background: url('../img/44.jpg') no-repeat 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.item_choose2{
+	background: url('../img/eat.jpg') no-repeat 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.item_choose3{
+	background: url('../img/44.jpg') no-repeat 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.item_choose4{
+	background: url('../img/eat2.jpg') no-repeat 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.item_choose5{
+	background: url('../img/eat3.jpg') no-repeat 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.item_choose6{
+	background: url('../img/eat2.jpg') no-repeat 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+}
+
+
+.gallery{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.gallery h2{
+	margin-bottom: 100px;
+}
+.gallery .for_img{
+	height: 350px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	background: #8B763D;
+}
+.for_img +p{
+	color: rgba(1,6,28,1);
+	font-family: "Century";
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+}
+.gallery .col-xs-4{
+	margin-bottom: 40px;
+}
+
+.contacts h2{
+	margin-bottom: 80px;
+}
+.contacts p{
+	font-family: "Century";
+	font-size: 25px;
+	color: rgb(1,6,28);
+	text-align: center;
+}
+.contacts .bold{
+	font-size: 28px;
+	font-weight: bold;
+}
+.map{
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+footer{
+	background: rgb(1,6,28);
+	height: 70px;
+	margin-top: -10px;
+	padding-top: 20px;
+}
+footer .col-xs-10 p{
+	text-align: right;
+	font-size: 20px;
+	font-family: "Century";
+	color: #fff;
+	font-weight: 100;
+}
+.soc_vk{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url("../img/soc_vk.png") 50%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.soc_inst{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url("../img/soc_inst.png") 50%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.about h2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 325px;
+	border-bottom: 2px solid #8B763D;
+}
+section.menu h2{
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	border-bottom: 2px solid #8B763D;
+}
+.gallery h2{
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 255px;
+	border-bottom: 2px solid #8B763D;
+}
+.contacts h2{
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 275px;
+	border-bottom: 2px solid #8B763D;
+}
+h2{
+	line-height: 52px;
+}
+.lan{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	display: block;
+	width: 100px;
+}
+.lan p{
+	font-family: "Century";
+	font-size: 18px;
+	color: #fff;
+}
+.lan .span1{
+	text-decoration: underline;
+}
+#bgndVideo{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+
+}
+#wrapper_mbYTP_bgndVideo{
+	position: absolute !important;
+}
+
+body{
+	z-index: 1000;
+}.my{
+	position: relative;
+	overflow: hidden;
+}
+header{
+	background: rgba(0,0,0,0.6);
+}
