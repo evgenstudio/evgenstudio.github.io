@@ -12,6 +12,7 @@
 		<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
 		<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="js/sliding.form.js"></script>
+
 		
     </head>
     <style>
@@ -60,6 +61,7 @@
     </section>
     -
         <div id="content" >
+        <div class="my_cont">
             <h1>Кованый навес из поликарбоната<br> <span>по цене обычного</span></h1>
             
             <p class="only">
@@ -80,6 +82,7 @@
                    <p>Производтство и монтаж за 10 дней</p>
                </div>
             <div class="col-xs-3"></div>
+           </div>
            </div>
             <div id="wrapper">
                 <div id="steps" class="clearfix">
@@ -183,19 +186,19 @@
                 </div>
                 <div id="navigation" style="display:none;">
                     <ul>
-                        <li class="selected">
+                        <li class="selected navi">
                             <a href="#">Вид</a>
                         </li>
-                        <li>
+                        <li class="navi">
                             <a href="#">Удалённость от МКАД</a>
                         </li>
-                        <li>
+                        <li class="navi">
                             <a href="#">Время установки</a>
                         </li>
-                        <li>
+                        <li class="navi">
                             <a href="#">Размеры</a>
                         </li>
-						<li>
+						<li class="navi">
                             <a href="#">Далее</a>
                         </li>
                     </ul>
@@ -203,4 +206,9 @@
             </div>
         </div>
     </body>
+    <script>
+            $(".navi").click(function(){
+                $(".my_cont").addClass("active");
+            })
+        </script>
 </html>
