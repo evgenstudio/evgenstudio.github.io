@@ -93,70 +93,81 @@
                             <legend>Укажите планируемый тип кровли:</legend>
                             <p> 
                                 <input type="radio" name="kind" value="1" id="radio1_1"/>
-								<label for="radio1_1"><span class="for_item active"><span class="checked"></span></span>Односкатный</label>
+								<label for="radio1_1"><span class="for_item active"></span>Односкатный</label>
                                 <img src="images/type1.jpg" alt="" class="type">
 								
                             </p>
                             <p>
                                 <input type="radio" name="kind" value="2" id="radio1_2"/>
-								<label for="radio1_2"><span class="for_item"><span class="checked"></span></span>Двускатный</label>
+								<label for="radio1_2"><span class="for_item"></span>Двускатный</label>
                                 <img src="images/type2.jpg" alt="" class="type">
 								
                             </p>
                             <p>
                                 <input type="radio" name="kind" value="3" id="radio1_3"/>
-								<label for="radio1_3"><span class="for_item"><span class="checked"></span></span>Арочный</label>
+								<label for="radio1_3"><span class="for_item"></span>Арочный</label>
                                 <img src="images/type3.jpg" alt="" class="type">
 								
                             </p>
                         </fieldset>
-                        <fieldset class="step">
-                            <legend>Удалённость от МКАД</legend>
+                        <fieldset class="step step2">
+                            <legend>  Укажите удаленность от МКАД до объекта:</legend>
                             <p>
-								<label for="1">до 15 км</label>
-								<input type="radio" name="range" value="1"/>
+                                <input type="radio" name="range" value="1" id="radio2_1" />
+								<label for="radio2_1"><span class="for_item"></span>до 15 км</label>
+								
                             </p>
                             <p>
-								<label for="2">15-45 км</label>
-								<input type="radio" name="range" value="2"/>
+                                <input type="radio" name="range" value="2" id="radio2_2" />
+								<label for="radio2_2"><span class="for_item"></span>15-45 км</label>
+								
                             </p>
                             <p>
-								<label for="3">45 - 75 км</label>
-								<input type="radio" name="range" value="3"/>
+                                <input type="radio" name="range" value="3" id="radio2_3" />
+								<label for="radio2_3"><span class="for_item"></span>45 - 75 км</label>
+								
                             </p>
 							<p>
-								<label for="4">75 км и больше</label>
-								<input type="radio" name="range" value="4"/>
+                                <input type="radio" name="range" value="4" id="radio2_4" />
+								<label for="radio2_4"><span class="for_item"></span>75 км и больше</label>
+								
                             </p>
                         </fieldset>
-                        <fieldset class="step">
-                            <legend>Время установки</legend>
-                            <p>
-								<label for="1">Через 1 неделю</label>
-								<input type="radio" name="term" value="1"/>
+                        <fieldset class="step step3">
+                            <legend>
+Когда вы планируете установить навес?</legend>
+                            <p> 
+                                <input type="radio" name="term" value="1" id="radio3_1"/>
+								<label for="radio3_1"><span class="for_item"></span>Через 1 неделю</label>
+								
                             </p>
                             <p>
-								<label for="2">Через 2 недели</label>
-								<input type="radio" name="term" value="2"/>
+								<input type="radio" name="term" value="2" id="radio3_2"/>
+                                <label for="radio3_2"><span class="for_item"></span>Через 2 недели</label>
+								
                             </p>
-                            <p>
-								<label for="3">Весной 2017</label>
-								<input type="radio" name="term" value="3"/>
+                            <p> 
+                                <input type="radio" name="term" value="3" id="radio3_3"/>
+								<label for="radio3_3"><span class="for_item"></span>Весной 2017</label>
+								
                             </p>
 							<p>
-								<label for="4">Летом 2017 / другое</label>
-								<input type="radio" name="term" value="4"/>
+								<input type="radio" name="term" value="4" id="radio3_4"/>
+                                <label for="radio3_4"><span class="for_item"></span>Летом 2017 / другое</label>
+
                             </p>
                         </fieldset>
-                        <fieldset class="step">
-                            <legend>Размеры</legend>
+                        <fieldset class="step step4">
+                            <legend>Укажите примерный размер навеса:</legend>
                             <p>
-                                <label for="hight">Длина</label>
-                                <input name="hight" type="number" style="background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;" placeholder="Длина" id="hight" onchange="umcalc()" onmouseout="umcalc()" value="0.1" min="0.1" max="100" step="0.1"> 
+                                <label for="hight">Введите длину</label>
+                                <input name="hight" type="number" style="height: 100%;" placeholder="Длина" id="hight" onchange="umcalc()" onmouseout="umcalc()" value="0.1" min="0.1" max="100" step="0.1">
+                                <span class="meters">метров</span> 
                             </p>
                             <p>
-                                <label for="weight">Ширина</label>
-                                <input name="weight" type="number" style="background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;" placeholder="Ширина" id="weight" onchange="umcalc()" onmouseout="umcalc()" value="0.1" min="0.1" max="100" step="0.1"> 
+                                <label for="weight">Введите ширину</label>
+                                <input name="weight" type="number" style=" height: 100%;" placeholder="Ширина" id="weight" onchange="umcalc()" onmouseout="umcalc()" value="0.1" min="0.1" max="100" step="0.1">
+                                <span class="meters">метров</span>  
                             </p>
                         </fieldset>
 						<fieldset class="step last">
@@ -210,5 +221,6 @@
             $(".navi").click(function(){
                 $(".my_cont").addClass("active");
             })
+            
         </script>
 </html>

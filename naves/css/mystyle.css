@@ -190,7 +190,22 @@ h1 +p{
     color: #fff;
     text-shadow: none;
 }
-#steps form .step1 p label{
+#steps form .step2 p,
+#steps form .step3 p,
+#steps form .step4 p{
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 0;
+    clear: none;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: none;
+}
+#steps form .step p label{
     font-size: 20px;
     color: #fff;
     text-shadow: none;
@@ -198,11 +213,41 @@ h1 +p{
     font-weight: 100;
     cursor: pointer;
 }
-#steps form .step1 p input{
+#steps form .step1 p input,
+#steps form .step2 p input,
+#steps form .step3 p input{
     display: none;
 }
-
-
+#steps form .step4 p input{
+    width: 75px;
+    border: 1px solid rgb(248, 174, 78);
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: none;
+    color: #000;
+    font-family: "LatoB";
+    font-size: 24px;
+    background: #fff;
+}
+#steps form .step2 p .for_item,
+#steps form .step3 p .for_item{
+    margin-right: 25px;
+}
+.meters{
+    font-size: 18px;
+    font-family: "LatoB";
+    font-weight: 100;
+    color: rgb(211,211,211);
+}
+#wrapper #steps form .step2 legend,
+#wrapper #steps form .step3 legend,
+#wrapper #steps form .step4 legend{
+    color: rgb(248, 174, 78);
+    font-size: 26px;
+    font-weight: 100;
+    font-family: "LatoB";
+}
 .for_item{
     display: inline-block;
     width: 38px;
@@ -214,7 +259,7 @@ h1 +p{
     margin-right: 10px;
 }
 
-#steps .step1 input:checked + label .for_item{
+#steps .step input:checked + label .for_item{
  
     background: url("../images/galka.png") no-repeat 63% 50%;
 }
