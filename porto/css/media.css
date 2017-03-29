@@ -50,13 +50,5 @@
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-header{
-	height: 100vh;
-}
-.section1{
-	height: 100vh;
-}
-h1{
-	 text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
-}
+
 }

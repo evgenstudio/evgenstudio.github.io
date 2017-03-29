@@ -1,42 +1,31 @@
 /* font-family: "RobotoRegular"; */
 @font-face {
-	font-family: "Fira Sans";
-	src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-/* font-family: "RobotoLight"; */
-@font-face {
-	font-family: "Open Sans Condensed";
-	src:	url("../fonts/Open_Sans_Condensed/OpenSans-CondBold.ttf") format("truetype");
+	font-family: "Cent";
+	src: url("../fonts/Cent.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
-	font-family: "Roboto Condensed";
-	src:	url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format("truetype");
+	font-family: "Century";
+	src: url("../fonts/Century_Got1.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
-	font-family: "Marks";
-	src:	url("../fonts/Rosamunda Two.ttf") format("truetype");
+	font-family: "Gabriola";
+	src: url("../fonts/Gabriola.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
-	font-family: "TimesNewRoman";
-	src:	url("../fonts/7454.ttf") format("truetype");
+	font-family: "Romana";
+	src: url("../fonts/RomanaBT1.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
-
-/* font-family: "RobotoMedium"; */
-
 @font-face {
-	font-family: "Lobster";
-	src:	url("../fonts/Lobster-Regular.ttf") format("truetype");
+	font-family: "Semilia";
+	src: url("../fonts/Semilia.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
-
