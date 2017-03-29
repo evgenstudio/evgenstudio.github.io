@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Проскальзывающая форма ввода на основе jQuery</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Fancy Sliding Form with jQuery" />
+        <meta name="keywords" content="jquery, form, sliding, usability, css3, validation, javascript"/>
+        
+        <link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/styl.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/mystyle.css" type="text/css" media="screen"/>
+		<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+        <script type="text/javascript" src="js/sliding.form.js"></script>
+		
+    </head>
+    <style>
+        span.reference{
+            position:fixed;
+            left:5px;
+            top:5px;
+            font-size:10px;
+            text-shadow:1px 1px 1px #fff;
+        }
+        span.reference a{
+            color:#555;
+            text-decoration:none;
+			text-transform:uppercase;
+        }
+        span.reference a:hover{
+            color:#000;
+            
+        }
+        
+    </style>
+    <body>
+    <div class="absol_dark"></div>
+    <section class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="logo">
+                    <p>Naves-kovka.ru</p>
+                </div>
+                <p>Работаем с 2012 года</p>
+            </div>
+            <div class="col-xs-4 center_text">
+                <p>Производство и монтаж навесов <br>из поликарбоната в Москве и МО<br>
+                <span>Русские монтажники</span></p>
+            </div>
+            <div class="col-xs-4 right_text">
+             
+                <p class="tel">+7 (499) 397 77 78</p>
+                <button>
+                    <p>Заказать звонок</p>
+                </button>
+            </div>
+        </div>
+        </div>
+    </section>
+    -
+        <div id="content" >
+            <h1>Кованый навес из поликарбоната<br> <span>по цене обычного</span></h1>
+            
+            <p class="only">
+                только до 31 марта - 2500р/м
+            </p>
+           <div class="row hhrow">
+           <div class="col-xs-3"></div>
+               <div class="col-xs-2">
+                   <img src="images/icon3.jpg" alt="" class="icon">
+                   <p>Витые столбы</p>
+               </div>
+               <div class="col-xs-2">
+                   <img src="images/icon2.jpg" alt="" class="icon">
+                   <p>Кованные элементы</p>
+               </div>
+               <div class="col-xs-2">
+                   <img src="images/icon3.jpg" alt="" class="icon">
+                   <p>Производтство и монтаж за 10 дней</p>
+               </div>
+            <div class="col-xs-3"></div>
+           </div>
+            <div id="wrapper">
+                <div id="steps" class="clearfix">
+                    <form id="formElem" name="formElem" action="script/handler.php" method="post">
+                        <fieldset class="step step1">
+                            <h4>Узнайте стоимость навеса за 1 минуту</h4>
+                            <h5>Ответьте на 4 вопроса и получите смету стоимости навеса и 3D макет</h5>
+                            <legend>Укажите планируемый тип кровли:</legend>
+                            <p> 
+                                <input type="radio" name="kind" value="1" id="radio1_1"/>
+								<label for="radio1_1"><span class="for_item active"><span class="checked"></span></span>Односкатный</label>
+                                <img src="images/type1.jpg" alt="" class="type">
+								
+                            </p>
+                            <p>
+                                <input type="radio" name="kind" value="2" id="radio1_2"/>
+								<label for="radio1_2"><span class="for_item"><span class="checked"></span></span>Двускатный</label>
+                                <img src="images/type2.jpg" alt="" class="type">
+								
+                            </p>
+                            <p>
+                                <input type="radio" name="kind" value="3" id="radio1_3"/>
+								<label for="radio1_3"><span class="for_item"><span class="checked"></span></span>Арочный</label>
+                                <img src="images/type3.jpg" alt="" class="type">
+								
+                            </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Удалённость от МКАД</legend>
+                            <p>
+								<label for="1">до 15 км</label>
+								<input type="radio" name="range" value="1"/>
+                            </p>
+                            <p>
+								<label for="2">15-45 км</label>
+								<input type="radio" name="range" value="2"/>
+                            </p>
+                            <p>
+								<label for="3">45 - 75 км</label>
+								<input type="radio" name="range" value="3"/>
+                            </p>
+							<p>
+								<label for="4">75 км и больше</label>
+								<input type="radio" name="range" value="4"/>
+                            </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Время установки</legend>
+                            <p>
+								<label for="1">Через 1 неделю</label>
+								<input type="radio" name="term" value="1"/>
+                            </p>
+                            <p>
+								<label for="2">Через 2 недели</label>
+								<input type="radio" name="term" value="2"/>
+                            </p>
+                            <p>
+								<label for="3">Весной 2017</label>
+								<input type="radio" name="term" value="3"/>
+                            </p>
+							<p>
+								<label for="4">Летом 2017 / другое</label>
+								<input type="radio" name="term" value="4"/>
+                            </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Размеры</legend>
+                            <p>
+                                <label for="hight">Длина</label>
+                                <input name="hight" type="number" style="background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;" placeholder="Длина" id="hight" onchange="umcalc()" onmouseout="umcalc()" value="0.1" min="0.1" max="100" step="0.1"> 
+                            </p>
+                            <p>
+                                <label for="weight">Ширина</label>
+                                <input name="weight" type="number" style="background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;" placeholder="Ширина" id="weight" onchange="umcalc()" onmouseout="umcalc()" value="0.1" min="0.1" max="100" step="0.1"> 
+                            </p>
+                        </fieldset>
+						<fieldset class="step last">
+                            <legend>Далее</legend>
+                            <p>
+                                <label for="name">Имя</label>
+                                <input id="name" name="name" type="text" placeholder="Иван Иванов" AUTOCOMPLETE=OFF />
+                            </p>
+                            <p>
+                                <label for="phone">Телефон</label>
+								<script type="text/javascript">
+								// <![CDATA[
+									jQuery(function($){$("#phone").mask("+7 (999) 999-99-99");});
+								// ]]&gt;
+								</script>
+                                <input id="phone" name="phone" type="tel" pattern="+7 ([0-9]{3}) [0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="+7 (999) 999-99-99" value="7" required />
+                            </p>
+							<p>
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" placeholder="ваш@емейл.ru" AUTOCOMPLETE=OFF   />
+                            </p>
+                            <p class="submit">
+                                <button id="registerButton" type="submit">Оставить заявку</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="navigation" style="display:none;">
+                    <ul>
+                        <li class="selected">
+                            <a href="#">Вид</a>
+                        </li>
+                        <li>
+                            <a href="#">Удалённость от МКАД</a>
+                        </li>
+                        <li>
+                            <a href="#">Время установки</a>
+                        </li>
+                        <li>
+                            <a href="#">Размеры</a>
+                        </li>
+						<li>
+                            <a href="#">Далее</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
