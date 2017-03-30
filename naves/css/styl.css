@@ -11,7 +11,7 @@ body{
 #content{
     margin:15px auto;
     text-align:center;
-    width:1000px;
+    width:800px;
     position:relative;
     height:100%;
 }
@@ -24,17 +24,17 @@ body{
     border-radius:10px;
     border:2px solid #fff;
     background-color:#f9f9f9;
-    width:1000px;
+    width:800px;
     overflow:hidden;
 }
 #steps{
-    width:1000px;
+    width:800px;
 	/*height:320px;*/
     overflow:hidden;
 }
 .step{
     float:left;
-    width:1000px;
+    width:800px;
 	/*height:320px;*/
 }
 #navigation{
@@ -75,7 +75,7 @@ body{
     text-shadow:1px 1px 1px #fff;
 }
 span.checked{
-    background:transparent url(../images/checked.png) no-repeat top left;
+   /* background:transparent url(../images/checked.png) no-repeat top left;*/
     position:absolute;
     top:0px;
     left:1px;

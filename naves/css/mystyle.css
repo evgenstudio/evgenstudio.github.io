@@ -26,6 +26,8 @@ body{
     padding-top: 10px;
     position: relative;
     height: 100%;
+    min-height: 100vh;
+    padding-bottom: 150px;
 }
 .absol_dark{
     position: absolute;
@@ -34,6 +36,11 @@ body{
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.6);
+}
+.logo_a{
+    display: block;
+    color: #fff;
+    text-align: center;
 }
 .logo{
     width: 215px;
@@ -51,7 +58,7 @@ body{
     text-transform: uppercase;
     font-weight: 700;
 }
-.logo +p{
+.logo_a +p{
     font-size: 14px;
     text-transform: uppercase;
     line-height: 17px;
@@ -82,6 +89,7 @@ body{
     font-weight: 700;
     line-height: 28px;
     text-align: center;
+    font-family: "LatoB";
     color: rgb(239, 162, 74);
     font-weight: 900;
 }
@@ -108,19 +116,18 @@ h1{
     text-transform: uppercase;
    font-weight: 100;
     font-family: "LatoB";
-    margin-top: 40px;
+    margin-top: 30px;
 }
 h1 span{
     font-size: 29px;
     line-height: 50px;
 }
 h1 +p{
-    padding-top: 15px;
-    font-size: 23px;
+    padding-top: 5px;
+    font-size: 29px;
     font-family: "LatoB";
     font-weight: 100;
     line-height: 28px;
-    text-transform: uppercase;
     margin-bottom: 40px;
 }
 .icon{
@@ -135,8 +142,9 @@ h1 +p{
 .icon +p{
     font-size: 18px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 900;
     margin-top: 7px;
+    font-family: "LatoL";
 }
 .hhrow .col-xs-3{
     width: 20%;
@@ -258,6 +266,7 @@ h1 +p{
     border-radius: 5px; 
     vertical-align: middle;
     margin-right: 10px;
+    background: rgba(0,0,0,0.7);
 }
 
 #steps .step input:checked + label .for_item{
@@ -327,10 +336,15 @@ h1 +p{
      border: 1px solid #fff;
  }
  footer{
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     padding-top: 20px;
     padding-bottom: 20px;
-    position: relative;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+
+
  }
  .text-ll a{
     font-size: 18px;
