@@ -30,7 +30,7 @@ body{
 .absol_dark{
     position: absolute;
     width: 100%;
-    height: 950px;
+    height: 100%;
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.6);
@@ -242,7 +242,8 @@ h1 +p{
 }
 #wrapper #steps form .step2 legend,
 #wrapper #steps form .step3 legend,
-#wrapper #steps form .step4 legend{
+#wrapper #steps form .step4 legend,
+#wrapper #steps form .last legend{
     color: rgb(248, 174, 78);
     font-size: 26px;
     font-weight: 100;
@@ -273,7 +274,120 @@ h1 +p{
     transition: 1s ease-in all;
 }
 .my_cont.active{
-    height: 0;
+    height: 0px;
     overflow: hidden ;
     transition: 1s ease-in all;
 }
+
+.price{
+    display: block;
+    -ms-text-align-last: auto;
+    text-align-last: auto;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #fff;
+    float: left;
+}
+.price #price{
+    color: #F8AE4E;
+    font-size: 28px;
+}
+.sale_form{
+    height: 0px;
+    overflow: hidden;
+    padding: 0;
+    transition: 1s all ease-in;
+       width: 250px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: rgba(0,0,0,0.4);
+}
+.sale_form p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+.sale_form .itogo{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "LatoB";
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+ .sale_form .sale_num{
+    font-size: 28px;
+   color: #F8AE4E;
+   font-weight: 700;
+ }
+ .sale_form.active{
+    height: 210px;
+    padding: 10px 5px;
+     border: 1px solid #fff;
+ }
+ footer{
+    background: rgba(0,0,0,0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+ }
+ .text-ll a{
+    font-size: 18px;
+    text-align: center;
+    color: #ccc;
+    padding-bottom: 15px;
+    display: block;
+ }
+ .text-ll a +p{
+    font-size: 15px;
+    text-align: center;
+    color: #ccc;
+ }
+ .text-cc a{
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: underline;
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+ }
+ .text-rr .tel{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ccc;
+    padding-bottom: 15px;
+ }
+ .text-rr .addr{
+    font-size: 14px;
+    line-height: 1;
+    color: #ccc;
+ }
+
+ #steps form button{
+    background: #F8AE4E;
+    border: none;
+    text-shadow: none;
+    color: #fff;
+
+ }
+ #steps form button:hover{
+    background: #F8AE4E;
+    color: #fff;
+    text-shadow: none;
+ }
+ #steps form .last input:not([type=radio]){
+    background: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 15px;
+    float: none; margin-left: 60px;
+ }
+ #steps form p{
+    text-align: left;
+    margin-left: 0;
+ }
+  #steps form .last input#phone{
+    margin-left: 10px;
+  }
