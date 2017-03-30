@@ -1,0 +1,411 @@
+@font-face{
+    font-family: "Lato";
+    src: url("Lato-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "LatoL";
+    src: url("Lato-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "LatoB";
+    src: url("Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family: "LatoL";
+    font-weight: 700;
+    background: url("../images/2020.jpg") no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-top: 10px;
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+    padding-bottom: 150px;
+}
+.absol_dark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+}
+.logo_a{
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+.logo{
+    width: 215px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.logo p{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.logo_a +p{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 17px;
+    margin-top: 4px;
+    text-align: center;
+    font-family: "LatoL";
+}
+#wrapper{
+    background: none;
+}
+
+.step.last{
+    width: 600px;
+}
+.clearfix{
+    width: 5000px !important;
+}
+.center_text{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;   
+}
+.center_text span{
+    line-height: 36px;
+}
+.right_text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    font-family: "LatoB";
+    color: rgb(239, 162, 74);
+    font-weight: 900;
+}
+.right_text button{
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    background: none;
+    border: 2px solid #fff;
+    margin-top: 10px;
+}
+.right_text button p{
+    font-size: 15px;
+    color: #fff;
+    line-height: 1;
+}
+h1{
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: uppercase;
+   font-weight: 100;
+    font-family: "LatoB";
+    margin-top: 30px;
+}
+h1 span{
+    font-size: 29px;
+    line-height: 50px;
+}
+h1 +p{
+    padding-top: 5px;
+    font-size: 29px;
+    font-family: "LatoB";
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.icon{
+    width: 65px;
+    height: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(239, 162, 74) ;
+}
+.icon +p{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    margin-top: 7px;
+    font-family: "LatoL";
+}
+.hhrow .col-xs-3{
+    width: 20%;
+}
+.col-xs-2{
+    width: 20%;
+}
+#wrapper{
+    margin-top: 20px;
+    border: none;
+    background: rgba(0,0,0,0.6);
+    box-shadow: none;
+    padding-top: 10px;
+}
+#wrapper h4{
+    color: rgb(248, 174, 78);
+    font-size: 26px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: "LatoB";
+}
+#wrapper h5{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(186, 186, 186);
+    margin-bottom: 30px;
+}
+#wrapper #steps form legend{
+    color: rgb(221, 221, 221);
+    font-size: 26px;
+    line-height: 34px;
+    background: none;
+    text-align: center;
+    border-top: 0;
+    border-bottom: 0;
+    text-shadow: none;
+    width:  100%;
+    font-family: "LatoB";
+    font-weight: 100;
+}
+#steps form .step1 p{
+    display: inline-block;
+    width: 30%;
+    float: left;text-align: center;
+    margin-left: 0;
+    clear: none;
+    margin-left: 2.5%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: none;
+}
+#steps form .step2 p,
+#steps form .step3 p,
+#steps form .step4 p{
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 0;
+    clear: none;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: none;
+}
+#steps form .step p label{
+    font-size: 20px;
+    color: #fff;
+    text-shadow: none;
+    font-family: "LatoB";
+    font-weight: 100;
+    cursor: pointer;
+}
+#steps form .step1 p input,
+#steps form .step2 p input,
+#steps form .step3 p input{
+    display: none;
+}
+#steps form .step4 p input{
+    width: 75px;
+    border: 1px solid rgb(248, 174, 78);
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: none;
+    color: #000;
+    font-family: "LatoB";
+    font-size: 24px;
+    background: #fff;
+}
+#steps form .step2 p .for_item,
+#steps form .step3 p .for_item{
+    margin-right: 25px;
+}
+.meters{
+    font-size: 18px;
+    font-family: "LatoB";
+    font-weight: 100;
+    color: rgb(211,211,211);
+}
+#wrapper #steps form .step2 legend,
+#wrapper #steps form .step3 legend,
+#wrapper #steps form .step4 legend,
+#wrapper #steps form .last legend{
+    color: rgb(248, 174, 78);
+    font-size: 26px;
+    font-weight: 100;
+    font-family: "LatoB";
+}
+.for_item{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: none;
+    border: 3px solid #F8AE4E;
+    border-radius: 5px; 
+    vertical-align: middle;
+    margin-right: 10px;
+    background: rgba(0,0,0,0.7);
+}
+
+#steps .step input:checked + label .for_item{
+ 
+    background: url("../images/galka.png") no-repeat 63% 50%;
+}
+.type{
+    display: block;
+    margin-left: auto;margin-right: auto;
+    margin-top: 30px;
+}
+.my_cont{
+    height: 315px;
+    transition: 1s ease-in all;
+}
+.my_cont.active{
+    height: 0px;
+    overflow: hidden ;
+    transition: 1s ease-in all;
+}
+
+.price{
+    display: block;
+    -ms-text-align-last: auto;
+    text-align-last: auto;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #fff;
+    float: left;
+}
+.price #price{
+    color: #F8AE4E;
+    font-size: 28px;
+}
+.sale_form{
+    height: 0px;
+    overflow: hidden;
+    padding: 0;
+    transition: 1s all ease-in;
+       width: 250px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: rgba(0,0,0,0.4);
+}
+.sale_form p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+.sale_form .itogo{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "LatoB";
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+ .sale_form .sale_num{
+    font-size: 28px;
+   color: #F8AE4E;
+   font-weight: 700;
+ }
+ .sale_form.active{
+    height: 210px;
+    padding: 10px 5px;
+     border: 1px solid #fff;
+ }
+ footer{
+    background: rgba(0,0,0,0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+
+
+ }
+ .text-ll a{
+    font-size: 18px;
+    text-align: center;
+    color: #ccc;
+    padding-bottom: 15px;
+    display: block;
+ }
+ .text-ll a +p{
+    font-size: 15px;
+    text-align: center;
+    color: #ccc;
+ }
+ .text-cc a{
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: underline;
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+ }
+ .text-rr .tel{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ccc;
+       text-shadow: none;
+    padding-bottom: 15px;
+ }
+ .text-rr .addr{
+    font-size: 14px;
+    line-height: 1;
+    color: #ccc;
+       text-shadow: none;
+ }
+
+ #steps form button{
+    background: #F8AE4E;
+    border: none;
+    text-shadow: none;
+    color: #fff;
+
+
+
+ }
+ #steps form button:hover{
+    background: #F8AE4E;
+    color: #fff;
+    text-shadow: none;
+ }
+ #steps form .last input:not([type=radio]){
+    background: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 15px;
+    float: none; margin-left: 60px;
+ }
+ #steps form p{
+    text-align: left;
+    margin-left: 0;
+ }
+  #steps form .last input#phone{
+    margin-left: 10px;
+  }
