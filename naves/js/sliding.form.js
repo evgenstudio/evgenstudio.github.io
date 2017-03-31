@@ -73,7 +73,7 @@
 		aa = parseInt(current)+1 -2;
 		aa= aa*1000;
 		 $("#salee").text(aa);
-	}
+	});
 
 	
 	/*
