@@ -44,6 +44,7 @@
     </style>
     <body>
     <div class="absol_dark"></div>
+   
     <section class="top">
     <div class="container">
         <div class="row">
@@ -60,7 +61,7 @@
             </div>
             <div class="col-xs-3 right_text">
              
-                <p class="tel">+7 (499) 397 77 78</p>
+                <p class="tel" id="tel">+7 (499) 397 77 78</p>
                 <!--<button>
                     <p>Заказать звонок</p>
                 </button>-->
@@ -80,15 +81,15 @@
            <div class="row hhrow">
            <div class="col-xs-3"></div>
                <div class="col-xs-2">
-                   <img src="images/icon1.jpg" alt="" class="icon">
+                   <img src="images/icon1.jpg" alt="" class="icon icon1">
                    <p>Витые столбы</p>
                </div>
                <div class="col-xs-2">
-                   <img src="images/icon2.jpg" alt="" class="icon">
+                   <img src="images/icon2.jpg" alt="" class="icon icon2">
                    <p>Кованные элементы</p>
                </div>
                <div class="col-xs-2">
-                   <img src="images/icon3.jpg" alt="" class="icon">
+                   <img src="images/icon3.jpg" alt="" class="icon icon3">
                    <p>Производтство и монтаж за 10 дней</p>
                </div>
             <div class="col-xs-3"></div>
@@ -108,7 +109,7 @@
                 <div class="col-xs-10">
                 <div id="wrapper">
                     <div id="steps" class="clearfix">
-                        <form id="formElem" name="formElem" action="script/handler.php" method="post">
+                        <form id="formElem" name="formElem" >
                             <fieldset class="step step1">
                                 <h4>Узнайте стоимость навеса за 1 минуту</h4>
                                 <h5>Ответьте на 4 вопроса и получите смету стоимости навеса и 3D макет</h5>
@@ -192,10 +193,10 @@
                                     <span class="meters">метров</span>  
                                 </p>
                                 <p class="bl" style="display:block; width:100%"></p>
-                                <div class="price">
+                                <!--<div class="price">
                                 Ваша примерная стоимость: 
                                     <span id="price"></span> руб.
-                                </div>
+                                </div>-->
                                 <div class="for_butt">
                                     <button id="to_get" type="button" class="navi" style="background:rgb(248, 174, 78); width:280px; border:none; margin-top:20px; text-align: center;box-shadow:none; height:46px;"><p style="color: #000; font-size:18px;   text-align: center; margin-top:0px; margin-bottom:0px; line-height: 15px; text-transform: uppercase;">Получить расчет</p></button>
                                 </div>
@@ -245,7 +246,7 @@
                                 <a href="#">Размер навеса</a>
                             </li>
                             <li class="navi" id="last_butt">
-                                <a href="#">Узнать стоимость</a>
+                                <!--<a href="#">Узнать стоимость</a>-->
                                 <a href="" id="special">Жахни меня </a>
                             </li>
                         </ul>
@@ -282,18 +283,83 @@ NAVES-KOVKA.RU</a>
                 </div>
             </div>
         </footer>
+         <div class="absol_icon1 absol_icon">
+            <div class="left_cont">
+                <img src="images/absol_icon1.jpg" alt="">
+            </div>
+            <div class="right_cont">
+                <h2 style="text-align:left; padding-left: 30px;">Витые столбы</h2>
+                <div class="for_im"></div>
+                <p>Диаметр сечения:   <span>79-109 мм</span><br>
+Толщина стенки:     <span>3 мм</span></p>
+                <p class="text">
+                    Подобрав необходимую толщину и рисунок, из декоративных изделий одинаково успешно можно создать и крепкое опорное сооружение, и нежное, воздушное украшение, придающее фасаду здания богатый, индивидуальный образ.
+                </p>
+            </div>
+    </div>
+    <div class="absol_icon2 absol_icon">
+            <div class="left_cont">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="right_cont">
+                <h2 style="text-align:left; margin-left:-50px; margin-bottom:0px">Кованные элементы</h2>
+                
+                
+                <p class="text">
+                   <span>Мы изготавливаем фронтальные фермы с заполнением из ковки.</span>
+<br><br>
+Декоративный кованый элемент – это продукт художественного проката, который придадает обычным металлическим конструкциям лёгкость, элегантность и изящество.
+<br><br>
+Рисунок Вы можете согласовать с нашим дизайнером индивидуально.
+                </p>
+            </div>
+    </div>
+     <div class="absol_icon3 absol_icon">
+            <div class="left_cont">
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="right_cont">
+                <h2 style="text-align:left; margin-left:-50px; margin-bottom:0px">Производство и монтаж</h2>
+                
+                
+                <p class="text">
+                   <span>Фронтальные фермы изготавливаем с заполнением из вензелей.</span>
+<br><br>
+Декоративный вензель – это продукт художественного проката, который придает обычным металлическим конструкциям лёгкость, элегантность и изящество, сохраняя прочность конструкции.
+<br><br>
+Рисунок Вы можете согласовать с нашим дизайнером индивидуально.
+                </p>
+            </div>
+    </div>
+
+
+    <div class="absol_bg_form"> 
+    </div>
+    <div class="absol_form">
+        <div class="absol_form_in">
+        <h3>Заказать консультацию <br> инженера</h3>
+        <div class="ord">
+            <img src="images/form_icon.png" alt=""> <p>Ответ в течение 30 минут</p>
+        </div>
+        <input type="text" placeholder="Ваше имя" class="name_i">
+        <input type="text" placeholder="Введите номер телефона" class="tel_i">
+        <button id="cllcs"> 
+            <p>Записаться</p>
+        </button>
+        </div>
+    </div>
     </body>
     <script>
-            $(".navi").click(function(){
+            $(".navi").click(function pumms(){
                 $(".my_cont").addClass("active");
                 $(".sale_form").addClass("active");
-                kk= $(".navi_right .checked").length;
+                /*kk= $(".navi_right .checked").length;
                 kk=kk*1000;
                 kk=kk+1000;
                 if(kk==5000){
                     kk=4000;
                 }
-                $("#salee").text(kk);
+                $("#salee").text(kk);*/
                 if($(".my_navi").hasClass("selected")){
                     $("#special").show();
                 }
@@ -303,6 +369,9 @@ NAVES-KOVKA.RU</a>
                 }
 
             });
+            $("#special").click(function(){
+                $("#salee").text("4000");
+            })
 
            
 
@@ -341,9 +410,38 @@ NAVES-KOVKA.RU</a>
                  
                 
             };  
+             $(".icon1").click(function(){
+                $(".absol_icon1").addClass("active");
+            });
+             $(".icon2").click(function(){
+                $(".absol_icon2").addClass("active");
+            });
+             $(".icon3").click(function(){
+                $(".absol_icon3").addClass("active");
+            });
+             $(".icon").mouseleave(function(){
+                 $(".absol_icon.active").removeClass("active");
+             });
+             $("#tel").click(function(){
+                $(".absol_form").addClass("active");
+                $(".absol_bg_form").addClass("active");
 
+             });
+            $(".absol_bg_form").click(function(){
+                if($(".absol_bg_form").hasClass("active")){
+                $(".absol_form").removeClass("active");
+                $(".absol_bg_form").removeClass("active");
+            };
+            });
+            $("#cllcs").click(function(){
+                if($(".absol_bg_form").hasClass("active")){
+                $(".absol_form").removeClass("active");
+                $(".absol_bg_form").removeClass("active");
+            };
+            });
 
         </script>
+
         <script>
             $(document).ready(function () {
  $('input,textarea').focus(function(){
@@ -354,5 +452,23 @@ NAVES-KOVKA.RU</a>
    $(this).attr('placeholder',$(this).data('placeholder'));
  });
  });
+
+
+
+            $("#form1").submit(function() {
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            window.location = "http://naves-kovka.r/thanks.html"
+        });
+        return false;
+    });
+
+
+           
+
         </script>
 </html>

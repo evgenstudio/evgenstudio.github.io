@@ -67,9 +67,14 @@
     });
     
 	
+
 	$('[type="radio"]').click(function(){
 		$('#navigation li:nth-child(' + (parseInt(current)+1) + ') a').click();
-	});
+		aa = parseInt(current)+1 -2;
+		aa= aa*1000;
+		 $("#salee").text(aa);
+	}
+
 	
 	/*
 	нажатие на закладке (на последнем элементе ввода в каждом наборе полей), приводит к 
