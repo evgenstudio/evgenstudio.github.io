@@ -10,6 +10,14 @@
         <link rel="stylesheet" href="css/styl.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/mystyle.css" type="text/css" media="screen"/>
 		<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+        <script>
+            
+              $('#to_get').on('click', function(e) {
+  $("#last_butt").click();
+  e.preventDefault();
+});
+
+        </script>
 		<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="js/sliding.form.js"></script>
 
@@ -39,7 +47,7 @@
     <section class="top">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-offset-1 col-xs-3">
                 <a href="#" class="logo_a"><div class="logo">
                     <p>Naves-kovka.ru</p>
                 </div>
@@ -50,13 +58,14 @@
                 <p>Производство и монтаж навесов <br>из поликарбоната в Москве и МО<br>
                 <span>Русские монтажники</span></p>
             </div>
-            <div class="col-xs-4 right_text">
+            <div class="col-xs-3 right_text">
              
                 <p class="tel">+7 (499) 397 77 78</p>
                 <!--<button>
                     <p>Заказать звонок</p>
                 </button>-->
             </div>
+            <div class="col-xs-1"></div>
         </div>
         </div>
     </section>
@@ -187,6 +196,9 @@
                                 Ваша примерная стоимость: 
                                     <span id="price"></span> руб.
                                 </div>
+                                <div class="for_butt">
+                                    <button id="to_get" type="button" class="navi" style="background:rgb(248, 174, 78); width:280px; border:none; margin-top:20px; text-align: center;box-shadow:none; height:46px;"><p style="color: #000; font-size:18px;   text-align: center; margin-top:0px; margin-bottom:0px; line-height: 15px; text-transform: uppercase;">Получить расчет</p></button>
+                                </div>
                             </fieldset>
                             <fieldset class="step last">
                                 <legend>ВАШ РАСЧЕТ ГОТОВ!</legend>
@@ -213,7 +225,7 @@
                                     <input id="email" name="email" type="email" placeholder="Email" AUTOCOMPLETE=OFF  style="" />
                                 </p>
                                 <p class="submit">
-                                    <button id="registerButton" type="submit" style="background:rgb(248, 174, 78); width:280px; border:none; text-align: center;"><p style="color: #000; font-size:18px;    text-align: center; margin-top:0px; margin-bottom:0px; line-height: 1;">Узнать результат</p></button>
+                                    <button id="registerButton" type="submit" style="background:rgb(248, 174, 78); width:280px; border:none; text-align: center;box-shadow:none; height:46px;"><p style="color: #000; font-size:18px;   text-align: center; margin-top:0px; margin-bottom:0px; line-height: 30px; text-transform: uppercase;">Узнать результат</p></button>
                                 </p>
                             </fieldset>
                         </form>
@@ -229,11 +241,12 @@
                             <li class="navi navi_right">
                                 <a href="#">Время установки</a>
                             </li>
-                            <li class="navi navi_right">
+                            <li class="navi navi_right my_navi" >
                                 <a href="#">Размер навеса</a>
                             </li>
-                            <li class="navi">
+                            <li class="navi" id="last_butt">
                                 <a href="#">Узнать стоимость</a>
+                                <a href="" id="special">Жахни меня </a>
                             </li>
                         </ul>
                     </div>
@@ -281,8 +294,17 @@ NAVES-KOVKA.RU</a>
                     kk=4000;
                 }
                 $("#salee").text(kk);
-               
+                if($(".my_navi").hasClass("selected")){
+                    $("#special").show();
+                }
+                else
+                {
+                   $("#special").hide(); 
+                }
+
             });
+
+           
 
             var calc =0;
             function ukcalc(){
@@ -315,6 +337,7 @@ NAVES-KOVKA.RU</a>
 
                  calc=calc+m;
                 $("#price").text(calc);
+
                  
                 
             };  

@@ -36,7 +36,7 @@
 	При нажатии на ссылке навигации
 	форма проскальзывает к соответствующему набору полей
 	*/
-    $('#navigation a').bind('click',function(e){
+    $('#navigation a').bind('click',function pam(e){
 		var $this	= $(this);
 		var prev	= current;
 		$this.closest('ul').find('li').removeClass('selected');
@@ -65,6 +65,7 @@
 		});
         e.preventDefault();
     });
+    
 	
 	$('[type="radio"]').click(function(){
 		$('#navigation li:nth-child(' + (parseInt(current)+1) + ') a').click();

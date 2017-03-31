@@ -28,6 +28,7 @@ body{
     height: 100%;
     min-height: 100vh;
     padding-bottom: 150px;
+    max-height: 1200px;
 }
 .absol_dark{
     position: absolute;
@@ -47,7 +48,6 @@ body{
     height: 50px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
     border: 4px solid #fff;
     border-radius: 10px;
     text-align: center;
@@ -63,8 +63,9 @@ body{
     text-transform: uppercase;
     line-height: 17px;
     margin-top: 4px;
-    text-align: center;
+    text-align: right;
     font-family: "LatoL";
+    padding-right: 24px;
 }
 #wrapper{
     background: none;
@@ -85,13 +86,15 @@ body{
     line-height: 36px;
 }
 .right_text{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 28px;
-    text-align: center;
+    text-align: left;
     font-family: "LatoB";
     color: rgb(239, 162, 74);
     font-weight: 900;
+    padding-top: 20px;
+    padding-left: 0;
 }
 .right_text button{
     width: 190px;
@@ -449,3 +452,16 @@ h1 +p{
     font-weight: 100;
     text-align: center;
 }
+
+ #last_butt #special{
+  
+    position: absolute;
+    top: -105px;
+    left: -385px;
+    width: 280px;
+    opacity: 0 !important;
+    display: none;
+}
+ #last_butt #special.active{
+    display: block;
+ }
