@@ -690,3 +690,9 @@ background: url("../images/form_tel.png") no-repeat 30px 10px;
 #tel{
     cursor: pointer
 }
+#steps form #to_get{
+    display: none;
+}
+#steps form #to_get.active{
+    display: block;
+}
