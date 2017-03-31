@@ -26,6 +26,7 @@ body{
     background-color:#f9f9f9;
     width:800px;
     overflow:hidden;
+    margin-left: auto;
 }
 #steps{
     width:800px;
@@ -62,17 +63,20 @@ body{
     height:45px;
     color:#777;
     outline:none;
-    font-weight:bold;
     text-decoration:none;
     line-height:45px;
+    font-family: "LatoB";
+    font-weight: 100;
+    font-size: 14px;
     padding:0px 20px;
    
 }
 #navigation ul li a:hover,
 #navigation ul li.selected a{
-    background:#d8d8d8;
-    color:#666;
-    text-shadow:1px 1px 1px #fff;
+    background:rgba(0,0,0,0.6);
+   border: 1px solid rgb(248, 174, 78);
+   border-radius: 5px;
+    color:#fff;
 }
 span.checked{
    /* background:transparent url(../images/checked.png) no-repeat top left;*/
