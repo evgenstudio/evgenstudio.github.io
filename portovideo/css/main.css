@@ -49,7 +49,7 @@ body {
 }
 header{
 	padding-top: 7px;
-	background: url('../img/header_bg.png') no-repeat 50%;
+	/*background: url('../img/header_bg.png') no-repeat 50%;*/
 	-webkit-background-size: cover;
 	background-size: cover;
 	min-height: 600px;
@@ -161,7 +161,7 @@ h2{
 	top: 0;
 	width: 50%;
 	height: 100%;
-	background: url("../img/2.jpg") no-repeat;
+	background: url("../img/inter2sm.jpg") no-repeat 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -171,7 +171,7 @@ h2{
 	top: 0;
 	width: 50%;
 	height: 100%;
-	background: url("../img/33.jpg") no-repeat 50%;
+	background: url("../img/eat4.jpg") no-repeat 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -343,7 +343,14 @@ padding-right: 0;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
-	background: #8B763D;
+
+}
+.gallery .col-xs-4 a{
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
 }
 .for_img +p{
 	color: rgba(1,6,28,1);
@@ -469,6 +476,100 @@ body{
 	position: relative;
 	overflow: hidden;
 }
-header{
-	background: rgba(1,6,28,0.6);
+.overlay_video{/*
+	background: rgba(1,6,28,0.6);*/
+	background: radial-gradient(rgba(1,6,28,0.1), rgba(1,6,28,0.7));
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+	top: 0;
+}
+header .container, header .lan{
+	z-index: 3000;
+}
+header .container{
+	position: relative;
+}
+#controlBar_bgndVideo{
+	position: absolute !important;
+}
+.for_img1{
+	background: url("../img/inter1sm.jpg") 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.for_img2{
+	background: url("../img/inter2sm.jpg") 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.for_img3{
+	background: url("../img/inter3sm.jpg") 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.for_img4{
+	background: url("../img/inter4sm.jpg") 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.for_img5{
+	background: url("../img/1.jpg") 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.for_img6{
+	background: url("../img/2.jpg") 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.for_img::after{
+ content: "";
+  height: 350px; 
+   border-radius: 15px;
+  top: 0; 
+  width: 350px;  
+  position: absolute; 
+  transition: all 1s ease 0s; 
+  -webkit-transition: all 1s ease 0s; 
+}
+
+.for_img:hover::after{
+	 background: rgba(1,6,28,.4);
+	 cursor: pointer;
+}
+.for_img +p{
+	transition: 1s all ease-in;
+	border-bottom: 1px solid transparent;
+	display: block;
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.for_img:hover +p{
+	border-bottom: 1px solid rgb(1,6,28);
+}
+.show{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../img/search.png") no-repeat 50%;
+	-webkit-background-size: contain;
+	background-size: contain;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -20px;
+	z-index: 4000;
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s all ease-in;
+}
+.for_img:hover .show{
+	opacity: 1;
+	visibility: visible
+}
+.gallery{
+	background: rgba(1,6,28,0.01);
 }

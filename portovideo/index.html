@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link href="css/lightbox.css" rel="stylesheet">
 	<link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
@@ -25,11 +26,12 @@
 <body>
 <section class="my">
 	
-<div id="bgndVideo" class="player" containment="nanaj" data-property="{videoURL:'http://youtu.be/gQeTrpwCxY8',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
-<div class="overlay_video"></div>
+<div id="bgndVideo" class="player" containment="nanaj" data-property="{videoURL:'http://youtu.be/OumWcYzYoNY',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
+
 </section>
 
 <header class="nanaj">
+<div class="overlay_video"></div>
 <div class="lan"><p><span class="span1">Рус</span> / <span class="span2">Eng</span></p></div>
 	<div class="container">
 		<div class="top_menu">
@@ -196,31 +198,49 @@
 
 <section class="gallery">
 	<div class="container-fluid">
-		<h2>Галерея</h2>
+		<h2>Галлерея</h2>
 		<div class="row">
 			<div class="col-xs-4">
-				<div class="for_img for_img1"></div>
+				<a href="img/inter1.jpg" data-lightbox="roadtrip"><div class="for_img for_img1">
+					<div class="show"></div>
+				</div>
 				<p>Барная зона</p>
+				</a>
 			</div>
 			<div class="col-xs-4">
-				<div class="for_img for_img2"></div>
+				<a href="img/inter2.jpg" data-lightbox="roadtrip"><div class="for_img for_img2">
+					<div class="show"></div>
+				</div>
 				<p>Vip-зал</p>
+				</a>
 			</div>
 			<div class="col-xs-4">
-				<div class="for_img for_img3"></div>
+				<a href="img/inter3.jpg" data-lightbox="roadtrip"><div class="for_img for_img3">
+					<div class="show"></div>
+				</div>
 				<p>Основной зал</p>
+				</a>
 			</div>
 			<div class="col-xs-4">
-				<div class="for_img for_img4"></div>
+				<a href="img/inter4.jpg" data-lightbox="roadtrip"><div class="for_img for_img4">
+					<div class="show"></div>
+				</div>
 				<p></p>
+				</a>
 			</div>
 			<div class="col-xs-4">
-				<div class="for_img for_img5"></div>
+				<a href="img/inter3.jpg" data-lightbox="roadtrip"><div class="for_img for_img5">
+					<div class="show"></div>
+				</div>
 				<p></p>
+				</a>
 			</div>
 			<div class="col-xs-4">
-				<div class="for_img for_img6"></div>
+				<a href="img/inter4.jpg" data-lightbox="roadtrip"><div class="for_img for_img6">
+					<div class="show"></div>
+				</div>
 				<p></p>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -259,7 +279,6 @@
 	</div>
 </footer>
 
-
 </body>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -278,6 +297,7 @@
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<script src="js/lightbox.js"></script>
 	<script>
 		 jQuery(function(){
       jQuery("#bgndVideo").YTPlayer();
