@@ -32,3 +32,19 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+    font-family: 'OzHandicraft WGL4 BT Roman';
+    font-style: normal;
+    font-weight: 400;
+    src: local('OzHandicraft WGL4 BT Roman'), local('OzHandicraftWGL4BT-Roman'),
+        url("../fonts/handi.woff") format('woff'),
+        url("../fonts/handi.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'AdLib WGL4 BT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('AdLib WGL4 BT'), local('AdLibWGL4BT-Regular'),
+        url("adlib.woff") format('woff'),
+        url("adlib.ttf") format('truetype');
+}
