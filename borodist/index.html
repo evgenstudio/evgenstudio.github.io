@@ -20,6 +20,8 @@
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.css" />
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
 	<!--<link href="http://allfont.ru/allfont.css?fonts=ozhandicraft-wgl4-bt-roman" rel="stylesheet" type="text/css" />
 	  <link href="http://allfont.ru/allfont.css?fonts=adlib-wgl4-bt" rel="stylesheet" type="text/css" />-->
 
@@ -523,6 +525,7 @@
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/viewportchecker.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/lightbox.js"></script>
 	<script type="text/javascript">
@@ -633,7 +636,27 @@
       	var ab2 =setTimeout(function () {
 			b.addClass("active");
 								}, 1000);
-      })
+      });
+
+
+
+      jQuery(document).ready(function() {
+      	if ($(window).width() >= '1001'){
+		jQuery('section').addClass("hiddens").viewportChecker({
+		classToAdd: 'visibles animated fadeInUp',
+		offset: 100
+		});
+	}
+		});
+
+
+
+      $(".header__next").click(function() {
+		$.scrollTo($(".combo"), 800, {
+			offset: 0
+		});
+	});
+     
 </script>
 
 	<script src="js/common.js"></script>

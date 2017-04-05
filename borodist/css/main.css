@@ -693,3 +693,29 @@ a{
   line-height: 1.667;
   text-align: center;
 }
+.to_close{
+	position: absolute;
+	top: 0;
+	right: -10px;
+	height: 20px;
+	width: 20px;
+}
+.to_close p{
+	color: #fff;
+	font-size: 20px;
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.hiddens{
+opacity:0;
+}
+.visibles{
+opacity:1;
+}
+.button:hover{
+	background-color: #8893aa;
+}
+.header__next{
+	cursor: pointer;
+}
