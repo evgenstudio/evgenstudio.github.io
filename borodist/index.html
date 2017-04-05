@@ -10,8 +10,9 @@
 	<title></title>
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1" />
 	<link rel="shortcut icon" href="favicon.png" />
+	<link href="css/lightbox.css" rel="stylesheet">
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
@@ -100,9 +101,10 @@
 				<b>Опции:</b> добавление Ваших инициалов на изделие. 
 				Стоимость опции 500р
 				</p>
-				<button class="button combo__button">
+				<a href="img/bags/DARKBLUE/1.jpg" data-lightbox="bags" data-title="Dark-Blue"><button class="button combo__button">
 					<p>Посмотреть все фото</p>
 				</button>
+				</a>
 			</div>
 			<div class="col-xs-6 combo__slider">
 				<div class="owl-carousel first__slider owl-theme">
@@ -115,7 +117,7 @@
 	  				<div class="item">
 						<div class="bag">
 	  						<img src="img/bag2.png" alt="">
-	  						<p></p>
+	  						<p>Цвет: Gray</p>
 	  					</div>
 	  				</div>
 	  			
@@ -136,19 +138,19 @@
 	  				<div class="item">
 						<div class="longer">
 	  						<img src="img/longer2.png" alt="">
-	  						<p></p>
+	  						<p>Цвет: Dark-Blue</p>
 	  					</div>
 	  				</div>
 	  				<div class="item">
 						<div class="longer">
 	  						<img src="img/longer3.png" alt="">
-	  						<p></p>
+	  						<p>Цвет: Dark-Blue</p>
 	  					</div>
 	  				</div>
 	  				<div class="item">
 						<div class="longer">
 	  						<img src="img/longer4.png" alt="">
-	  						<p></p>
+	  						<p>Цвет: Dark-Blue</p>
 	  					</div>
 	  				</div>
 	  			
@@ -170,10 +172,11 @@
 Стоимость опции 500 р.
 
 				</p>
-				<button class="button combo__button">
+				<a href="img/longers/DARKBLUE/2.jpg" data-lightbox="longers" data-title="Cherry"><button class="button combo__button">
 					<p>Посмотреть все фото</p>
 
 				</button>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -188,7 +191,7 @@
 		<h6>Давайте знакомиться</h6>
 		<div class="row">
 			<div class="col-xs-3">
-				<img src="img/about_budda.png" alt="">
+				<img src="img/about_img.png" alt="" class="about__img">
 			</div>
 			<div class="col-xs-9">
 				<p class="about__text">Мы успешно развиваемся с 2013 года, под брендом JOLLY NEEDLE
@@ -272,7 +275,15 @@
 					<p class="name"> Имя Фамилия</p>
 				</div>
 				<div class="item">
-					<div class="person"><img src="img/person2.png" alt=""></div>
+					<div class="person"><img src="img/person4.png" alt=""></div>
+					<p class="name"> Имя Фамилия</p>
+				</div>
+				<div class="item">
+					<div class="person"><img src="img/person5.png" alt=""></div>
+					<p class="name"> Имя Фамилия</p>
+				</div>
+				<div class="item">
+					<div class="person"><img src="img/person6.png" alt=""></div>
 					<p class="name"> Имя Фамилия</p>
 				</div>
 			</div>
@@ -287,66 +298,87 @@
 	<div class="clients__slider">
 		<div class="owl-theme owl-carousel fourth_slider">
 			<div class="item">
-				<div class="client"><img src="img/client1.png" alt=""></div>
+				<div class="client"><img src="img/client1.jpg" alt=""></div>
 			</div>
 			<div class="item">
-				<div class="client"><img src="img/client1.png" alt=""></div>
+				<div class="client"><img src="img/client2.jpg" alt=""></div>
 			</div>
 			<div class="item">
-				<div class="client"><img src="img/client1.png" alt=""></div>
+				<div class="client"><img src="img/client3.jpg" alt=""></div>
 			</div>
 			<div class="item">
-				<div class="client"><img src="img/client1.png" alt=""></div>
+				<div class="client"><img src="img/client4.jpg" alt=""></div>
 			</div>
 			<div class="item">
-				<div class="client"><img src="img/client1.png" alt=""></div>
+				<div class="client"><img src="img/client5.jpg" alt=""></div>
+			</div>
+			<div class="item">
+				<div class="client"><img src="img/client6.jpg" alt=""></div>
+			</div>
+			<div class="item">
+				<div class="client"><img src="img/client7.jpg" alt=""></div>
 			</div>
 		</div>
 		<div class="review_text">
+		<div class="review_line_top"></div>
+		
 			<div class="item active">
-
+	
 				<div class="review">
-					<p>Парни, огромное спасибо. Все шикарно. Отдельное спасибо за оперативность. Днем сделал заказ , вечером уже получил!!! Всем рекомендую.</p>
-					<p class="client_name">Алексей Кузьмичёв</p>
-					<a href=""></a>
+					<p>Огpомное спасибо вам ребята!!! Очень все понравилось буду советовать вас друзьям и с удовольствием закажу еще что нибудь!!!!</p>
+					<p class="client_name"><img src="img/circle.png" alt="">Адрей Лобанов<img src="img/circle.png" alt=""></p>
+					<a href="https://vk.com/id205450965"><img src="img/vk.png" alt=""></a>
 				</div>
-				<div class="review_line_top"></div>
-				<div class="review_line_bot"></div>
+				
 			</div>
 			<div class="item item2">
 				<div class="review">
-					<p>Парни, огромное спасибо. Все шикарно. Отдельное спасибо за оперативность. Днем сделал заказ , вечером уже получил!!! Всем рекомендую.</p>
-					<p class="client_name">Алексей Кузьмичёв</p>
-					<a href=""></a>
+					<p>Я очень доволен ребята молодцы спасибо огромной !! Я обязательно еще закажу .. Качество нет слов проста а доставка проста супер еще раз огромной спасибо!!</p>
+					<p class="client_name"><img src="img/circle.png" alt="">Murad Zokirov<img src="img/circle.png" alt=""></p>
+					<a href="https://vk.com/id124630832"><img src="img/vk.png" alt=""></a>
 				</div>
-				<div class="review_line_top"></div>
-				<div class="review_line_bot"></div>
+				
 			</div>
 			<div class="item item3">
 				<div class="review">
-					<p>Парни, огромное спасибо. Все шикарно. Отдельное спасибо за оперативность. Днем сделал заказ , вечером уже получил!!! Всем рекомендую.</p>
-					<p class="client_name">Алексей Кузьмичёв</p>
-					<a href=""></a>
+					<p>Ребята, спасибо большое за великолепное портмоне по индивидуальному заказу. Качественный материал и доступные цены. Делала подарок другу, он в восторге, учитывая, что придира он еще тот</p>
+					<p class="client_name"><img src="img/circle.png" alt="">Вера Еничери<img src="img/circle.png" alt=""></p>
+					<a href="https://vk.com/bzzzzy"><img src="img/vk.png" alt=""></a>
 				</div>
-				<div class="review_line_top"></div>
-				<div class="review_line_bot"></div>
+				
 			</div>
 			<div class="item">
 				<div class="review">
-					<p>Парни, огромное спасибо. Все шикарно. Отдельное спасибо за оперативность. Днем сделал заказ , вечером уже получил!!! Всем рекомендую.</p>
-					<p class="client_name">Алексей Кузьмичёв</p>
-					<a href=""></a>
+					<p>Ребята,огромное спасибо за портмоне.Качество отличное.Приятный подарок на ДР😊👍.Успехов вам!</p>
+					<p class="client_name"><img src="img/circle.png" alt="">Арсений Сенин<img src="img/circle.png" alt=""></p>
+					<a href="https://vk.com/be10v"><img src="img/vk.png" alt=""></a>
 				</div>
-				<div class="review_line_top"></div>
-				<div class="review_line_bot"></div>
+				
 			</div>
 			<div class="item">
 				<div class="review">
-					<p>Парни, огромное спасибо. Все шикарно. Отдельное спасибо за оперативность. Днем сделал заказ , вечером уже получил!!! Всем рекомендую.</p>
-					<p class="client_name">Алексей Кузьмичёв</p>
-					<a href=""></a>
+					<p>Очень понравилось. 		
+Сделано на совесть. <br>
+Продолжайте в том же духе, успехов Вам.</p>
+					<p class="client_name"><img src="img/circle.png" alt=""> Максим Максимов<img src="img/circle.png" alt=""></p>
+					<a href="https://vk.com/maks.imov"><img src="img/vk.png" alt=""></a>
 				</div>
 			</div>
+			<div class="item">
+				<div class="review">
+					<p>Ребята, Вы большие молодцы! Каждое изделие - шедевр! Все аккуратно, четко, профессионально! Я Ваш фанат! Заказывала, заказываю и буду заказывать!...</p>
+					<p class="client_name"><img src="img/circle.png" alt="">Ира Федосова<img src="img/circle.png" alt=""></p>
+					<a href="https://vk.com/astapenkova_ira"><img src="img/vk.png" alt=""></a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="review">
+					<p>Спасибо! Качество отличное! И что не мало важно - быстро! Муж очень доволен! Получился великолепный подарок!)</p>
+					<p class="client_name"><img src="img/circle.png" alt="">Амина Клочкова<img src="img/circle.png" alt=""></p>
+					<a href="https://vk.com/id47428601"><img src="img/vk.png" alt=""></a>
+				</div>
+			</div>
+		<div class="review_line_bot"></div>
 		</div>
 	</div>
 	</div>
@@ -354,53 +386,69 @@
 <section class="delivery">
 	<div class="container">
 		<h2>Доставка и оплата</h2>
+		<div class="delivery_wrapper">
 		<div class="delivery__text">
 			<h5>Доставка курьером для г. Москва</h5>
 			<p>Стоимость доставки товара из нашего магазина по Москве — 300 руб.
 <br><br>
-Срочная доставка в день заказа или на следующий день (при наличии свободных курьеров, а также наличия изделия) — +500 руб. к заказу.</p>
+Срочная доставка в день заказа или на следующий день (при наличии<br> свободных курьеров, а также наличия изделия) — +500 руб. к заказу.</p>
 			<h5>Покупка за наличный расчет только для жителей г. Москвы</h5>
-			<p>При оплате наличными наш продавец-консультант свяжется с Вами, чтобы подтвердить заказ и уточнить срок доставки. После этого мы доставим Ваш заказ на указанный Вами адрес, и Вы оплатите его по факту получения.</p>
+			<p>При оплате наличными наш продавец-консультант свяжется с Вами, чтобы <br>подтвердить заказ и уточнить срок доставки. После этого мы доставим Ваш заказ<br> на указанный Вами адрес, и Вы оплатите его по факту получения.</p>
+		</div>
+		<div class="review_line_top"></div>
+		<div class="review_line_bot"></div>
 		</div>
 	</div>
 </section>
 <section class="header">
 	<div class="container">
-		<div class="menu row"> 
-			<div class="col-xs-6">
-				<img src="img/logo.png" alt="" class="header__logo">
-					<p>Производство кожгалантереи <br>
-с доставкой по всей России</p>
-
-			</div>
-			<div class="col-xs-6">
-				<button class="button header__button">
-					<p>Заказать звонок</p>
-				</button>
-			</div>
-		</div>
+		
 		<h3>Закажи комплект: сумка + лонгер из натуральной телячьей кожи
 ручной работы всего за <span>12 490 руб</span>. вместо <span>19 900 руб.</span></h3>
 		<div class="header__offer row">
 			<div class="col-xs-6">
 				<img src="img/header__offer.png" alt="">
 			</div>
-			<div class="col-xs-6">
-				<p>Акция действует только <span>24 часа</span></p>
-				<div class="header__timer"></div>
+			<div class="col-xs-6" style="position:relative">
+			<div class="handmade"></div>
+				<p class="header__timer__caption">Акция действует только <span>24 часа</span></p>
+				<div class="header__timer">
+					<div id="getting-started">
+					<div class="header__timer__box">
+						<p class="hours">
+						<span class="numeral hou"></span><br>
+						часов
+						</p>
+						</div>
+					<div class="header__timer__box">
+						<p class="minutes">
+						<span class="numeral min"></span><br>
+							минут
+						</p>
+						</div>
+
+					<div class="header__timer__box">
+
+						<p class="seconds">
+						<span class="numeral sec"></span><br>
+							секунд
+						</p>
+						</div>
+					</div>
+				</div>
 				<p>Выгода <span>7410 руб.</span></p>
 				<button class="button header__offer__button">
 					<p>Заказать комплект</p>
 				</button>
 			</div>
 		</div>
-		<div class="header__next">
-			<img src="img/next.png" alt="">
-		</div>
+		
 	</div>
 </section>
 
 <section class="for_map">
+<div class="map_bg">
+</div>
 	<div class="container">
 		<div class="map__block">
 			<h4>Наш адрес</h4>
@@ -410,6 +458,7 @@
 Почта: jollyneedle.craft@gmail.com</p>
 		</div>
 	</div>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aac69f5caa75bb82c0948b7c4259be46aa26f04510c49ab03cfc4618d97d125e3&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
 </section>
 <footer>
 	<div class="container">
@@ -420,6 +469,45 @@
 Почта: jollyneedle.craft@gmail.com</p>
 	</div>
 	</div>
+	<div class="gallery_hide">
+		
+		<a href="img/bags/DARKBLUE/2.jpg" data-lightbox="bags" data-title="Dark-Blue"></a>
+		<a href="img/bags/DARKBLUE/3.jpg" data-lightbox="bags" data-title="Dark-Blue"></a>
+
+		<a href="img/bags/GRAY/1.jpg" data-lightbox="bags" data-title="Gray"></a>
+		<a href="img/bags/GRAY/2.jpg" data-lightbox="bags" data-title="Gray"></a>
+		<a href="img/bags/GRAY/3.jpg" data-lightbox="bags" data-title="Gray"></a>
+		<a href="img/bags/GRAY/4.jpg" data-lightbox="bags" data-title="Gray"></a>
+
+		<a href="img/bags/LOOKBOOK/1.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/2.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/3.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/4.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/5.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/6.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/7.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/8.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/9.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		
+		<a href="img/longers/DARKBLUE/2.jpg" data-lightbox="longers" data-title="Cherry"></a>
+		<a href="img/longers/DARKBLUE/3.jpg" data-lightbox="longers" data-title="Cherry"></a>
+
+		<a href="img/longers/COGNAC/1.jpg" data-lightbox="longers" data-title="Cognac"></a>
+		<a href="img/longers/COGNAC/2.jpg" data-lightbox="longers" data-title="Cognac"></a>
+		<a href="img/longers/COGNAC/3.jpg" data-lightbox="longers" data-title="Cognac"></a>
+
+		<a href="img/longers/DARKBLUE/1.jpg" data-lightbox="longers" data-title="DarkBlue"></a>
+		<a href="img/longers/DARKBLUE/2.jpg" data-lightbox="longers" data-title="DarkBlue"></a>
+		<a href="img/longers/DARKBLUE/3.jpg" data-lightbox="longers" data-title="DarkBlue"></a>
+
+		<a href="img/longers/GRAY/1.jpg" data-lightbox="longers" data-title="Gray"></a>
+		<a href="img/longers/GRAY/2.jpg" data-lightbox="longers" data-title="Gray"></a>
+		<a href="img/longers/GRAY/3.jpg" data-lightbox="longers" data-title="Gray"></a>
+
+		<a href="img/longers/LOOKBOOK/1.jpg" data-lightbox="longers" data-title="Lookbook"></a>
+		<a href="img/longers/LOOKBOOK/2.jpg" data-lightbox="longers" data-title="Lookbook"></a>
+		<a href="img/longers/LOOKBOOK/3.jpg" data-lightbox="longers" data-title="Lookbook"></a>
+</div>
 </footer>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -435,9 +523,10 @@
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="js/jquery.countdown.min.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/lightbox.js"></script>
 	<script type="text/javascript">
   $("#getting-started")
-  .countdown("2017/04/05", function(event) {
+  .countdown("2017/09/05", function(event) {
     $(".hou").text(
       event.strftime('%H'));
      $(".min").text(
@@ -507,6 +596,8 @@
     loop:true,
     margin:10,
     nav:true,
+    mouseDrag:false,
+    touchDrag:false,
     responsive:{
         0:{
             items:1
@@ -520,12 +611,30 @@
     }
 });
 
-      $(".owl-prev").click(function(){
+      $(".clients .owl-next").click(function(){
       a = $(".item.active").next();
+      if(a.hasClass('review_line_bot')){
+      	a=$(".review_text .item").first();
+      }
+     
+    
       	$(".item.active").removeClass("active");
-
+      	var ab2 =setTimeout(function () {
+			a.addClass("active");
+								}, 1000);
+      	      });
+      $(".clients .owl-prev").click(function(){
+      b = $(".item.active").prev();
+     if(b.hasClass('review_line_top')){
+      	b=$(".review_text .item").last();
+      }
+      	$(".item.active").removeClass("active");
+      	var ab2 =setTimeout(function () {
+			b.addClass("active");
+								}, 1000);
       })
 </script>
+
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

@@ -273,6 +273,7 @@ vertical-align: top;
   line-height: 1.176;
   text-align: center;
   letter-spacing: 0.05em;
+  margin-top: 50px;
 }
 .people h5 + p{
 	font-size: 30px;
@@ -355,7 +356,6 @@ vertical-align: top;
 }
 .first_slider .item{
 	display: inline-block;
-
 }
 
 .bag p{
@@ -453,14 +453,14 @@ margin-top: 10px;
 }
 .owl-carousel.fourth_slider .owl-nav .owl-prev,
 .owl-carousel.fourth_slider .owl-nav .owl-next{
-	top: 100px;
+	top: 140px;
 }
 .review_text .item{
 	height:0px;
-	transition: all 2s ease-in;
+	transition: all 1s ease-in;
 }
 .review_text .item.active{
-	height: 240px;
+	height: 250px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -486,6 +486,7 @@ margin-top: 10px;
 	padding-left: 40px;
 	position: relative;
 	padding-right: 40px;
+	overflow: hidden;
 }
 .review{
 	width: 100%;
@@ -498,9 +499,13 @@ margin-top: 10px;
 .item .review{
 	height: 0;
 	overflow: hidden;
+	transition: all 2s ease-in;
+
 }
 .item.active .review{
 	height: 100%;
+	transition: all 0.5s ease-in;
+
 }
 .review_line_top{
 	display: block;
@@ -509,6 +514,7 @@ margin-top: 10px;
 	left: 0px;
 	position: absolute;
 	top: 0px;
+	z-index: 9000;
 	background: url("../img/client_line.png") no-repeat;
 	-webkit-background-size: 100% auto;
 	background-size: 100% auto;
@@ -518,6 +524,7 @@ margin-top: 10px;
 	width: 100%;
 	height: 10px;
 	left: 0px;
+	z-index: 9000;
 	position: absolute;
 	bottom: 0px;
 	background: url("../img/client_line.png") no-repeat ;
@@ -526,5 +533,163 @@ margin-top: 10px;
 }
 
 .clients{
-	height: 1200px;
+	height: 900px;
+}
+.review_text{
+	position: relative;
+	min-height: 10px;
+	height: auto;
+	transition: 1s all ease-in;
+}
+.review{
+	padding-top: 40px;
+}
+.review > p{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.review img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.review .client_name{
+	margin-top: 25px;
+}
+.review a{
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+.delivery h2{
+	font-size: 43px;
+	width: 560px;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background: url("../img/delivery_h2.png") no-repeat;
+}
+.delivery h5{
+  font-size: 35px;
+  color: rgb(71, 83, 104);
+  line-height: 1.429;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 55px;
+}
+.delivery p{
+  font-size: 25px;
+  color: rgb(116, 93, 86);
+  line-height: 1.2;
+  text-align: center;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delivery_wrapper{
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 100%;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.delivery__text{
+	background: #fff;
+	display: block;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+
+.delivery_wrapper{
+	margin-top: 120px;
+}
+.delivery{
+	padding-bottom: 80px;
+}
+.for_map{
+	margin-top: 100px;
+	display: block;
+	position: relative;
+	height: 500px;
+}
+.map_bg{
+	position: absolute;
+	top: -15px;
+	width: 100%;
+	left: 0px;
+	height: 30px;
+	background: url("../img/map_bg.png") no-repeat 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	z-index: 3000;
+}
+.map__block{
+	width: 350px;
+	position: absolute;
+	height: 240px;
+	top: 120px;
+	left: 0px;
+	z-index: 7000;
+	background: #fff;
+	padding-left: 27px;
+	padding-top: 33px;
+}
+.for_map .container{
+	display: block;position: relative;
+}
+.map__block h4{
+  font-size: 40px;
+  color: rgb(71, 83, 104);
+  line-height: 1.25;
+  text-align: left;
+  margin-bottom: 35px;
+  font-weight: 100;
+}
+.map__block p{
+  font-size: 23px;
+  color: rgb(71, 83, 104);
+  line-height: 1.217;
+  text-align: left;
+}
+footer{
+	position: relative;
+	z-index: 9000;
+	min-height:380px;
+	margin-top: -15px;
+	background: url("../img/footer_bg.png") no-repeat 50% 0%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	padding-top: 100px;
+}
+footer p{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  line-height: 1.167;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer__logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 70px;
+}
+.about__img{
+	width: 100%;
+	display: block;
+
+}
+a{
+	display: block;
+}
+
+
+.lb-data .lb-caption{
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.667;
+  text-align: center;
 }
