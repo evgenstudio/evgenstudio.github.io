@@ -33,6 +33,12 @@ body{
 .owl-carousel.third__slider .owl-nav .owl-next{
 	right: 10px;
 }
+h5,h3,h6{
+	font-weight: 100 !important;
+}
+footer .footer__logo{
+	margin-bottom: 30px;
+}
 }
 
 /* Medium Devices, Desktops */
