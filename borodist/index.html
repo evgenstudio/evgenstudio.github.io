@@ -35,13 +35,13 @@
 </div>
 <div class="modal">
 <div class="cross"></div>
-	<h2></h2>
+	<h2>Заказ звонка</h2>
 	<form action=""><p>
 		Здравствуйте, меня зовут <input type="text" class="modal_input" placeholder="Ваше имя">                  и я хочу заказать у Вас этот 
 чудесный комплект. Перезвоните мне на номер      <input type="text" placeholder="Ваш номер " 	 class="modal_input">           так как
 у меня есть пару вопросов и я хочу подтвердить свой заказ.        
 	</p>
-	<p class="opt">
+	<!--<p class="opt">
 		Опции
 	</p>
 	<p>Добавить инициалы?</p>
@@ -54,7 +54,7 @@
     <label for="radio2" class="label" id="label2">
     	<p>Да <span class="for_item"></span></p>
     </label>
-	</div>
+	</div>-->
 	<button><p>Заказать комплект</p></button>
 	</form>
 </div>
@@ -132,7 +132,7 @@
 				<b>Опции:</b> добавление Ваших инициалов на изделие. 
 				Стоимость опции 500р
 				</p>
-				<a href="img/bags/DARKBLUE/1.jpg" data-lightbox="bags" data-title="Dark-Blue"><button class="button combo__button">
+				<a href="img/bags/DARKBLUE/1.jpg" rel="bags" class="fancybox" data-title="Dark-Blue"><button class="button combo__button">
 					<p>Посмотреть все фото</p>
 				</button>
 				</a>
@@ -169,7 +169,7 @@
 	  				<div class="item">
 						<div class="longer">
 	  						<img src="img/longer2.png" alt="">
-	  						<p>Цвет: Cherry</p>
+	  						<p>Цвет: Gray</p>
 	  					</div>
 	  				</div>
 	  				<div class="item">
@@ -181,7 +181,7 @@
 	  				<div class="item">
 						<div class="longer">
 	  						<img src="img/longer4.png" alt="">
-	  						<p>Цвет: Gray</p>
+	  						<p>Цвет: Cherry</p>
 	  					</div>
 	  				</div>
 	  			
@@ -203,7 +203,7 @@
 Стоимость опции 500 р.
 
 				</p>
-				<a href="img/longers/DARKBLUE/2.jpg" data-lightbox="longers" data-title="Cherry"><button class="button combo__button">
+				<a href="img/longers/DARKBLUE/2.jpg" class="fancybox" rel="longers" class="fancybox"><button class="button combo__button">
 					<p>Посмотреть все фото</p>
 
 				</button>
@@ -233,9 +233,10 @@
 					 <br><br>
 					Наша философия - создавать качественный, востребованный 
 					и доступный аксессуар полностью из натуральной кожи, 
-					с уникальным дизайном для повседневного использования.
-					<img src="img/video_img.png" alt="" class="about_img"> 
+					с уникальным дизайном для повседневного использования. 
 				</p>
+				<div class="video"> <a class="play" id="video_show" href="https://www.youtube.com/watch?v=9DgMxwHpUFY"></a><img src="img/video_img.png" alt="" class="about_img">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -295,27 +296,31 @@
 			<div class="third__slider owl-carousel owl-theme">
 				<div class="item">
 					<div class="person"><img src="img/person1.png" alt=""></div>
-					<p class="name"> Имя Фамилия</p>
+					<p class="name"> 
+
+Кирилл Рыжиков</p>
 				</div>
 				<div class="item">
 					<div class="person"><img src="img/person2.png" alt=""></div>
-					<p class="name"> Имя Фамилия</p>
+					<p class="name"> Александр Глазунов</p>
 				</div>
 				<div class="item">
 					<div class="person"><img src="img/person3.png" alt=""></div>
-					<p class="name"> Имя Фамилия</p>
+					<p class="name"> Кристиан Волков</p>
 				</div>
 				<div class="item">
 					<div class="person"><img src="img/person4.png" alt=""></div>
-					<p class="name"> Имя Фамилия</p>
+					<p class="name"> Екатерина Лошакова</p>
 				</div>
 				<div class="item">
 					<div class="person"><img src="img/person5.png" alt=""></div>
-					<p class="name"> Имя Фамилия</p>
+					<p class="name"> Георгий Викторов</p>
 				</div>
 				<div class="item">
 					<div class="person"><img src="img/person6.png" alt=""></div>
-					<p class="name"> Имя Фамилия</p>
+					<p class="name"> 
+
+Антон Винник</p>
 				</div>
 			</div>
 		</div>
@@ -351,14 +356,21 @@
 			</div>
 		</div>
 		<div class="review_text">
+		<div id="p_next">
+	
+</div>
+<div id="p_prev">
+
+</div>	
 		<div class="review_line_top"></div>
+		
 		
 			<div class="item active">
 	
 				<div class="review">
 					<p>Огpомное спасибо вам ребята!!! Очень все понравилось буду советовать вас друзьям и с удовольствием закажу еще что нибудь!!!!</p>
 					<p class="client_name"><img src="img/circle.png" alt="">Адрей Лобанов<img src="img/circle.png" alt=""></p>
-					<a href="https://vk.com/id205450965"><img src="img/vk.png" alt=""></a>
+					<a target="_blank" href="https://vk.com/id205450965"><img src="img/vk.png" alt=""></a>
 				</div>
 				
 			</div>
@@ -366,7 +378,7 @@
 				<div class="review">
 					<p>Я очень доволен ребята молодцы спасибо огромной !! Я обязательно еще закажу .. Качество нет слов проста а доставка проста супер еще раз огромной спасибо!!</p>
 					<p class="client_name"><img src="img/circle.png" alt="">Murad Zokirov<img src="img/circle.png" alt=""></p>
-					<a href="https://vk.com/id124630832"><img src="img/vk.png" alt=""></a>
+					<a target="_blank" href="https://vk.com/id124630832"><img src="img/vk.png" alt=""></a>
 				</div>
 				
 			</div>
@@ -374,7 +386,7 @@
 				<div class="review">
 					<p>Ребята, спасибо большое за великолепное портмоне по индивидуальному заказу. Качественный материал и доступные цены. Делала подарок другу, он в восторге, учитывая, что придира он еще тот</p>
 					<p class="client_name"><img src="img/circle.png" alt="">Вера Еничери<img src="img/circle.png" alt=""></p>
-					<a href="https://vk.com/bzzzzy"><img src="img/vk.png" alt=""></a>
+					<a target="_blank" href="https://vk.com/bzzzzy"><img src="img/vk.png" alt=""></a>
 				</div>
 				
 			</div>
@@ -382,7 +394,7 @@
 				<div class="review">
 					<p>Ребята,огромное спасибо за портмоне.Качество отличное.Приятный подарок на ДР😊👍.Успехов вам!</p>
 					<p class="client_name"><img src="img/circle.png" alt="">Арсений Сенин<img src="img/circle.png" alt=""></p>
-					<a href="https://vk.com/be10v"><img src="img/vk.png" alt=""></a>
+					<a target="_blank" href="https://vk.com/be10v"><img src="img/vk.png" alt=""></a>
 				</div>
 				
 			</div>
@@ -392,21 +404,21 @@
 Сделано на совесть. <br>
 Продолжайте в том же духе, успехов Вам.</p>
 					<p class="client_name"><img src="img/circle.png" alt=""> Максим Максимов<img src="img/circle.png" alt=""></p>
-					<a href="https://vk.com/maks.imov"><img src="img/vk.png" alt=""></a>
+					<a target="_blank" href="https://vk.com/maks.imov"><img src="img/vk.png" alt=""></a>
 				</div>
 			</div>
 			<div class="item">
 				<div class="review">
 					<p>Ребята, Вы большие молодцы! Каждое изделие - шедевр! Все аккуратно, четко, профессионально! Я Ваш фанат! Заказывала, заказываю и буду заказывать!...</p>
 					<p class="client_name"><img src="img/circle.png" alt="">Ира Федосова<img src="img/circle.png" alt=""></p>
-					<a href="https://vk.com/astapenkova_ira"><img src="img/vk.png" alt=""></a>
+					<a target="_blank" href="https://vk.com/astapenkova_ira"><img src="img/vk.png" alt=""></a>
 				</div>
 			</div>
 			<div class="item">
 				<div class="review">
 					<p>Спасибо! Качество отличное! И что не мало важно - быстро! Муж очень доволен! Получился великолепный подарок!)</p>
 					<p class="client_name"><img src="img/circle.png" alt="">Амина Клочкова<img src="img/circle.png" alt=""></p>
-					<a href="https://vk.com/id47428601"><img src="img/vk.png" alt=""></a>
+					<a target="_blank" href="https://vk.com/id47428601"><img src="img/vk.png" alt=""></a>
 				</div>
 			</div>
 		<div class="review_line_bot"></div>
@@ -414,6 +426,7 @@
 	</div>
 	</div>
 </section>
+	
 <section class="delivery">
 	<div class="container">
 		<h2>Доставка и оплата</h2>
@@ -502,42 +515,42 @@
 	</div>
 	<div class="gallery_hide">
 		
-		<a href="img/bags/DARKBLUE/2.jpg" data-lightbox="bags" data-title="Dark-Blue"></a>
-		<a href="img/bags/DARKBLUE/3.jpg" data-lightbox="bags" data-title="Dark-Blue"></a>
+		<a href="img/bags/DARKBLUE/2.jpg" rel="bags" class="fancybox" data-title="Dark-Blue"></a>
+		<a href="img/bags/DARKBLUE/3.jpg" rel="bags" class="fancybox" data-title="Dark-Blue"></a>
 
-		<a href="img/bags/GRAY/1.jpg" data-lightbox="bags" data-title="Gray"></a>
-		<a href="img/bags/GRAY/2.jpg" data-lightbox="bags" data-title="Gray"></a>
-		<a href="img/bags/GRAY/3.jpg" data-lightbox="bags" data-title="Gray"></a>
-		<a href="img/bags/GRAY/4.jpg" data-lightbox="bags" data-title="Gray"></a>
+		<a href="img/bags/GRAY/1.jpg" rel="bags" class="fancybox" data-title="Gray"></a>
+		<a href="img/bags/GRAY/2.jpg" rel="bags" class="fancybox" data-title="Gray"></a>
+		<a href="img/bags/GRAY/3.jpg" rel="bags" class="fancybox" data-title="Gray"></a>
+		<a href="img/bags/GRAY/4.jpg" rel="bags" class="fancybox" data-title="Gray"></a>
 
-		<a href="img/bags/LOOKBOOK/1.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/2.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/3.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/4.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/5.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/6.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/7.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/8.jpg" data-lightbox="bags" data-title="Lookbook"></a>
-		<a href="img/bags/LOOKBOOK/9.jpg" data-lightbox="bags" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/1.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/2.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/3.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/4.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/5.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/6.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/7.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/8.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/bags/LOOKBOOK/9.jpg" rel="bags" class="fancybox" data-title="Lookbook"></a>
 		
-		<a href="img/longers/DARKBLUE/2.jpg" data-lightbox="longers" data-title="Cherry"></a>
-		<a href="img/longers/DARKBLUE/3.jpg" data-lightbox="longers" data-title="Cherry"></a>
+		<a href="img/longers/DARKBLUE/2.jpg" rel="longers" class="fancybox" data-title="Cherry"></a>
+		<a href="img/longers/DARKBLUE/3.jpg" rel="longers" class="fancybox" data-title="Cherry"></a>
 
-		<a href="img/longers/COGNAC/1.jpg" data-lightbox="longers" data-title="Cognac"></a>
-		<a href="img/longers/COGNAC/2.jpg" data-lightbox="longers" data-title="Cognac"></a>
-		<a href="img/longers/COGNAC/3.jpg" data-lightbox="longers" data-title="Cognac"></a>
+		<a href="img/longers/COGNAC/1.jpg" rel="longers" class="fancybox" data-title="Cognac"></a>
+		<a href="img/longers/COGNAC/2.jpg" rel="longers" class="fancybox" data-title="Cognac"></a>
+		<a href="img/longers/COGNAC/3.jpg" rel="longers" class="fancybox" data-title="Cognac"></a>
 
-		<a href="img/longers/DARKBLUE/1.jpg" data-lightbox="longers" data-title="DarkBlue"></a>
-		<a href="img/longers/DARKBLUE/2.jpg" data-lightbox="longers" data-title="DarkBlue"></a>
-		<a href="img/longers/DARKBLUE/3.jpg" data-lightbox="longers" data-title="DarkBlue"></a>
+		<a href="img/longers/DARKBLUE/1.jpg" rel="longers" class="fancybox" data-title="DarkBlue"></a>
+		<a href="img/longers/DARKBLUE/2.jpg" rel="longers" class="fancybox" data-title="DarkBlue"></a>
+		<a href="img/longers/DARKBLUE/3.jpg" rel="longers" class="fancybox" data-title="DarkBlue"></a>
 
-		<a href="img/longers/GRAY/1.jpg" data-lightbox="longers" data-title="Gray"></a>
-		<a href="img/longers/GRAY/2.jpg" data-lightbox="longers" data-title="Gray"></a>
-		<a href="img/longers/GRAY/3.jpg" data-lightbox="longers" data-title="Gray"></a>
+		<a href="img/longers/GRAY/1.jpg" rel="longers" class="fancybox" data-title="Gray"></a>
+		<a href="img/longers/GRAY/2.jpg" rel="longers" class="fancybox" data-title="Gray"></a>
+		<a href="img/longers/GRAY/3.jpg" rel="longers" class="fancybox" data-title="Gray"></a>
 
-		<a href="img/longers/LOOKBOOK/1.jpg" data-lightbox="longers" data-title="Lookbook"></a>
-		<a href="img/longers/LOOKBOOK/2.jpg" data-lightbox="longers" data-title="Lookbook"></a>
-		<a href="img/longers/LOOKBOOK/3.jpg" data-lightbox="longers" data-title="Lookbook"></a>
+		<a href="img/longers/LOOKBOOK/1.jpg" rel="longers" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/longers/LOOKBOOK/2.jpg" rel="longers" class="fancybox" data-title="Lookbook"></a>
+		<a href="img/longers/LOOKBOOK/3.jpg" rel="longers" class="fancybox" data-title="Lookbook"></a>
 </div>
 </footer>
 	<!--[if lt IE 9]>
@@ -555,7 +568,7 @@
 	<script src="js/jquery.countdown.min.js"></script>
 	<script src="js/viewportchecker.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
-	<script src="js/lightbox.js"></script>
+	<!--<script src="js/lightbox.js"></script>-->
 	<script type="text/javascript">
   $("#getting-started")
   .countdown("2017/09/05", function(event) {
@@ -630,6 +643,7 @@
     nav:true,
     mouseDrag:false,
     touchDrag:false,
+
     responsive:{
         0:{
             items:1
@@ -642,8 +656,31 @@
         }
     }
 });
+   $('#p_next').click(function() {
+    owl4.trigger('next.owl.carousel');
+})
+  $('#p_prev').click(function() {
+    owl4.trigger('prev.owl.carousel');
+})
+
+
+
+      	$(".fancybox").fancybox();
 
       $(".clients .owl-next").click(function(){
+      	clearTimeout(ab2);
+      a = $(".review_text .active").next();
+      if(a.hasClass('review_line_bot')){
+      	a=$(".review_text .item").first();
+      }
+
+      	$(".review_text .active").removeClass("active");
+      	var ab2 =setTimeout(function () {
+			a.addClass("active");
+								}, 1000);
+      
+      	      });
+      $("#p_next").click(function(){
       	clearTimeout(ab2);
       a = $(".review_text .active").next();
       if(a.hasClass('review_line_bot')){
@@ -663,10 +700,18 @@
      if(b.hasClass('review_line_top')){
       	b=$(".review_text .item").last();
       }
-      	$(".review_text .item.active").removeClass("active");
+      $(".review_text .item.active").removeClass("active");
       	var ab3 =setTimeout(function () {
-			b.addClass("active");
-								}, 1000);
+			b.addClass("active"); }, 1000);
+      });
+       $("#p_prev").click(function(){
+      b = $(".review_text .item.active").prev();
+     if(b.hasClass('review_line_top')){
+      	b=$(".review_text .item").last();
+      }
+      $(".review_text .item.active").removeClass("active");
+      	var ab3 =setTimeout(function () {
+			b.addClass("active"); }, 1000);
       });
 
 
@@ -689,10 +734,7 @@
 	});
 
 
-      lightbox.option({
-      	'alwaysShowNavOnTouchDevices' : true,
-      	 fixedNavigation: true
-      });
+    
      $(".modal .label").click(function(){
      	aa = $(".selecting").length;
  
@@ -713,9 +755,29 @@
      $(".cross").click(function(){
      	$(".bg_modal").removeClass("active");
      	$(".modal").removeClass("active");
-     })
+     });
 
-   
+     $("#video_show").click(function() {
+	$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+			'width'		: 680,
+			'height'		: 495,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			   	 'wmode'		: 'transparent',
+				'allowfullscreen'	: 'true'
+			}
+		});
+
+	return false;
+});
+
+   	
 </script>
 
 	<script src="js/common.js"></script>
