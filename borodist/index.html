@@ -33,9 +33,33 @@
 <div class="bg_modal">
 	
 </div>
-<div class="modal">
+<div class="modal modal1">
 <div class="cross"></div>
 	<h2>Заказ звонка</h2>
+	<form action=""><p>
+		Здравствуйте, меня зовут <input type="text" class="modal_input" placeholder="Ваше имя">                 и я хочу задать Вам пару вопросов, поэтому перезвоните пожалуйста на номер
+		      <input type="text" placeholder="Ваш номер " 	 class="modal_input">          
+	</p>
+	<!--<p class="opt">
+		Опции
+	</p>
+	<p>Добавить инициалы?</p>
+	<div class="select_div">
+	<input type="radio" name="option" value="1" id="radio1" checked/>
+    <label for="radio1" class="label" id="label1">
+    	<p>Нет <span class="for_item"></span></p>
+    </label>
+    <input type="radio" name="option" value="2" id="radio2"/>
+    <label for="radio2" class="label" id="label2">
+    	<p>Да <span class="for_item"></span></p>
+    </label>
+	</div>-->
+	<button><p>Заказать звонок</p></button>
+	</form>
+</div>
+<div class="modal modal2">
+<div class="cross"></div>
+	<h2 style="font-size:41px; padding-top:15px;">Заказ комплекта</h2>
 	<form action=""><p>
 		Здравствуйте, меня зовут <input type="text" class="modal_input" placeholder="Ваше имя">                  и я хочу заказать у Вас этот 
 чудесный комплект. Перезвоните мне на номер      <input type="text" placeholder="Ваш номер " 	 class="modal_input">           так как
@@ -746,11 +770,11 @@
      });
      $(".header__button").click(function(){
      	$(".bg_modal").addClass("active");
-     	$(".modal").addClass("active");
+     	$(".modal1").addClass("active");
      });
       $(".header__offer__button").click(function(){
      	$(".bg_modal").addClass("active");
-     	$(".modal").addClass("active");
+     	$(".modal2").addClass("active");
      });
      $(".cross").click(function(){
      	$(".bg_modal").removeClass("active");
