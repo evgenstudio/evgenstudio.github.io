@@ -971,3 +971,10 @@ body{
 a, .button, .owl-prev, .owl-next, button{
 cursor: url("../img/cur/LinkSelect.cur"), pointer;
 }
+@-ms-viewport {
+    width: 1000px;
+}
+
+@viewport {
+    width: 1000px;
+}
