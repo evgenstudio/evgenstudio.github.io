@@ -835,6 +835,7 @@ footer{
     border: none;
     width: 280px;
     background: #fff;
+    color: #000;
 }
 #navigation ul{
     margin-left: 80px;
@@ -846,4 +847,7 @@ footer{
 }
 .logo{
     width: 270px;
+}
+.logo_a + p{
+	padding-left: 70px;
 }
