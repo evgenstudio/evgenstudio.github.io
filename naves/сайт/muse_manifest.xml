@@ -1,0 +1,427 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="naves1.ru" resolutions="1x" timestamp="1490698127856">
+  <folder name="css">
+    <file name="site_global.css" crc="4039810830"/>
+    <file name="step2.css" crc="3865616473" ref="step2"/>
+    <file name="iefonts_step2.css" crc="279186275" ref="step2"/>
+    <file name="step8-zakaz.css" crc="4123442924" ref="step8-zakaz"/>
+    <file name="iefonts_step8-zakaz.css" crc="4047791996" ref="step8-zakaz"/>
+    <file name="thanks.css" crc="250655356" ref="thanks"/>
+    <file name="iefonts_thanks.css" crc="427858608" ref="thanks"/>
+    <file name="1ab.css" crc="363518005" ref="1ab"/>
+    <file name="iefonts_1ab.css" crc="96901871" ref="1ab"/>
+    <file name="index.css" crc="4003010000" ref="index"/>
+    <file name="iefonts_index.css" crc="4202159184" ref="index"/>
+    <file name="step6.css" crc="6787958" ref="step6"/>
+    <file name="iefonts_step6.css" crc="425140434" ref="step6"/>
+    <file name="step5.css" crc="4207631078" ref="step5"/>
+    <file name="iefonts_step5.css" crc="3984481661" ref="step5"/>
+    <file name="thanks-_____.css" crc="515972319" ref="thanks-копия"/>
+    <file name="iefonts_thanks-_____.css" crc="151502217" ref="thanks-копия"/>
+    <file name="step7.css" crc="254610134" ref="step7"/>
+    <file name="iefonts_step7.css" crc="463117752" ref="step7"/>
+    <file name="step3.css" crc="3971645617" ref="step3"/>
+    <file name="iefonts_step3.css" crc="3944751880" ref="step3"/>
+    <file name="1.css" crc="105689168" ref="1"/>
+    <file name="iefonts_1.css" crc="4112320386" ref="1"/>
+    <file name="step1.css" crc="4233247914" ref="step1"/>
+    <file name="iefonts_step1.css" crc="4003844019" ref="step1"/>
+    <file name="step4.css" crc="302623833" ref="step4"/>
+    <file name="iefonts_step4.css" crc="4169155614" ref="step4"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="museutils.js" crc="531812214" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="whatinput.js" crc="84559013" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="pie.js" crc="3827607177" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="webpro.js" crc="4156477058" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="touchswipe.js" crc="4174436727" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="form_check.php" crc="373582055" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="form_throttle.php" crc="211381018" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="form_process.php" crc="6354943" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="form-u22985.php" crc="432163786" ref="thanks"/>
+    <file name="form-u25990.php" crc="4072548604" ref="thanks"/>
+    <file name="form-u22587.php" crc="484011417" ref="index"/>
+    <file name="form-u24336.php" crc="477903371" ref="index"/>
+    <file name="form-u17501.php" crc="433498713" ref="thanks-копия"/>
+    <file name="form-u17445.php" crc="3856910078" ref="thanks-копия"/>
+    <file name="form-u18508.php" crc="4292898990" ref="step1"/>
+    <file name="form-u18883.php" crc="468301304" ref="step1"/>
+    <file name="form-u22461.php" crc="4022996050" ref="step1"/>
+    <file name="form-u19224.php" crc="4205510830" ref="step2"/>
+    <file name="form-u19168.php" crc="102062670" ref="step2"/>
+    <file name="form-u22335.php" crc="4226720671" ref="step2"/>
+    <file name="form-u19535.php" crc="501336776" ref="step6"/>
+    <file name="form-u23878.php" crc="4073856126" ref="step6"/>
+    <file name="form-u23765.php" crc="506965313" ref="step6"/>
+    <file name="form-u20323.php" crc="511937071" ref="step3"/>
+    <file name="form-u20307.php" crc="319507703" ref="step3"/>
+    <file name="form-u22083.php" crc="101409962" ref="step3"/>
+    <file name="form-u20556.php" crc="4206697400" ref="step4"/>
+    <file name="form-u20484.php" crc="270478929" ref="step4"/>
+    <file name="form-u21957.php" crc="4070988418" ref="step4"/>
+    <file name="form-u20762.php" crc="3886633309" ref="step5"/>
+    <file name="form-u20802.php" crc="531210544" ref="step5"/>
+    <file name="form-u21831.php" crc="3784147196" ref="step5"/>
+    <file name="form-u21020.php" crc="3775521292" ref="step7"/>
+    <file name="form-u21040.php" crc="295258307" ref="step7"/>
+    <file name="form-u21703.php" crc="193869403" ref="step7"/>
+    <file name="form-u21468.php" crc="3983661513" ref="step8-zakaz"/>
+    <file name="form-u21624.php" crc="82280100" ref="step8-zakaz"/>
+    <file name="form-u24528.php" crc="3908498585" ref="1ab"/>
+    <file name="form-u24616.php" crc="4218670798" ref="1ab"/>
+    <file name="form-u24807.php" crc="4031054147" ref="1ab"/>
+    <file name="form-u24900.php" crc="404561498" ref="1ab"/>
+    <file name="form-u25145.php" crc="3979110019" ref="1ab"/>
+    <file name="form-u25261.php" crc="4146425266" ref="1"/>
+    <file name="form-u25349.php" crc="287302880" ref="1"/>
+  </folder>
+  <folder name="images">
+    <file name="спасибо-favicon.ico" crc="4214727010" ref="thanks"/>
+    <file name="canopies017.jpg" crc="153127421" ref="thanks:step1:step2:step3:step7:step8-zakaz:1ab"/>
+    <file name="2020.jpg" crc="340782723" ref="thanks:index:step6:step4:step5:1ab:1"/>
+    <file name="3 (1).jpg" crc="4117905556" seo="true" ref="thanks:thanks-копия"/>
+    <file name="blank.gif" crc="4208392903" ref="thanks:thanks-копия"/>
+    <file name="1369150415.jpg" crc="3846995102" seo="true" ref="thanks:thanks-копия"/>
+    <file name="nav_majs732x424.jpg" crc="523234001" seo="true" ref="thanks"/>
+    <file name="smeshannyiy-naves-iz-polikarbonata-500x334.jpg" crc="3797044363" seo="true" ref="thanks:thanks-копия"/>
+    <file name="0-i4w5sbcuy.jpg" crc="4062015673" seo="true" ref="thanks:thanks-копия"/>
+    <file name="image0112.jpg" crc="4161973023" seo="true" ref="thanks:thanks-копия"/>
+    <file name="naves_7.jpg" crc="4060464673" seo="true" ref="thanks:thanks-копия"/>
+    <file name="1332503761.jpg" crc="4032179466" seo="true" ref="thanks:thanks-копия"/>
+    <file name="naves_2.jpg" crc="417679720" seo="true" ref="thanks:thanks-копия"/>
+    <file name="pdgr19eairg.jpg" crc="417517940" seo="true" ref="thanks:thanks-копия"/>
+    <file name="f20130601223604-avto1.jpg" crc="4056290554" seo="true" ref="thanks:thanks-копия"/>
+    <file name="naves_avtomobil_polycarbonate_1000px_116.jpg" crc="4035647168" seo="true" ref="thanks:thanks-копия"/>
+    <file name="naves_10.jpg" crc="3882555885" seo="true" ref="thanks:thanks-копия"/>
+    <file name="naves_1.jpg" crc="3830043796" seo="true" ref="thanks:thanks-копия"/>
+    <file name="naves_5.jpg" crc="167221050" seo="true" ref="thanks:thanks-копия"/>
+    <file name="3 (1)170x128.jpg" crc="31166714" seo="true" ref="thanks"/>
+    <file name="1369150415200x133.jpg" crc="3805343003" seo="true" ref="thanks"/>
+    <file name="nav_majs200x116.jpg" crc="4053002770" seo="true" ref="thanks"/>
+    <file name="smeshannyiy-naves-iz-polikarbonata-500x334200x134.jpg" crc="3939376329" seo="true" ref="thanks"/>
+    <file name="0-i4w5sbcuy171x128.jpg" crc="233563532" seo="true" ref="thanks"/>
+    <file name="image0112170x128.jpg" crc="4061090781" seo="true" ref="thanks"/>
+    <file name="naves_7200x125.jpg" crc="34450767" seo="true" ref="thanks"/>
+    <file name="1332503761200x133.jpg" crc="281213067" seo="true" ref="thanks"/>
+    <file name="naves_2162x125.jpg" crc="58722971" seo="true" ref="thanks"/>
+    <file name="pdgr19eairg181x132.jpg" crc="4105086096" seo="true" ref="thanks"/>
+    <file name="f20130601223604-avto1170x128.jpg" crc="4067156389" seo="true" ref="thanks"/>
+    <file name="naves_avtomobil_polycarbonate_1000px_116154x122.jpg" crc="3991753544" seo="true" ref="thanks"/>
+    <file name="naves_10170x128.jpg" crc="367515358" seo="true" ref="thanks"/>
+    <file name="naves_1200x118.jpg" crc="531224642" seo="true" ref="thanks"/>
+    <file name="naves_5200x113.jpg" crc="4009743446" seo="true" ref="thanks"/>
+    <file name="loading.gif" crc="3815509949" ref="thanks:thanks-копия"/>
+    <file name="0283b293bdc4cc0fc09b072d46b35046.jpg" crc="4217490768" seo="true" ref="thanks"/>
+    <file name="1cf48075629c83bf4ae80337ea853ff1.jpg" crc="4208580693" seo="true" ref="thanks"/>
+    <file name="04.jpg" crc="4035479405" seo="true" ref="thanks"/>
+    <file name="7.jpg" crc="424771316" seo="true" ref="thanks"/>
+    <file name="7f2a08e1e584ef8e3d647d2ef007de80.jpg" crc="106344223" seo="true" ref="thanks"/>
+    <file name="14.jpg" crc="170873046" seo="true" ref="thanks"/>
+    <file name="20.jpg" crc="3810711820" seo="true" ref="thanks"/>
+    <file name="275.jpg" crc="63380729" seo="true" ref="thanks"/>
+    <file name="666.jpg" crc="477184853" seo="true" ref="thanks"/>
+    <file name="1996a0f15454e0e677c9bd9842bc5b4d.jpg" crc="35387065" seo="true" ref="thanks"/>
+    <file name="3879.jpg" crc="3876953559" seo="true" ref="thanks"/>
+    <file name="bm-37.jpg" crc="4199645229" seo="true" ref="thanks"/>
+    <file name="i-(1).jpg" crc="145406892" seo="true" ref="thanks"/>
+    <file name="i-(2).jpg" crc="3959366462" seo="true" ref="thanks"/>
+    <file name="naves-03.jpg" crc="59800479" seo="true" ref="thanks"/>
+    <file name="0283b293bdc4cc0fc09b072d46b35046133x95.jpg" crc="514135649" seo="true" ref="thanks"/>
+    <file name="1cf48075629c83bf4ae80337ea853ff1133x100.jpg" crc="3984767750" seo="true" ref="thanks"/>
+    <file name="04133x89.jpg" crc="229718509" seo="true" ref="thanks"/>
+    <file name="7133x81.jpg" crc="88997543" seo="true" ref="thanks"/>
+    <file name="7f2a08e1e584ef8e3d647d2ef007de80133x89.jpg" crc="513966566" seo="true" ref="thanks"/>
+    <file name="14133x100.jpg" crc="88920290" seo="true" ref="thanks"/>
+    <file name="20133x96.jpg" crc="170192402" seo="true" ref="thanks"/>
+    <file name="275133x101.jpg" crc="479904115" seo="true" ref="thanks"/>
+    <file name="666133x75.jpg" crc="4142997516" seo="true" ref="thanks"/>
+    <file name="1996a0f15454e0e677c9bd9842bc5b4d133x85.jpg" crc="4138224453" seo="true" ref="thanks"/>
+    <file name="3879133x100.jpg" crc="4059646268" seo="true" ref="thanks"/>
+    <file name="bm-37133x94.jpg" crc="468874112" seo="true" ref="thanks"/>
+    <file name="i-(1)133x100.jpg" crc="218561478" seo="true" ref="thanks"/>
+    <file name="i-(2)133x100.jpg" crc="523243848" seo="true" ref="thanks"/>
+    <file name="naves-03133x99.jpg" crc="3937068530" seo="true" ref="thanks"/>
+    <file name="phone-512.png" crc="4075981608" seo="true" ref="thanks:index:thanks-копия:step1:step2:step6:step3:step4:step5:step7:step8-zakaz:1ab:1"/>
+    <file name="form 8 icons timers-u23008.png" crc="304441128" ref="thanks"/>
+    <file name="form 8 icons people-u22982.png" crc="4078357121" ref="thanks"/>
+    <file name="form 8 icons phone-u23002.png" crc="366497113" ref="thanks"/>
+    <file name="u22999-17.png" crc="3953581563" ref="thanks"/>
+    <file name="u22999-17-r.png" crc="3775738682" ref="thanks"/>
+    <file name="u22999-17-m.png" crc="3775738682" ref="thanks"/>
+    <file name="u22999-17-fs.png" crc="3953581563" ref="thanks"/>
+    <file name="close 4-u22970.png" crc="89384071" ref="thanks"/>
+    <file name="close 4-u22970-r.png" crc="4247891885" ref="thanks"/>
+    <file name="u26008-grad.png" crc="3797013186" ref="thanks:step6:1ab"/>
+    <file name="u26008-r-grad.png" crc="352775677" ref="thanks:step6:1ab"/>
+    <file name="2020-u25985-fr.jpg" crc="4136151387" ref="thanks:step6"/>
+    <file name="u25991-17.png" crc="3888044854" ref="thanks"/>
+    <file name="u25991-17-r.png" crc="282248829" ref="thanks"/>
+    <file name="u25991-17-m.png" crc="282248829" ref="thanks"/>
+    <file name="u25991-17-fs.png" crc="215262938" ref="thanks"/>
+    <file name="close 4-u25980.png" crc="4279303346" ref="thanks"/>
+    <file name="close 4-u25980-r.png" crc="462749514" ref="thanks"/>
+    <file name="навес-4-шага-favicon.ico" crc="4214727010" ref="index"/>
+    <file name="form 8 icons timers-u22576.png" crc="304441128" ref="index"/>
+    <file name="form 8 icons people-u22578.png" crc="4078357121" ref="index"/>
+    <file name="form 8 icons phone-u22581.png" crc="366497113" ref="index"/>
+    <file name="u22588-17.png" crc="3953581563" ref="index"/>
+    <file name="u22588-17-r.png" crc="3775738682" ref="index"/>
+    <file name="u22588-17-m.png" crc="3775738682" ref="index"/>
+    <file name="u22588-17-fs.png" crc="3953581563" ref="index"/>
+    <file name="close 4-u22612.png" crc="89384071" ref="index"/>
+    <file name="close 4-u22612-r.png" crc="4247891885" ref="index"/>
+    <file name="vitoi2.jpg" crc="4094680385" ref="index:1ab:1"/>
+    <file name="icon2.jpg" crc="460555089" ref="index:1ab:1"/>
+    <file name="icon3.jpg" crc="43560946" ref="index:1ab:1"/>
+    <file name="vitiestolbi1.jpg" crc="4075916224" seo="true" ref="index:1ab:1"/>
+    <file name="stolb200.png" crc="3964343088" seo="true" ref="index:1ab:1"/>
+    <file name="3.jpg" crc="4086705046" seo="true" ref="index:1ab:1"/>
+    <file name="3333.jpg" crc="195334063" seo="true" ref="index:1ab:1"/>
+    <file name="1-2.jpg" crc="4259401074" seo="true" ref="index:step3:1ab:1"/>
+    <file name="2-8.jpg" crc="3793197630" seo="true" ref="index:step3:1ab:1"/>
+    <file name="3-13.jpg" crc="278332973" seo="true" ref="index:step3:1ab:1"/>
+    <file name="u24337-17.png" crc="497185482" ref="index"/>
+    <file name="u24337-17-r.png" crc="225797392" ref="index"/>
+    <file name="u24337-17-m.png" crc="225797392" ref="index"/>
+    <file name="u24337-17-fs.png" crc="497185482" ref="index"/>
+    <file name="galochka3-ieu24349-rc-fr.png" crc="3784229099" ref="index:step1:step2:step3:step4:step5:step7:1ab:1"/>
+    <file name="galochka3.png" crc="3784229099" ref="index:step1:step2:step3:step4:step5:step7:1ab:1"/>
+    <file name="2--я-итерация-favicon.ico" crc="4214727010" ref="thanks-копия"/>
+    <file name="nav_majs.jpg" crc="4196322308" ref="thanks-копия"/>
+    <file name="form 8 icons timers-u17523.png" crc="304441128" ref="thanks-копия"/>
+    <file name="form 8 icons people-u17518.png" crc="4078357121" ref="thanks-копия"/>
+    <file name="form 8 icons phone-u17526.png" crc="366497113" ref="thanks-копия"/>
+    <file name="u17511-17.png" crc="405919175" ref="thanks-копия"/>
+    <file name="u17511-17-r.png" crc="433067853" ref="thanks-копия"/>
+    <file name="u17511-17-m.png" crc="433067853" ref="thanks-копия"/>
+    <file name="u17511-17-fs.png" crc="405919175" ref="thanks-копия"/>
+    <file name="close 4-u17489.png" crc="89384071" ref="thanks-копия"/>
+    <file name="close 4-u17489-r.png" crc="4247891885" ref="thanks-копия"/>
+    <file name="form 8 icons timers-u17443.png" crc="304441128" ref="thanks-копия"/>
+    <file name="form 8 icons people-u17462.png" crc="4078357121" ref="thanks-копия"/>
+    <file name="form 8 icons phone-u17466.png" crc="366497113" ref="thanks-копия"/>
+    <file name="u17446-17.png" crc="405919175" ref="thanks-копия"/>
+    <file name="u17446-17-r.png" crc="433067853" ref="thanks-копия"/>
+    <file name="u17446-17-m.png" crc="433067853" ref="thanks-копия"/>
+    <file name="u17446-17-fs.png" crc="405919175" ref="thanks-копия"/>
+    <file name="close 4-u17433.png" crc="89384071" ref="thanks-копия"/>
+    <file name="close 4-u17433-r.png" crc="4247891885" ref="thanks-копия"/>
+    <file name="close 4-u17483.png" crc="37162195" ref="thanks-копия"/>
+    <file name="close 4-u17483-r.png" crc="264684451" ref="thanks-копия"/>
+    <file name="upakovano.png" crc="189448722" seo="true" ref="thanks-копия:step1:step2:step3:step7:step8-zakaz"/>
+    <file name="шаг-1-favicon.ico" crc="4214727010" ref="step1"/>
+    <file name="u18509-17.png" crc="497185482" ref="step1"/>
+    <file name="u18509-17-r.png" crc="225797392" ref="step1"/>
+    <file name="u18509-17-m.png" crc="225797392" ref="step1"/>
+    <file name="u18509-17-fs.png" crc="497185482" ref="step1"/>
+    <file name="u18894-17.png" crc="267816327" ref="step1"/>
+    <file name="u18894-17-r.png" crc="4102026172" ref="step1"/>
+    <file name="u18894-17-m.png" crc="4102026172" ref="step1"/>
+    <file name="u18894-17-fs.png" crc="267816327" ref="step1"/>
+    <file name="close 4-u19644.png" crc="37162195" ref="step1"/>
+    <file name="close 4-u19644-r.png" crc="264684451" ref="step1"/>
+    <file name="form 8 icons timers-u22450.png" crc="304441128" ref="step1"/>
+    <file name="form 8 icons people-u22452.png" crc="4078357121" ref="step1"/>
+    <file name="form 8 icons phone-u22455.png" crc="366497113" ref="step1"/>
+    <file name="u22462-17.png" crc="3953581563" ref="step1"/>
+    <file name="u22462-17-r.png" crc="3775738682" ref="step1"/>
+    <file name="u22462-17-m.png" crc="3775738682" ref="step1"/>
+    <file name="u22462-17-fs.png" crc="3953581563" ref="step1"/>
+    <file name="close 4-u22486.png" crc="89384071" ref="step1"/>
+    <file name="close 4-u22486-r.png" crc="4247891885" ref="step1"/>
+    <file name="шаг-2-favicon.ico" crc="4214727010" ref="step2"/>
+    <file name="u19240-17.png" crc="497185482" ref="step2"/>
+    <file name="u19240-17-r.png" crc="225797392" ref="step2"/>
+    <file name="u19240-17-m.png" crc="225797392" ref="step2"/>
+    <file name="u19240-17-fs.png" crc="497185482" ref="step2"/>
+    <file name="u19169-17.png" crc="267816327" ref="step2"/>
+    <file name="u19169-17-r.png" crc="4102026172" ref="step2"/>
+    <file name="u19169-17-m.png" crc="4102026172" ref="step2"/>
+    <file name="u19169-17-fs.png" crc="267816327" ref="step2"/>
+    <file name="close 4-u19679.png" crc="37162195" ref="step2"/>
+    <file name="close 4-u19679-r.png" crc="264684451" ref="step2"/>
+    <file name="form 8 icons timers-u22324.png" crc="304441128" ref="step2"/>
+    <file name="form 8 icons people-u22326.png" crc="4078357121" ref="step2"/>
+    <file name="form 8 icons phone-u22329.png" crc="366497113" ref="step2"/>
+    <file name="u22336-17.png" crc="3953581563" ref="step2"/>
+    <file name="u22336-17-r.png" crc="3775738682" ref="step2"/>
+    <file name="u22336-17-m.png" crc="3775738682" ref="step2"/>
+    <file name="u22336-17-fs.png" crc="3953581563" ref="step2"/>
+    <file name="close 4-u22360.png" crc="89384071" ref="step2"/>
+    <file name="close 4-u22360-r.png" crc="4247891885" ref="step2"/>
+    <file name="шаг-6-favicon.ico" crc="4214727010" ref="step6"/>
+    <file name="u19536-17.png" crc="267816327" ref="step6"/>
+    <file name="u19536-17-r.png" crc="4102026172" ref="step6"/>
+    <file name="u19536-17-m.png" crc="4102026172" ref="step6"/>
+    <file name="u19536-17-fs.png" crc="267816327" ref="step6"/>
+    <file name="u23879-17.png" crc="4065205278" ref="step6"/>
+    <file name="u23879-17-r.png" crc="4178591195" ref="step6"/>
+    <file name="u23879-17-m.png" crc="4178591195" ref="step6"/>
+    <file name="u23879-17-fs.png" crc="364113284" ref="step6"/>
+    <file name="close 4-u22234.png" crc="4279303346" ref="step6"/>
+    <file name="close 4-u22234-r.png" crc="462749514" ref="step6"/>
+    <file name="form 8 icons timers-u23786.png" crc="304441128" ref="step6"/>
+    <file name="form 8 icons people-u23782.png" crc="4078357121" ref="step6"/>
+    <file name="form 8 icons phone-u23784.png" crc="366497113" ref="step6"/>
+    <file name="u23770-17.png" crc="3953581563" ref="step6"/>
+    <file name="u23770-17-r.png" crc="3775738682" ref="step6"/>
+    <file name="u23770-17-m.png" crc="3775738682" ref="step6"/>
+    <file name="u23770-17-fs.png" crc="3953581563" ref="step6"/>
+    <file name="close 4-u23756.png" crc="89384071" ref="step6"/>
+    <file name="close 4-u23756-r.png" crc="4247891885" ref="step6"/>
+    <file name="шаг-3-favicon.ico" crc="4214727010" ref="step3"/>
+    <file name="u20325-17.png" crc="497185482" ref="step3"/>
+    <file name="u20325-17-r.png" crc="225797392" ref="step3"/>
+    <file name="u20325-17-m.png" crc="225797392" ref="step3"/>
+    <file name="u20325-17-fs.png" crc="497185482" ref="step3"/>
+    <file name="u20308-17.png" crc="267816327" ref="step3"/>
+    <file name="u20308-17-r.png" crc="4102026172" ref="step3"/>
+    <file name="u20308-17-m.png" crc="4102026172" ref="step3"/>
+    <file name="u20308-17-fs.png" crc="267816327" ref="step3"/>
+    <file name="close 4-u20411.png" crc="37162195" ref="step3"/>
+    <file name="close 4-u20411-r.png" crc="264684451" ref="step3"/>
+    <file name="form 8 icons timers-u22072.png" crc="304441128" ref="step3"/>
+    <file name="form 8 icons people-u22074.png" crc="4078357121" ref="step3"/>
+    <file name="form 8 icons phone-u22077.png" crc="366497113" ref="step3"/>
+    <file name="u22084-17.png" crc="3953581563" ref="step3"/>
+    <file name="u22084-17-r.png" crc="3775738682" ref="step3"/>
+    <file name="u22084-17-m.png" crc="3775738682" ref="step3"/>
+    <file name="u22084-17-fs.png" crc="3953581563" ref="step3"/>
+    <file name="close 4-u22108.png" crc="89384071" ref="step3"/>
+    <file name="close 4-u22108-r.png" crc="4247891885" ref="step3"/>
+    <file name="шаг-4-favicon.ico" crc="4214727010" ref="step4"/>
+    <file name="u20560-17.png" crc="497185482" ref="step4"/>
+    <file name="u20560-17-r.png" crc="225797392" ref="step4"/>
+    <file name="u20560-17-m.png" crc="225797392" ref="step4"/>
+    <file name="u20560-17-fs.png" crc="497185482" ref="step4"/>
+    <file name="u20487-17.png" crc="267816327" ref="step4"/>
+    <file name="u20487-17-r.png" crc="4102026172" ref="step4"/>
+    <file name="u20487-17-m.png" crc="4102026172" ref="step4"/>
+    <file name="u20487-17-fs.png" crc="267816327" ref="step4"/>
+    <file name="form 8 icons timers-u21946.png" crc="304441128" ref="step4"/>
+    <file name="form 8 icons people-u21948.png" crc="4078357121" ref="step4"/>
+    <file name="form 8 icons phone-u21951.png" crc="366497113" ref="step4"/>
+    <file name="u21958-17.png" crc="3953581563" ref="step4"/>
+    <file name="u21958-17-r.png" crc="3775738682" ref="step4"/>
+    <file name="u21958-17-m.png" crc="3775738682" ref="step4"/>
+    <file name="u21958-17-fs.png" crc="3953581563" ref="step4"/>
+    <file name="close 4-u21982.png" crc="89384071" ref="step4"/>
+    <file name="close 4-u21982-r.png" crc="4247891885" ref="step4"/>
+    <file name="шаг-5-favicon.ico" crc="4214727010" ref="step5"/>
+    <file name="u20781-17.png" crc="497185482" ref="step5"/>
+    <file name="u20781-17-r.png" crc="225797392" ref="step5"/>
+    <file name="u20781-17-m.png" crc="225797392" ref="step5"/>
+    <file name="u20781-17-fs.png" crc="497185482" ref="step5"/>
+    <file name="u20803-17.png" crc="267816327" ref="step5"/>
+    <file name="u20803-17-r.png" crc="4102026172" ref="step5"/>
+    <file name="u20803-17-m.png" crc="4102026172" ref="step5"/>
+    <file name="u20803-17-fs.png" crc="267816327" ref="step5"/>
+    <file name="form 8 icons timers-u21820.png" crc="304441128" ref="step5"/>
+    <file name="form 8 icons people-u21822.png" crc="4078357121" ref="step5"/>
+    <file name="form 8 icons phone-u21825.png" crc="366497113" ref="step5"/>
+    <file name="u21832-17.png" crc="3953581563" ref="step5"/>
+    <file name="u21832-17-r.png" crc="3775738682" ref="step5"/>
+    <file name="u21832-17-m.png" crc="3775738682" ref="step5"/>
+    <file name="u21832-17-fs.png" crc="3953581563" ref="step5"/>
+    <file name="close 4-u21856.png" crc="89384071" ref="step5"/>
+    <file name="close 4-u21856-r.png" crc="4247891885" ref="step5"/>
+    <file name="шаг-7-favicon.ico" crc="4214727010" ref="step7"/>
+    <file name="u21038-17.png" crc="497185482" ref="step7"/>
+    <file name="u21038-17-r.png" crc="225797392" ref="step7"/>
+    <file name="u21038-17-m.png" crc="225797392" ref="step7"/>
+    <file name="u21038-17-fs.png" crc="497185482" ref="step7"/>
+    <file name="u21048-17.png" crc="267816327" ref="step7"/>
+    <file name="u21048-17-r.png" crc="4102026172" ref="step7"/>
+    <file name="u21048-17-m.png" crc="4102026172" ref="step7"/>
+    <file name="u21048-17-fs.png" crc="267816327" ref="step7"/>
+    <file name="close 4-u21063.png" crc="37162195" ref="step7"/>
+    <file name="close 4-u21063-r.png" crc="264684451" ref="step7"/>
+    <file name="form 8 icons timers-u21701.png" crc="304441128" ref="step7"/>
+    <file name="form 8 icons people-u21723.png" crc="4078357121" ref="step7"/>
+    <file name="form 8 icons phone-u21721.png" crc="366497113" ref="step7"/>
+    <file name="u21719-17.png" crc="3953581563" ref="step7"/>
+    <file name="u21719-17-r.png" crc="3775738682" ref="step7"/>
+    <file name="u21719-17-m.png" crc="3775738682" ref="step7"/>
+    <file name="u21719-17-fs.png" crc="3953581563" ref="step7"/>
+    <file name="close 4-u21693.png" crc="89384071" ref="step7"/>
+    <file name="close 4-u21693-r.png" crc="4247891885" ref="step7"/>
+    <file name="шаг-8-заявка-favicon.ico" crc="4214727010" ref="step8-zakaz"/>
+    <file name="form 8 icons timers-u21458.png" crc="304441128" ref="step8-zakaz"/>
+    <file name="form 8 icons people-u21464.png" crc="4078357121" ref="step8-zakaz"/>
+    <file name="form 8 icons phone-u21466.png" crc="366497113" ref="step8-zakaz"/>
+    <file name="u21484-17.png" crc="3953581563" ref="step8-zakaz"/>
+    <file name="u21484-17-r.png" crc="3775738682" ref="step8-zakaz"/>
+    <file name="u21484-17-m.png" crc="3775738682" ref="step8-zakaz"/>
+    <file name="u21484-17-fs.png" crc="3953581563" ref="step8-zakaz"/>
+    <file name="close 4-u21450.png" crc="89384071" ref="step8-zakaz"/>
+    <file name="close 4-u21450-r.png" crc="4247891885" ref="step8-zakaz"/>
+    <file name="close 4-u21507.png" crc="37162195" ref="step8-zakaz"/>
+    <file name="close 4-u21507-r.png" crc="264684451" ref="step8-zakaz"/>
+    <file name="u21640-17.png" crc="525674172" ref="step8-zakaz"/>
+    <file name="u21640-17-r.png" crc="3911793311" ref="step8-zakaz"/>
+    <file name="u21640-17-m.png" crc="3911793311" ref="step8-zakaz"/>
+    <file name="u21640-17-fs.png" crc="524386980" ref="step8-zakaz"/>
+    <file name="навес-ab-на-1-й-стр-favicon.ico" crc="4214727010" ref="1ab"/>
+    <file name="form 8 icons timers-u24547.png" crc="304441128" ref="1ab"/>
+    <file name="form 8 icons people-u24552.png" crc="4078357121" ref="1ab"/>
+    <file name="form 8 icons phone-u24545.png" crc="366497113" ref="1ab"/>
+    <file name="u24533-17.png" crc="3953581563" ref="1ab"/>
+    <file name="u24533-17-r.png" crc="3775738682" ref="1ab"/>
+    <file name="u24533-17-m.png" crc="3775738682" ref="1ab"/>
+    <file name="u24533-17-fs.png" crc="3953581563" ref="1ab"/>
+    <file name="close 4-u24522.png" crc="89384071" ref="1ab"/>
+    <file name="close 4-u24522-r.png" crc="4247891885" ref="1ab"/>
+    <file name="u24617-17.png" crc="497185482" ref="1ab"/>
+    <file name="u24617-17-r.png" crc="225797392" ref="1ab"/>
+    <file name="u24617-17-m.png" crc="225797392" ref="1ab"/>
+    <file name="u24617-17-fs.png" crc="497185482" ref="1ab"/>
+    <file name="u24808-17.png" crc="497185482" ref="1ab"/>
+    <file name="u24808-17-r.png" crc="225797392" ref="1ab"/>
+    <file name="u24808-17-m.png" crc="225797392" ref="1ab"/>
+    <file name="u24808-17-fs.png" crc="497185482" ref="1ab"/>
+    <file name="u24919-17.png" crc="497185482" ref="1ab"/>
+    <file name="u24919-17-r.png" crc="225797392" ref="1ab"/>
+    <file name="u24919-17-m.png" crc="225797392" ref="1ab"/>
+    <file name="u24919-17-fs.png" crc="497185482" ref="1ab"/>
+    <file name="2020-u25141-fr.jpg" crc="213872048" ref="1ab"/>
+    <file name="u25153-17.png" crc="4065205278" ref="1ab"/>
+    <file name="u25153-17-r.png" crc="4178591195" ref="1ab"/>
+    <file name="u25153-17-m.png" crc="4178591195" ref="1ab"/>
+    <file name="u25153-17-fs.png" crc="364113284" ref="1ab"/>
+    <file name="close 4-u25133.png" crc="4279303346" ref="1ab"/>
+    <file name="close 4-u25133-r.png" crc="462749514" ref="1ab"/>
+    <file name="close 4-u25545.png" crc="37162195" ref="1ab"/>
+    <file name="close 4-u25545-r.png" crc="264684451" ref="1ab"/>
+    <file name="навес-4-шага-1html-favicon.ico" crc="4214727010" ref="1"/>
+    <file name="form 8 icons timers-u25280.png" crc="304441128" ref="1"/>
+    <file name="form 8 icons people-u25285.png" crc="4078357121" ref="1"/>
+    <file name="form 8 icons phone-u25278.png" crc="366497113" ref="1"/>
+    <file name="u25266-17.png" crc="3953581563" ref="1"/>
+    <file name="u25266-17-r.png" crc="3775738682" ref="1"/>
+    <file name="u25266-17-m.png" crc="3775738682" ref="1"/>
+    <file name="u25266-17-fs.png" crc="3953581563" ref="1"/>
+    <file name="close 4-u25255.png" crc="89384071" ref="1"/>
+    <file name="close 4-u25255-r.png" crc="4247891885" ref="1"/>
+    <file name="u25350-17.png" crc="497185482" ref="1"/>
+    <file name="u25350-17-r.png" crc="225797392" ref="1"/>
+    <file name="u25350-17-m.png" crc="225797392" ref="1"/>
+    <file name="u25350-17-fs.png" crc="497185482" ref="1"/>
+  </folder>
+  <file name="thanks.html" crc="4165830704" seo="true" mt="1490697935662" redirect="true"/>
+  <file name="index.html" crc="3802239308" seo="true" mt="1490345512927" redirect="true"/>
+  <file name="thanks-копия.html" crc="136236110" seo="true" mt="1489657075356" redirect="true"/>
+  <file name="step1.html" crc="4141917681" seo="true" mt="1490009139411" redirect="true"/>
+  <file name="step2.html" crc="4108247132" seo="true" mt="1490009139424" redirect="true"/>
+  <file name="step6.html" crc="92753864" seo="true" mt="1490692454330" redirect="true"/>
+  <file name="step3.html" crc="4058232554" seo="true" mt="1490009139407" redirect="true"/>
+  <file name="step4.html" crc="77475201" seo="true" mt="1490013358645" redirect="true"/>
+  <file name="step5.html" crc="45725695" seo="true" mt="1490040765457" redirect="true"/>
+  <file name="step7.html" crc="469703248" seo="true" mt="1490009139403" redirect="true"/>
+  <file name="step8-zakaz.html" crc="130991266" seo="true" mt="1489767604408" redirect="true"/>
+  <file name="1ab.html" crc="3991160757" seo="true" mt="1490688174115" redirect="true"/>
+  <file name="1.html" crc="251566041" seo="true" mt="1490343082977" redirect="true"/>
+</manifest>

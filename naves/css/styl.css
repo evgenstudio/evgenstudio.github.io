@@ -11,7 +11,7 @@ body{
 #content{
     margin:15px auto;
     text-align:center;
-    width:800px;
+    width:760px;
     position:relative;
     height:100%;
 }
@@ -24,18 +24,18 @@ body{
     border-radius:10px;
     border:2px solid #fff;
     background-color:#f9f9f9;
-    width:800px;
+    width:760px;
     overflow:hidden;
     margin-left: auto;
 }
 #steps{
-    width:800px;
+    width:760px;
 	/*height:320px;*/
     overflow:hidden;
 }
 .step{
     float:left;
-    width:800px;
+    width:760px;
 	/*height:320px;*/
 }
 #navigation{
@@ -61,7 +61,7 @@ body{
 #navigation ul li a{
     display:block;
     height:45px;
-    color:#777;
+    color:#fff;
     outline:none;
     text-decoration:none;
     line-height:45px;
@@ -69,13 +69,13 @@ body{
     font-weight: 100;
     font-size: 14px;
     padding:0px 20px;
+    font-weight: 100;
+
    
 }
 #navigation ul li a:hover,
 #navigation ul li.selected a{
-    background:rgba(0,0,0,0.6);
-   border: 1px solid rgb(248, 174, 78);
-   border-radius: 5px;
+    text-decoration: underline;
     color:#fff;
 }
 span.checked{
