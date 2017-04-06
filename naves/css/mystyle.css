@@ -851,3 +851,6 @@ footer{
 .logo_a + p{
 	padding-left: 70px;
 }
+#steps form .step.last p{
+    padding-right: 25px;
+}
