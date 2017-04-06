@@ -30,6 +30,34 @@
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
+<div class="bg_modal">
+	
+</div>
+<div class="modal">
+<div class="cross"></div>
+	<h2></h2>
+	<form action=""><p>
+		Здравствуйте, меня зовут <input type="text" class="modal_input" placeholder="Ваше имя">                  и я хочу заказать у Вас этот 
+чудесный комплект. Перезвоните мне на номер      <input type="text" placeholder="Ваш номер " 	 class="modal_input">           так как
+у меня есть пару вопросов и я хочу подтвердить свой заказ.        
+	</p>
+	<p class="opt">
+		Опции
+	</p>
+	<p>Добавить инициалы?</p>
+	<div class="select_div">
+	<input type="radio" name="option" value="1" id="radio1"/>
+    <label for="radio1" class="label" id="label1">
+    	<p>Нет <span class="for_item"></span></p>
+    </label>
+    <input type="radio" name="option" value="2" id="radio2"/>
+    <label for="radio2" class="label" id="label2">
+    	<p>Да <span class="for_item"></span></p>
+    </label>
+	</div>
+	<button><p>Заказать комплект</p></button>
+	</form>
+</div>
 <header>
 	<div class="container">
 		<div class="menu row"> 
@@ -616,24 +644,27 @@
 });
 
       $(".clients .owl-next").click(function(){
-      a = $(".item.active").next();
+      	clearTimeout(ab2);
+      a = $(".review_text .active").next();
       if(a.hasClass('review_line_bot')){
       	a=$(".review_text .item").first();
       }
-     
-    
-      	$(".item.active").removeClass("active");
+
+      	$(".review_text .active").removeClass("active");
       	var ab2 =setTimeout(function () {
 			a.addClass("active");
 								}, 1000);
+      
       	      });
+
+ 	
       $(".clients .owl-prev").click(function(){
-      b = $(".item.active").prev();
+      b = $(".review_text .item.active").prev();
      if(b.hasClass('review_line_top')){
       	b=$(".review_text .item").last();
       }
-      	$(".item.active").removeClass("active");
-      	var ab2 =setTimeout(function () {
+      	$(".review_text .item.active").removeClass("active");
+      	var ab3 =setTimeout(function () {
 			b.addClass("active");
 								}, 1000);
       });
@@ -656,7 +687,35 @@
 			offset: 0
 		});
 	});
-     
+
+
+      lightbox.option({
+      	'alwaysShowNavOnTouchDevices' : true,
+      	 fixedNavigation: true
+      });
+     $(".modal .label").click(function(){
+     	aa = $(".selecting").length;
+ 
+     	if(aa==0){
+     	$(".modal .label").addClass("selecting");}
+     	if(aa>0){
+     		$(".selecting").removeClass("selecting");
+     	}
+     });
+     $(".header__button").click(function(){
+     	$(".bg_modal").addClass("active");
+     	$(".modal").addClass("active");
+     });
+      $(".header__offer__button").click(function(){
+     	$(".bg_modal").addClass("active");
+     	$(".modal").addClass("active");
+     });
+     $(".cross").click(function(){
+     	$(".bg_modal").removeClass("active");
+     	$(".modal").removeClass("active");
+     })
+
+   
 </script>
 
 	<script src="js/common.js"></script>
