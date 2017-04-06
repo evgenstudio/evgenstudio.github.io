@@ -921,3 +921,6 @@ transition: all 1s ease-in;
 	background: url("../img/cross.png") no-repeat;
 	cursor: pointer;
 }
+label{
+	cursor: pointer;
+}
