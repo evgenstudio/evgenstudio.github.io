@@ -1083,3 +1083,20 @@ vertical-align: top;
 	z-index: 9999;
 	display: none;
 }
+.to_close{
+	position: absolute;
+	top: 0;
+	right: -40px;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+.to_close p{
+	color: #fff;
+	font-size: 25px;
+	line-height: 1;
+	margin-top: 0;
+	font-weight: 100;
+	font-family: "RobotoBold";
+	margin-bottom: 0;
+}

@@ -25,11 +25,15 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+
 </head>
 <body>
 <div class="please_rotate"></div>
 <div class="bg_popup"></div>
 <div class="popup popup1">
+<div class="to_close">
+	<p>X</p>
+</div>
 	<h2>Обратный</h2>
 	<h3>звонок</h3>
 	<p>Заполните поля ниже, и наши
@@ -44,6 +48,9 @@
 </form>
 </div>
 <div class="popup popup2 ">
+<div class="to_close">
+	<p>X</p>
+</div>
 	<h2>Презентация</h2>
 	<h3>ЖК «Полянка/44»</h3>
 	<p>Заполните поля ниже, и мгновенно
@@ -52,12 +59,15 @@
 <form id="popup1_form">
 	<input type="text" name="name" class="popup_input" placeholder="Ваше имя">
 	<input type="text" name="phone" class="popup_input" placeholder="+7 (___) ___ - __ - __">
-	<button class="form_button">
+	<button class="form_button ">
 		<p>Скачать презентацию</p>
 	</button>
 </form>
 </div>
 <div class="popup popup3">
+<div class="to_close">
+	<p>X</p>
+</div>
 	<h2>Экскурсия по</h2>
 	<h3>ЖК «Полянка/44»</h3>
 	<p>Заполните поля ниже, и наши
@@ -73,6 +83,9 @@
 </form>
 </div>
 <div class="popup popup4">
+<div class="to_close">
+	<p>X</p>
+</div>
 	<h2>Планировки</h2>
 <h3>ЖК «Полянка/44»</h3>
 	<p>Заполните поля ниже, и мгновенно
@@ -107,7 +120,7 @@
 			</div>
 			<div class="col-xs-3 header_right">
 				<p class="right_text">Круглосуточная горячая линия:</p>
-				<p class="tel">+7 (495) 256-32-15</p>
+				<p class="tel">+7 (495) 320-22-47</p>
 				<button class="top_button">
 					<p>Заказать звонок</p>
 				</button>
@@ -445,7 +458,7 @@
 			</div>
 			<div class="col-xs-7">
 				<p class="who_left_text">Объект продает</p>
-				<p class="who_tel">+7 (495) 151-94-58</p>
+				<p class="who_tel">+7 (495) 320-22-47</p>
 				<hr class="hr1">
 				<div class="names"><p class="who_name">
 					Владимир Воинов
@@ -631,7 +644,7 @@ pdf-презентацию</h6>-->
 <div class="container">
 	<p>Круглосуточная горячая линия</p>
 	<p class="footer_tel">
-		+7 (495) 256-32-15
+		+7 (495) 320-22-47
 	</p>
 	<p class="email">sales@kre.ru</p>
 </div>
@@ -668,6 +681,7 @@ pdf-презентацию</h6>-->
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="libs/countdown/jquery.plugin.js"></script>
+	
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
@@ -941,7 +955,12 @@ pdf-презентацию</h6>-->
 			$(".popup.active").removeClass("active");
 			$(".bg_popup.active").removeClass("active");
 		}
-		})
+		});
+		$(".to_close").click(function(){
+			$(".popup.active").removeClass("active");
+			$(".bg_popup.active").removeClass("active");
+		
+		});
 
 		$("#popup1_form").submit(function() {
 		$.ajax({
@@ -956,7 +975,7 @@ pdf-презентацию</h6>-->
 		});
 		return false;
 	});
-	$("#popup2_form").submit(function() {
+	$("#popup2_form").click(function() {
 		$.ajax({
 			type: "POST",
 			url: "mail.php",
@@ -966,6 +985,7 @@ pdf-презентацию</h6>-->
 			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
 			$("#popup2_form").removeClass("active");
 			$("#popup2_form").trigger("reset");
+			location.href = "/1.pdf";
 		});
 		return false;
 	});
