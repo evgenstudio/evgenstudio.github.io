@@ -31,13 +31,13 @@
 </section>
 
 <header class="nanaj">
-<div class="overlay_video"></div>
-<div class="lan"><p><span class="span1">Рус</span> / <span class="span2">Eng</span></p></div>
-	<div class="container">
-		<div class="top_menu">
+<div class="overlay_video opac"></div>
+<div class="lan opac"><p><span class="span1">Рус</span> / <span class="span2">Eng</span></p></div>
+	<div class="container opac">
+		<div class="top_menu ">
 			<div class="row">
 				<div class="col-xs-5 text-right">
-					<p>Резерв:</p>
+					<p >Резерв:</p>
 					<p class="bold">+7 495 698-12-70</p>
 				</div>
 				<div class="col-xs-2">
@@ -49,13 +49,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="menu">
+		<div class="menu" id="stick">
 			<div class="row">
 				<div class="col-xs-5 left_menu">
-					<p>
+					<p class="to_menu">
 						Меню
 					</p>
-					<p>
+					<p class="to_reserve">
 						Резерв
 					</p>
 				</div>
@@ -63,8 +63,8 @@
 					<img src="img/logo.png" alt="" class="logo">
 				</div>
 				<div class="col-xs-5 right_menu">
-					<p>Галерея</p>
-					<p>Контакты</p>
+					<p class="to_galery">Галерея</p>
+					<p class="to_contacts">Контакты</p>
 				</div>
 			</div>
 		</div>
@@ -76,14 +76,16 @@
 			</p>
 			<h6>Рыбный ресторан</h6>
 		</div>
+	</div>
+	<div class="see">
+			<p>Посмотреть</p>
+		</div>
 
-
-		<p class="next">
+		<div class="next opac">
+		<p >
 			Узнать больше
-		</p>
-
-
-	</div>	
+		</p>	
+		</div>
 </header>
 <section class="about">
 <div class="about1_img">
@@ -298,10 +300,38 @@
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/jquery.mb.YTPlayer.min.js"></script>
 	<script src="js/lightbox.js"></script>
+	<script src="js/jquery.sticky.js"></script>
 	<script>
 		 jQuery(function(){
       jQuery("#bgndVideo").YTPlayer();
     });
+
+		 $(".to_menu").click(function(){
+		 	$.scrollTo($("section.menu"), 800)
+		 });
+		  $(".to_galery").click(function(){
+		 	$.scrollTo($("section.gallery"), 800)
+		 });
+		   $(".to_contacts").click(function(){
+		 	$.scrollTo($("section.contacts"), 800)
+		 });
+		    $(".to_reserve").click(function(){
+		 $(".modal_bg").addCLass("active");
+		 	 });
+		    $(".next").click(function(){
+		    	$.scrollTo($("section.about"), 800)
+		    });
+		 //Документация: https://github.com/flesler/jquery.scrollTo
+	
+		$(".see").mouseover(function(){
+			$(".opac").css("opacity", "0.1");
+		});
+		$(".see").mouseout(function(){
+			$(".opac").css("opacity", "1");
+		})
+
+		
+ 
 	</script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
