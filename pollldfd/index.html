@@ -42,9 +42,10 @@
 <form id="popup1_form">
 	<input type="text" name="name" class="popup_input" placeholder="Ваше имя">
 	<input type="text" name="phone" class="popup_input" placeholder="+7 (___) ___ - __ - __">
-	<button class="form_button">
+	<button type="button" class="form_button">
 		<p>Записаться на просмотр</p>
 	</button>
+	
 </form>
 </div>
 <div class="popup popup2 ">
@@ -59,9 +60,10 @@
 <form id="popup1_form">
 	<input type="text" name="name" class="popup_input" placeholder="Ваше имя">
 	<input type="text" name="phone" class="popup_input" placeholder="+7 (___) ___ - __ - __">
-	<button class="form_button ">
+	<a href="1.pdf" download><button type="button" class="form_button ">
 		<p>Скачать презентацию</p>
 	</button>
+	</a>
 </form>
 </div>
 <div class="popup popup3">
@@ -77,7 +79,7 @@
 <form id="popup1_form">
 	<input type="text" name="name" class="popup_input" placeholder="Ваше имя">
 	<input type="text" name="phone" class="popup_input" placeholder="+7 (___) ___ - __ - __">
-	<button class="form_button">
+	<button type="button" class="form_button">
 		<p>Записаться на просмотр</p>
 	</button>
 </form>
@@ -94,7 +96,7 @@
 <form id="popup1_form">
 	<input type="text" name="name" class="popup_input" placeholder="Ваше имя">
 	<input type="text" name="phone" class="popup_input" placeholder="+7 (___) ___ - __ - __">
-	<button class="form_button">
+	<button type="button" class="form_button">
 		<p>Скачать планировки</p>
 	</button>
 </form>
@@ -962,34 +964,27 @@ pdf-презентацию</h6>-->
 		
 		});
 
-		$("#popup1_form").submit(function() {
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: $(this).serialize()
-		}).done(function() {
-			$(this).find("input").val("");
+		$("#popup1_form button").click(function() {
+		
+			
 			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
 			$("#popup1_form").removeClass("active");
 			$("#popup1_form").trigger("reset");
-		});
-		return false;
+			$(".popup.active").removeClass("active");
+			$(".bg_popup.active").removeClass("active");
+		
+		
 	});
-	$("#popup2_form").click(function() {
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: $(this).serialize()
-		}).done(function() {
+	$("#popup2_form button").click(function() {
+		
 			$(this).find("input").val("");
 			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
 			$("#popup2_form").removeClass("active");
 			$("#popup2_form").trigger("reset");
-			location.href = "/1.pdf";
-		});
-		return false;
+			
+		
 	});
-	$("#popup3_form").submit(function() {
+	$("#popup3_form button").click(function() {
 		$.ajax({
 			type: "POST",
 			url: "mail.php",
@@ -1002,7 +997,7 @@ pdf-презентацию</h6>-->
 		});
 		return false;
 	});
-	$("#popup4_form").submit(function() {
+	$("#popup4_form button").click(function() {
 		$.ajax({
 			type: "POST",
 			url: "mail.php",
