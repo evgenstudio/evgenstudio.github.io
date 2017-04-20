@@ -24,13 +24,31 @@
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
+<div class="modal__bg">
+	
+</div>
+<div class="modal">
+	<h5>Укажите имя и свой номер телефона</h5>
+	<p>И наш администратор позвонит Вам чтобы уточнить резерв столика</p>
+	<form action="">
+		<input type="text" placeholder="Имя">
+		<input type="text" placeholder="Номер телефона">
+		<button>
+			<p>Отправить</p>
+		</button>
+	</form>
+</div>
+
 <section class="my">
 	
-<div id="bgndVideo" class="player" containment="nanaj" data-property="{videoURL:'http://youtu.be/OumWcYzYoNY',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
+<div id="bgndVideo" class="player" containment="nanaj" data-property="{videoURL:'http://youtu.be/OumWcYzYoNY',containment:'body',autoPlay:true,quality:'hd720', mute:true, startAt:0, opacity:1}"></div>
 
 </section>
 
 <header class="nanaj">
+<div class="background">
+		
+</div>
 <div class="overlay_video opac"></div>
 <div class="lan opac"><p><span class="span1">Рус</span> / <span class="span2">Eng</span></p></div>
 	<div class="container opac">
@@ -137,66 +155,96 @@
 <section class="menu">
 	<div class="container-fluid">
 		<h2>Меню</h2>
-		<div class="menu_big_slider">
-			<div class="item item1 active">
+	
+		<div id="owl-demo2" class="menu_big_slider owl-carousel owl-2 owl-theme">
+			<div class="item item1">
+				<div class="overlay_item"></div>
+				<h3>Рыба</h3>
+				<p>Текст, немного описывающий этот раздел</p>
+				<a href="menu.html">	<button class="menu_button">
+					<p>Подробнее</p>
+				</button></a>
+			</div>
+			<div class="item item2 active">
 				<div class="overlay_item"></div>
 				<h3>Ракообразные</h3>
-				<button class="menu_button">
+				<p>Текст, немного описывающий этот раздел</p>
+				<a href="menu.html">	<button class="menu_button">
 					<p>Подробнее</p>
-				</button>
+				</button></a>
 			</div>
-			<div class="item item2">
-				
+			<div class="item item3 active">
+				<div class="overlay_item"></div>
+				<h3>Морепродукты</h3>
+				<p>Текст, немного описывающий этот раздел</p>
+				<a href="menu.html">	<button class="menu_button">
+					<p>Подробнее</p>
+				</button></a>
 			</div>
-			<div class="item item3">
-				
+			<div class="item item4 active">
+				<div class="overlay_item"></div>
+				<h3>Мясные блюда</h3>
+				<p>Текст, немного описывающий этот раздел</p>
+				<a href="menu.html">	<button class="menu_button">
+					<p>Подробнее</p>
+				</button></a>
 			</div>
-			<div class="item item4">
-				
+			<div class="item item5 active">
+				<div class="overlay_item"></div>
+				<h3>Вина</h3>
+				<p>Текст, немного описывающий этот раздел</p>
+				<a href="menu.html">	<button class="menu_button">
+					<p>Подробнее</p>
+				</button></a>
 			</div>
-			<div class="item item5">
-				
+			<div class="item item6 active">
+				<div class="overlay_item"></div>
+				<h3>Special</h3>
+				<p>Текст, немного описывающий этот раздел</p>
+				<a href="menu.html">	<button class="menu_button">
+					<p>Подробнее</p>
+				</button></a>
 			</div>
-			<div class="item item6">
-				
-			</div>
-		</div>
+				</div>
 	</div>
 	<div class="container-fluid">
 		<div class="row-fluid row_choose">
-			<div class="col-xs-4">
-				<div class="item_choose item_choose1 active">
+			
+				<div class="item_choose item_choose1 col-xs-4 active">
 					<div class="overlay_item"></div>
 				</div>
-			</div>
-			<div class="col-xs-4">
-				<div class="item_choose item_choose2">
+		
+		
+				<div class="item_choose item_choose2 col-xs-4">
 					<div class="overlay_item"></div>
 				</div>
-			</div>
-			<div class="col-xs-4">
-				<div class="item_choose item_choose3">
+		
+		
+				<div class="item_choose item_choose3 col-xs-4">
 					<div class="overlay_item"></div>
 				</div>
-			</div>
-			<div class="col-xs-4">
-				<div class="item_choose item_choose4">
+			
+		
+				<div class="item_choose item_choose4 col-xs-4">
 					<div class="overlay_item"></div>
 				</div>
-			</div>
-			<div class="col-xs-4">
-				<div class="item_choose item_choose5">
+			
+		
+				<div class="item_choose item_choose5 col-xs-4">
 					<div class="overlay_item"></div>
 				</div>
-			</div>
-			<div class="col-xs-4">
-				<div class="item_choose item_choose6">
+			
+			
+				<div class="item_choose item_choose6 col-xs-4">
 					<div class="overlay_item"></div>
 				</div>
 			</div>
 		</div>
-	</div>
+	
 </section>
+
+
+
 
 <section class="gallery">
 	<div class="container-fluid">
@@ -315,9 +363,7 @@
 		   $(".to_contacts").click(function(){
 		 	$.scrollTo($("section.contacts"), 800)
 		 });
-		    $(".to_reserve").click(function(){
-		 $(".modal_bg").addCLass("active");
-		 	 });
+		    
 		    $(".next").click(function(){
 		    	$.scrollTo($("section.about"), 800)
 		    });
@@ -328,7 +374,92 @@
 		});
 		$(".see").mouseout(function(){
 			$(".opac").css("opacity", "1");
-		})
+		});
+
+
+		function callback(event) {
+    // Provided by the core
+    // Number of items
+    var counter =0;
+    var item    = event.item.index;
+    counter=item-3;
+    if(counter==6){
+    	counter=0;
+    } 
+    $(".item_choose.active").removeClass("active") ;
+    $(".item_choose").eq(counter).addClass("active");   // Position of the current item
+    // Provided by the navigation plugin
+   
+}
+
+
+
+      var owl2 = $('.owl-carousel.owl-2');
+      owl2.owlCarousel(
+      	{	
+      		onTranslated: callback,
+      		loop:true,
+      		nav:true,
+    margin:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+      	});
+     
+      
+      $('.item_choose1').click(function(){
+    owl2.trigger('to.owl.carousel', [0]);
+  });
+       $('.item_choose2').click(function(){
+    owl2.trigger('to.owl.carousel', [1]);
+  });
+        $('.item_choose3').click(function(){
+    owl2.trigger('to.owl.carousel', [2]);
+  });
+         $('.item_choose4').click(function(){
+    owl2.trigger('to.owl.carousel', [3]);
+  });
+          $('.item_choose5').click(function(){
+    owl2.trigger('to.owl.carousel', [4]);
+  });
+           $('.item_choose6').click(function(){
+    owl2.trigger('to.owl.carousel', [5]);
+  });
+
+         
+
+
+          $(".to_reserve").click(function(){
+          	$(".modal__bg").addClass("active");
+          	$(".modal").addClass("beg");
+          		var ab3 =setTimeout(function () {
+			$(".modal").addClass("end"); }, 100);
+          });
+           $(".about__button").click(function(){
+          	$(".modal__bg").addClass("active");
+          	$(".modal").addClass("beg");
+          		var ab3 =setTimeout(function () {
+			$(".modal").addClass("end"); }, 100);
+          });
+
+           $(".modal__bg").click(function(){
+           	if($(".modal__bg").hasClass("active")){
+           	$(".modal").removeClass("end");
+          		var ab3 =setTimeout(function () {
+			 $(".modal").removeClass("beg");
+			$(".modal__bg").removeClass("active");}, 2000);
+          			
+          		}
+          	});
+           
 
 		
  
