@@ -99,7 +99,7 @@ header .menu{
 	text-align: left;
 }
 .for_h1{
-	margin-top: 280px;
+	margin-top: 310px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -161,7 +161,7 @@ h2{
 	top: 0;
 	width: 50%;
 	height: 100%;
-	background: url("../img/inter2sm.jpg") no-repeat 100%;
+	background: url("../img/inter3.jpg") no-repeat 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1160,3 +1160,6 @@ margin-bottom: 20px;
 .rakk h5{
 	margin-top: 30px;
 }
+
+.mb_YTPBar .buttonBar{
+	display: none;}
