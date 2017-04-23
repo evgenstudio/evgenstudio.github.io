@@ -729,8 +729,9 @@ header .container{
 	padding-top: 10px;
 	vertical-align: top;
 	padding-left: 10px;
+	/*
 	background: #F9FAFB;
-
+*/
 }
 .wheel.wh{
 	background: transparent;
@@ -777,13 +778,16 @@ vertical-align: top;
 	overflow: hidden;
 	background: transparent;
 	transition: 2s all ease-in;
-	background: url("../img/sticky__bg.png") no-repeat;
+	background-image: url("../img/sticky__bg.png");
+	background-repeat: no-repeat;
+	background-position:   -1200px;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 }
 .is-sticky .viewp.active{
 	width: 1170px;
 	transition: 2s width ease-in;
+	background-position:   0px;
 }
 .sticky__menu{
 	z-index: 2000;
@@ -1163,3 +1167,218 @@ margin-bottom: 20px;
 
 .mb_YTPBar .buttonBar{
 	display: none;}
+
+
+
+.special__chef{
+	padding-top: 60px;
+	margin-top: 40px;
+}
+.special__chef .photo{
+	display: block;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #01061C;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+.special__chef .photo img{
+	width: 100%;
+	display: block;
+}
+.special__chef .col-md-6 table{
+	width: 100%;
+}
+.special__chef .col-md-6 table tr td{
+	font-weight: 900;
+}
+.special__chef h4{
+	font-size: 38px;
+}
+
+
+.bar__map .bar__map__wrapper .buttons{
+	display: inline-block;
+	vertical-align: middle;
+	width: 220px;
+	position: relative;
+}
+
+
+.bar__map__wrapper{
+	display: block;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bar__map__wrapper .drink{
+	display: inline-block;
+	width: 250px;
+	margin-right: 325px;
+	height: 40px;
+	vertical-align: middle;
+}
+.bar__map__wrapper .drink h5{
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.bar__map .bar__map__wrapper .buttons button{
+	width: 100%;
+	border: 1px solid #01061C;
+	height: 40px;
+	background: none;
+	transition: 0.3s ease-in all;
+}
+.bar__map .bar__map__wrapper .buttons button p{
+	color: #01061C;
+	font-size: 24px;
+	white-space: nowrap;
+	transition: 0.3s ease-in all;
+}
+.bar__map .bar__map__wrapper .buttons button p .fa-chevron-right{
+	display: none;
+}
+.bar__map .bar__map__wrapper .buttons button p .fa{
+	font-size: 18px;
+	margin-right: 7px;
+	transition: 0.3s ease-in all;
+}
+.bar__map .bar__map__wrapper .buttons button.active,
+.bar__map .bar__map__wrapper .buttons button:hover{
+background: #01061C;
+transition: 0.3s ease-in all;
+}
+.bar__map .bar__map__wrapper .buttons button.active p,
+.bar__map .bar__map__wrapper .buttons button:hover  p{
+	color: #fff;
+	transition: 0.3s ease-in all;
+}
+
+.bar__map .bar__map__wrapper .buttons button:hover p .fa-chevron-down,
+.bar__map .bar__map__wrapper .buttons button.active p .fa-chevron-down{
+	transform: rotate(-90deg);
+	transition: 0.3s ease-in all;
+}
+
+.bar__map .buttons ul{
+	display: block;
+	margin-left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: -40px;
+	right: 220px;
+	background: #fff;
+	height: 0px;
+	width: 0;
+	width: 280px;
+	height: 200px;
+	border: 1px solid transparent;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in all;
+}
+.bar__map .buttons ul li{
+	display: block;
+	border-bottom: 1px solid #01061C;
+	height: 40px;
+	padding-top: 7px;
+	padding-left: 15px;
+cursor: pointer;
+text-transform: uppercase;
+}
+.bar__map .buttons ul.active li:hover{
+	background: #01061C;
+}
+.bar__map .buttons ul.active li:hover a{
+	color: #fff;
+}
+.bar__map .buttons ul li a{
+	color: #01061C;cursor: pointer;
+}
+.bar__map .buttons ul.active{
+	border:  1px solid  #01061C;
+	visibility: visible;
+	opacity: 1;
+}
+
+#ascrail2000{
+	visibility: hidden;
+	display: none;
+}
+#ascrail2000.active{
+	visibility: visible;
+}
+.table__bar{
+	display: none;
+}
+.table__bar{
+	
+	background: none;
+}
+.table__bar.active{
+	transition: 1s all ease-in;
+	opacity: 1;
+	width: 600px;
+	height: auto;
+}
+.bar__map{
+	padding-top: 90px;
+}
+
+.tables{
+	width: 900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 80px;
+}
+.table__bar{
+	width: 0px;
+	overflow: hidden;
+	display: block;
+	height: 0;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 1s all ease-in;
+	opacity: 0;
+}
+.table__bar table{
+	width: 100%;
+}
+.table__bar table tr{
+	height: 55px;
+}
+.table__bar table tr td:nth-child(1){
+	text-align: left;
+}
+.table__wrap{
+	width: 600px;
+	display: block;
+	margin-left: auto;margin-right: auto;
+	height: auto;
+}
+.bar__map{
+	min-height: 900px;
+}
+
+
+.vine__map{
+	display: block;
+	padding-top: 90px;
+}
+<li>
+						<a class="to__menu">Меню ресторана</a>
+					</li>
+					<li>
+						<a class="to__bar__map">барная карта</a>
+					</li>
+					<li>
+						<a class="to__vine__map">винная карта</a>
+					</li>
+					<li>
+						<a class="to__special">блюда от шеф-повара</a>
+					</li>
