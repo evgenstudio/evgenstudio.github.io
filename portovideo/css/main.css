@@ -171,7 +171,7 @@ h2{
 	top: 0;
 	width: 50%;
 	height: 100%;
-	background: url("../img/eat4.jpg") no-repeat 50%;
+	background: url("../img2/3.jpg") no-repeat 50% 50%; 
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -181,7 +181,7 @@ h2{
 	top: 0;
 	width: 50%;
 	height: 100%;
-	background: url("../img/eat.jpg") no-repeat;
+	background: url("../img2/6.jpg") no-repeat 50% 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -238,7 +238,7 @@ section.menu .container-fluid{
 }
 
 .menu_big_slider .item1{
-background: url("../img/44.jpg") no-repeat 50%;
+background: url("../img2/12.jpg") no-repeat 50%;
 -webkit-background-size: cover;
 background-size: cover;
 } 
@@ -249,7 +249,7 @@ background-size: cover;
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(1,6,28,0.3);
+	background: rgba(1,6,28,0.4);
 }
 .menu_big_slider .item{
 	padding-top: 70px;
@@ -269,7 +269,8 @@ background-size: cover;
 	font-family: "Gabriola";
 	font-size: 28px;
 	display: block;
-	width: 400px;
+	width: 500px;
+	line-height: 1.2;
 	height: 50px;
 	margin-bottom: 40px;
 	margin-left: auto;
@@ -310,64 +311,64 @@ background-size: cover;
 
 
 .menu_big_slider .item2{
-background: url("../img/eat.jpg") 50% 50%;
+background: url("../img2/28.jpg") 50% 50%;
 -webkit-background-size: cover;
 background-size: cover;
 }
 .menu_big_slider .item3{
-background: url("../img/eat2.jpg") 50% 50%;
+background: url("../img2/16.jpg") 50% 50%;
 -webkit-background-size: cover;
 background-size: cover;
 }
 .menu_big_slider .item4{
-background: url("../img/eat3.jpg") 50% 50%;
+background: url("../img2/34.jpg") 50% 50%;
 -webkit-background-size: cover;
 background-size: cover;
 }
 .menu_big_slider .item5{
-background: url("../img/eat2.jpg") 50% 50%;
+background: url("../img2/2.jpg") 50% 50%;
 -webkit-background-size: cover;
 background-size: cover;
 }
 .menu_big_slider .item6{
-background: url("../img/eat4.jpg") 50% 50%;
+background: url("../img2/7.jpg") 50% 50%;
 -webkit-background-size: cover;
 background-size: cover;
 }
 
 
 .item_choose1{
-	background: url('../img/44.jpg') no-repeat 50%;
+	background: url('../img2/12.jpg') no-repeat 50%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	position: relative;
 }
 .item_choose2{
-	background: url('../img/eat.jpg') no-repeat 50%;
+	background: url('../img2/28.jpg') no-repeat 50%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	position: relative;
 }
 .item_choose3{
-	background: url('../img/eat2.jpg') no-repeat 50%;
+	background: url('../img2/16.jpg') no-repeat 50%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	position: relative;
 }
 .item_choose4{
-	background: url('../img/eat3.jpg') no-repeat 50%;
+	background: url('../img2/34.jpg') no-repeat 50%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	position: relative;
 }
 .item_choose5{
-	background: url('../img/eat2.jpg') no-repeat 50%;
+	background: url('../img2/2.jpg') no-repeat 50%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	position: relative;
 }
 .item_choose6{
-	background: url('../img/eat4.jpg') no-repeat 50%;
+	background: url('../img2/7.jpg') no-repeat 50%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	position: relative;
@@ -702,7 +703,7 @@ header .container{
 
 
 .menu__header{
-	background: url("../img/menu__bg.png") no-repeat 50%;
+	background: url("../img/header_bg.png") no-repeat 50%;
 	-webkit-background-size: 	cover;
 	background-size: 	cover;
 }
@@ -864,16 +865,49 @@ h4{
 	padding-top: 5px;
 }
 .main__menu__fish .container{
-	padding-top: 30ex;
+	padding-top: 30px;
 	padding-bottom: 30px;
+}
+.wine img{
+	height: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.owl-theme.winecarousel .owl-nav .owl-prev{
+	left: 0px;
+}
+.owl-theme.winecarousel .owl-nav .owl-next{
+	right: 0px;
+}
+.wine{
+	text-align: center;
+}
+.wine .name__wine{
+	font-size: 22px;
+	font-family: "Century";
+	font-weight: 100;
+}
+.wine .price__wine{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 7px;
+	font-family: "Century";
+}
+
+.wine .country{
+	font-size: 22px;
+	text-align: center;
 }
 
 
 
-
-
-
-
+.wine__map{
+	padding-bottom: 90px;
+	padding-top: 50px;
+}
 
 
 
@@ -937,7 +971,7 @@ h4{
 	cursor: pointer;
 }
 .menu_button:hover{
-	background: #0E152B;transition:  background 0.2s linear;
+	background: #1a2544;transition:  background 0.2s linear;
 }
 .menu_button{
 	transition:  background 0.2s linear;
@@ -1303,6 +1337,9 @@ text-transform: uppercase;
 	visibility: visible;
 	opacity: 1;
 }
+#controlBar_bgndVideo{
+	visibility: hidden;
+}
 
 #ascrail2000{
 	visibility: hidden;
@@ -1327,7 +1364,12 @@ text-transform: uppercase;
 .bar__map{
 	padding-top: 90px;
 }
-
+.hiddens{
+	visibility: hidden;
+}
+.visibles{
+	visibility: visible;
+}
 .tables{
 	width: 900px;
 	display: block;
@@ -1351,6 +1393,7 @@ text-transform: uppercase;
 }
 .table__bar table tr{
 	height: 55px;
+	white-space: nowrap;
 }
 .table__bar table tr td:nth-child(1){
 	text-align: left;
@@ -1370,15 +1413,3 @@ text-transform: uppercase;
 	display: block;
 	padding-top: 90px;
 }
-<li>
-						<a class="to__menu">Меню ресторана</a>
-					</li>
-					<li>
-						<a class="to__bar__map">барная карта</a>
-					</li>
-					<li>
-						<a class="to__vine__map">винная карта</a>
-					</li>
-					<li>
-						<a class="to__special">блюда от шеф-повара</a>
-					</li>
