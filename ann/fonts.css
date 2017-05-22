@@ -66,3 +66,11 @@
     font-style: normal;
     font-weight: normal;
 }
+
+body{
+    background: rgba(226,232,237,0.2);
+    color: #01061C;
+}
+p{
+    color: #01061C;
+}
