@@ -1,0 +1,29 @@
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "B52";
+	src: 	url("../fonts/b52.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "RedOctober";
+	src: 
+	url("../fonts/RedOctober.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RedOctoberFat";
+	src: 
+	url("../fonts/RedOctober-Fat.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "BadScript";
+	src: url("../fonts/BadScript.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
