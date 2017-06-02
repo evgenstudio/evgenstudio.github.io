@@ -941,3 +941,23 @@ body{
 	width: 100%;
 	overflow-x: hidden;
 }
+.menu__slider{
+	width: 100%;
+}
+.menu__category__slider{
+	height: 960px;
+}
+.menu__slider{
+	position: absolute;
+	transition: all 1s ease-in;
+	opacity: 0;
+	overflow: hidden;
+
+	display: inline-block;
+}
+.menu__slider.active{
+
+	transition: all 1s ease-in;
+	opacity: 1;
+	z-index: 10000;
+}

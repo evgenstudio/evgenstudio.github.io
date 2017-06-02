@@ -8,9 +8,6 @@ $(document).ready(function() {
 
   return days[date.getDay()];
 }
-function menu_slider_chose(aa){
-	aa.indexOf();
-}
 
 
 
@@ -42,9 +39,11 @@ $(".month").html(month[month_num]);
 $(".weekday").html(getWeekDay(d));
 
 $(".menu__category").click(function(){
+		var item    = $(this).index();
       	$(".menu__category.active").removeClass("active");
+      	$(".menu__slider").removeClass("active");
       	$(this).addClass("active");
-      	menu_slider_chose(this);
+      	$(".menu__slider").eq(item).addClass("active");
       });
 	 var pp = setTimeout(function(){
 
@@ -75,7 +74,6 @@ $(".menu__category").click(function(){
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
 
-	
 
 
 	//Плавный скролл до блока .div по клику на .scroll
@@ -149,6 +147,57 @@ $(".menu__category").click(function(){
     $(".twrapper").addClass("flash");*/
 })
       $(".menu__slider1").owlCarousel(
+      	{	
+      		loop:true,
+		    margin:0,
+		    dotsContainer:$(".menu__dots"),
+		    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+      	});
+        $(".menu__slider2").owlCarousel(
+      	{	
+      		loop:true,
+		    margin:0,
+		    dotsContainer:$(".menu__dots"),
+		    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+      	});
+      	  $(".menu__slider3").owlCarousel(
+      	{	
+      		loop:true,
+		    margin:0,
+		    dotsContainer:$(".menu__dots"),
+		    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+      	});
+      	    $(".menu__slider4").owlCarousel(
       	{	
       		loop:true,
 		    margin:0,
