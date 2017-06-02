@@ -20,28 +20,29 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/animate.css" />
 </head>
 <body>
-	
+	<div class="wrap">
 	<header>
-		<img src="img/header__bg.png" alt="" class="header__bg">
-		<img src="img/header__portraits.png" alt="" class="header__portraits">
-			<div class="top__menu">
+		<img src="img/header__bg.png" alt="" class="header__bg animated">
+		<img src="img/header__portraits.png" alt="" class="header__portraits animated ">
+			<div class="top__menu animated fadeIn">
 				<ul>
 					<li>
-						<a href=""><img src="img/top__menu__li.png" alt=""><p>Особенности</p></a> 
+						<a class="to__features"><img src="img/top__menu__li.png" alt=""><p>Особенности</p></a> 
 					</li>
 					<li>
-						<a href=""><img src="img/top__menu__li.png" alt=""><p>Меню</p></a> 
+						<a class="to__menu"><img src="img/top__menu__li.png" alt=""><p>Меню</p></a> 
 					</li>
 					<li>
-						<a href=""><img src="img/top__menu__li.png" alt=""><p>Акции</p></a> 
+						<a class="to__promo"><img src="img/top__menu__li.png" alt=""><p>Акции</p></a> 
 					</li>
 				</ul>
 			</div>
 
 		
-		<div class="container">
+		<div class="container  animated fadeIn">
 			<div class="caption__header__block">
 				<div class="cafe">
 					<img src="img/arrow__left.png" alt="">
@@ -53,10 +54,10 @@
 			<button class="header__button">
 				<p>Заказать столик!</p>
 			</button>
-			<p>Мы вернулись!</p>
+			<p class="animated zoomIn">Мы вернулись!</p>
 		</div>
 	</header>
-	<section class="after__header__section">
+	<section class="after__header__section upp">
 	<div class="after__header__top">
 		<img src="img/ussr__logo.png" alt="">
 	</div>
@@ -106,19 +107,19 @@
 					
 					<div class="slider owl-carousel owl-theme">
 						<div class="interior__photo1 item">
-							<img src="img/interior/1.jpg" alt="">
+							<img src="img/interior/1.jpg" alt="" class="owl-lazy">
 						</div>
 						<div class="interior__photo2 item">
-							<img src="img/interior/2.jpg" alt="">
+							<img src="img/interior/2.jpg" alt="" class="owl-lazy">
 						</div>
 						<div class="interior__photo3 item">
-							<img src="img/interior/3.jpg" alt="">
+							<img src="img/interior/3.jpg" alt="" class="owl-lazy">
 						</div>
 						<div class="interior__photo4 item">
-							<img src="img/interior/4.jpg" alt="">
+							<img src="img/interior/4.jpg" alt="" class="owl-lazy">
 						</div>
 						<div class="interior__photo5 item">
-							<img src="img/interior/6.jpg" alt="">
+							<img src="img/interior/6.jpg" alt="" class="owl-lazy">
 						</div>
 					</div>
 				</div>
@@ -141,25 +142,23 @@
 			</h2>
 			<div class="row">
 				<div class="col-xs-6">
-					<div class="television__slider">
+					<div class="television__slider ">
+					<div class="but_l"></div>
+					<div class="but_r"></div>
 						<div class="television__hover">
 						</div>
-						<div class="twrapper">
+						<div class="twrapper animated">
 							<div class="tslider owl-carousel owl-theme">
-									<img src="img/interior/2.jpg" alt="" class="item">
-									<img src="img/interior/3.jpg" alt="" class="item">
-									<img src="img/interior/4.jpg" alt="" class="item">
-									<img src="img/interior/1.jpg" alt="" class="item">
+									<img src="img/interior/2.jpg" alt="" class="item ">
+									<img src="img/interior/3.jpg" alt="" class="item ">
+									<img src="img/interior/4.jpg" alt="" class="item ">
+									<img src="img/interior/1.jpg" alt="" class="item ">
 							</div>
 						</div>
 					</div> 
 				</div>
 				<div class="col-xs-6">
-					<p>И даже наши сотрудники, 
-						одетые в форме пионеров
-						вызывают ностальгию, 
-						свзяанную с тем време-
-						нем...
+					<p> Мы создадим для Вас незабываемую атмосферу тепла и уюта, вкусные и сытные праздничные столы.
 					</p>
 					<button class="personal__button">
 						<p>заказать столик!</p>
@@ -169,12 +168,14 @@
 		</div>
 	</section>
 	<section class="menu__section">
-		<div class="menu__section__top"></div>
+		<div class="menu__section__top upp"></div>
+		<div class="ussr__logo2"><img src="img/ussr__logo2.png" alt=""></div>
 		<div class="container">
 			<h3>МЕНЮ</h3>
 			<h5>Наше меню соответствует демократическим и приятным 
 				ценам того веремени.Большие и действительно сытные 
 				порции, качественные блюда русской кухни...
+				<li>Также у нас вы сможете отведать настоящее пиво!</li>
 			</h5>
 
 			<div class="menu__category__row">
@@ -195,44 +196,63 @@
 				<div class="menu__slider1 menu__slider active owl-carousel owl-theme">
 					<div class="slide">
 						<div class="menu_block">
-							<div class="photo_eat1"></div>
+							<div class="photo_eat1">
+								<img src="img/eat__food.png" alt="">
+							</div>
 							<p class="price">«Телячьи нежности»</p>
 							<p class="name">410 руб / 350 гр.</p>
 						</div>
 						<div class="menu_block">
-							<div class="photo_eat2"></div>
+							<div class="photo_eat2">
+								<img src="img/eat__food2.png" alt="">
+							</div>
 							<p class="price">«Золотой теленок» </p>
 							<p class="name"> 414 руб./ 250,30 гр.</p>
 						</div>
 						<div class="menu_block">
-							<div class="photo_eat3"></div>
+							<div class="photo_eat3">
+								<img src="img/eat__food2.png" alt="">
+							</div>
 							<p class="price">Сковорода «с пылу с жару»</p>
 							<p class="name">430 руб. / 350 гр. </p>
 						</div>
 						<div class="menu_block">
-							<div class="photo_eat4"></div>
+							<div class="photo_eat4">
+								
+								<img src="img/eat__food.png" alt="">
+
+
+							</div>
 							<p class="price">«Бастилия»  </p>
 							<p class="name">410 руб. / 200гр.</p>
 						</div>
 					</div>
 					<div class="slide">
 						<div class="menu_block">
-							<div class="photo_eat5"></div>
+							<div class="photo_eat5">
+								<img src="img/eat__food.png" alt="">
+							</div>
 							<p class="price">Стейк из говядины с шампиньонами </p>
 							<p class="name"> 510 руб. / 190,70,30 гр.</p>
 						</div>
 						<div class="menu_block">
-							<div class="photo_eat6"></div>
+							<div class="photo_eat6">
+								<img src="img/eat__food2.png" alt="">
+							</div>
 							<p class="price">«Золото партии» </p>
 							<p class="name">580 руб. / 300гр.</p>
 						</div>
 						<div class="menu_block">
-							<div class="photo_eat7"></div>
+							<div class="photo_eat7">
+								<img src="img/eat__food2.png" alt="">
+							</div>
 							<p class="price">Форель  </p>
 							<p class="name">506 руб. / 300гр.</p>
 						</div>
 						<div class="menu_block">
-							<div class="photo_eat8"></div>
+							<div class="photo_eat8">
+								<img src="img/eat__food.png" alt="">
+							</div>
 							<p class="price">«Чижик-Пыжик» </p>
 							<p class="name">500 руб. / 300гр.</p>
 						</div>
@@ -240,126 +260,185 @@
 				</div>
 				<div class="menu__slider2 menu__slider">
 					<div class="menu_block">
-						<div class="photo_eat1"></div>
+						<div class="photo_eat1">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price">Салат «Подпольный»  </p>
 						<p class="name">310 руб. / 215 гр.</p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat2"></div>
+						<div class="photo_eat2">
+							<img src="img/eat__food2.png" alt="">
+						</div>
 						<p class="price">Салат «Кремлевский»</p>
 						<p class="name"> 350 руб. / 220гр.</p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat3"></div>
+						<div class="photo_eat3">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price">Салат «Щупальца империализма» </p>
 						<p class="name"> 310 руб. / 200гр.</p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat4"></div>
+						<div class="photo_eat4">
+							<img src="img/eat__food2.png" alt="">
+						</div>
 						<p class="price">Салат «В Разливе» </p>
 						<p class="name"> 432 руб. / 240гр.</p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat5"></div>
+						<div class="photo_eat5">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price">Салат в стиле «Цезарь» с куриным филе </p>
 						<p class="name"> 360 руб. / 255гр.</p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat6"></div>
+						<div class="photo_eat6">
+						<img src="img/eat__food2.png" alt="">
+
+						</div>
 						<p class="price">Салат в стиле «Цезарь» с «Дарами моря»</p>
 						<p class="name"> 470руб. /280гр.</p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat7"></div>
+						<div class="photo_eat7">
+						<img src="img/eat__food.png" alt="">
+
+						</div>
 						<p class="price">Салат «Болгарский партизан» </p>
 						<p class="name">320 руб. / 280гр.</p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat8"></div>
+						<div class="photo_eat8">
+						<img src="img/eat__food2.png" alt="">
+
+						</div>
 						<p class="price">Салат овощной «Интернациональный»</p>
 						<p class="name"> 280 руб. / 220гр.</p>
 					</div>
 				</div>
 				<div class="menu__slider3 menu__slider">
 					<div class="menu_block">
-						<div class="photo_eat1"></div>
+						<div class="photo_eat1">
+						<img src="img/eat__food.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat2"></div>
+						<div class="photo_eat2">
+						<img src="img/eat__food2.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat3"></div>
+						<div class="photo_eat3">
+						<img src="img/eat__food.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat4"></div>
+						<div class="photo_eat4">
+						<img src="img/eat__food2.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat5"></div>
+						<div class="photo_eat5">
+						<img src="img/eat__food.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat6"></div>
+						<div class="photo_eat6">
+						<img src="img/eat__food.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat7"></div>
+						<div class="photo_eat7">
+						<img src="img/eat__food.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat8"></div>
+						<div class="photo_eat8">
+						<img src="img/eat__food.png" alt="">
+
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 				</div>
 				<div class="menu__slider4 menu__slider">
 					<div class="menu_block">
-						<div class="photo_eat1"></div>
+						<div class="photo_eat1">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat2"></div>
+						<div class="photo_eat2">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat3"></div>
+						<div class="photo_eat3">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat4"></div>
+						<div class="photo_eat4">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat5"></div>
+						<div class="photo_eat5">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat6"></div>
+						<div class="photo_eat6">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat7"></div>
+						<div class="photo_eat7">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
 					<div class="menu_block">
-						<div class="photo_eat8"></div>
+						<div class="photo_eat8">
+							<img src="img/eat__food.png" alt="">
+						</div>
 						<p class="price"></p>
 						<p class="name"></p>
 					</div>
@@ -367,26 +446,33 @@
 			</div>
 
 		</div>
+		<div class="menu__dots">
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+		<div class="menu__section__bot"></div>
 	</section>
 	<section class="promo__section">
 		<div class="container">
+		<div class="promo__image1 fade"><img src="img/promo__image1.png" alt=""></div>
+		<div class="promo__image2 fade"><img src="img/promo__image2.png" alt=""></div>
+		<div class="promo__image3 fade"><img src="img/promo__image3.png" alt=""></div>
+		<div class="promo__image4 fade"><img src="img/promo__image4.png" alt=""></div>
 			<h2>Акции</h2>
-			<p>Насчет акций расскажите поподробнее что примерно будет?
-				Бизнес ланчи, или какие-то скидки для компаний. Возможно
-				акции для болельщиков.
+			<p>Выпивка Ваша, закуска наша!
 			</p>
 			<button class="promo__button">
-				<p>рассчитать свою скидку</p>
+				<p>Узнать акцию сегодня</p>
 			</button>
-			<div class="calendar__block">
+			<div class="calendar__block upp">
 				<div class="calendar__top">
 					<p class="month">
-						Август
+						Апрель
 					</p>
 				</div>
 				<div class="calendar__bottom">
-					<p class="day">21</p>
-					<p class="weekday">пятница</p>
+					<p class="day">13</p>
+					<p class="weekday">суббота</p>
 					<p class="holiday">
 						"День пионера"
 					</p>
@@ -402,16 +488,17 @@
 	<section class="reviews">
 		<div class="container">
 			<div class="star__block">
-				<img src="img/left__star.png" alt="">
-				<img src="star.png" alt="">
-				<img src="img.right__star.png" alt="">
+			
+				<img src="img/star.png" alt="" class="star">
 			</div>
 			<h2>Отзывы</h2>
-			<div class="review__block">
-				<div class="client__block left">
-					<img src="" alt="">
-					<p class="name"></p>
+			<div class="row review__block">
+				<div class="client__block col-xs-4">
+					<div class="for__img"><img src="img/review__image2.jpg" alt="">
+					</div>
+					<p class="name">Анна плетнева</p>
 				</div>
+				<div class="col-xs-8">
 				<p>Работа у меня находится рядом с этим кафе, и 
 					мы частенько ходим туда на бизнес-ланч, так как 
 					устраивают цены и большие порции.
@@ -420,10 +507,11 @@
 					но иногда приходится поторопить, потому что 
 					обеденный перерыв всего 1 час.
 				 </p>
+				 </div>
 			</div>
 			<img src="img/separator.png" alt="">
-			<div class="review__block">
-				
+			<div class=" row review__block">
+				<div class="col-xs-8">
 				<p>Работа у меня находится рядом с этим кафе, и 
 					мы частенько ходим туда на бизнес-ланч, так как 
 					устраивают цены и большие порции.
@@ -432,23 +520,49 @@
 					но иногда приходится поторопить, потому что 
 					обеденный перерыв всего 1 час.
 				 </p>
-				 <div class="client__block right">
-					<img src="" alt="">
-					<p class="name"></p>
+				 </div>
+				 <div class="client__block col-xs-4">
+				 <div class="for__img">
+					<img src="img/review_image.jpg" alt="">
+				</div>
+					<p class="name">Михаил Иванов</p>
 				</div>
 			</div>
+			<div class="promo__images upp">
+				<img src="img/promo__images.png" alt="">
+			</div>
+			<div class="promo__image5 fade"><img src="img/promo__image5.png" alt=""></div>
 		</div>
 	</section>
 	<section class="contacts">
 		<div class="container">
 			<h2>Контакты</h2>
 			<p>Нас легко найти, как раз два три!</p>
-			<p>Мы находимся по адресу : д. 1/2, 3-я Песчаная ул.</p>
+			<p><span>Мы находимся по адресу </span>: д. 1/2, 3-я Песчаная ул.</p>
 		</div>
 	</section>
 	<section class="map">
-		
+		<div class="container">
+			<div class="map__block fade">
+				<p>Вы можете заказать <br> столик по телефону
+				</p>
+				<a href="tel:+74951501912">
+					<span>+7 (495)</span> 150-19-12
+				</a>
+				<p class="alt">
+					Или заказать <br> обратный звонок
+				</p>
+				<button>
+					<p>Заказать столик</p>
+				</button>
+			</div>
+		</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.7444879709537!2d37.51760282925566!3d55.79362075272145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x165d06f05ec075af!2z0JrRgNC-0LvQuNGH0YzRjyDQvdC-0YDQsA!5e0!3m2!1sru!2sru!4v1496326542738" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
+	<footer>
+		<a href="https://vk.com/club31601925"><img src="img/our__logo.png" alt=""></a>
+	</footer>
+	</div>
 
 
 
@@ -470,65 +584,15 @@
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="libs/countdown/jquery.plugin.js"></script>
-	<script src="libs/countdown/jquery.countdown.min.js"></script>
-	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
-	<script src="js/common.js"></script>
-	<script>
-		var owl2 = $('.slider');
-      owl2.owlCarousel(
-      	{	
-      		loop:true,
-      		nav:true,
-    margin:0,
-    dotsContainer:$(".slider__dots"),
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-      	});
+	<script src="js/viewportchecker.js"></script>
 
-      $(".tslider").owlCarousel(
-      	{	
-      		loop:true,
-      		nav:true,
-		    margin:0,
-		    autoplay:true,
-		    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-      	});
-      $(".menu__slider1").owlCarousel(
-      	{	
-      		loop:true,
-		    margin:0,
-		    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-      	});
+	<script src="js/jquery.nicescroll.min.js" ></script>
+
+	<script src="js/common.js"></script>
+	
+	<script>
+		
 	</script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

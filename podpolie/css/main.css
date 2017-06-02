@@ -36,6 +36,9 @@ p,h1,h2,h3,h4,h5,h6{
 	margin-bottom: 0;
 	line-height: 1;
 }
+a{
+	cursor: pointer;
+}
 body {
 		font-family: "B52";
 		background: #fdfed6;
@@ -62,6 +65,11 @@ body {
 	margin-left: 25px; 
 	list-style-image: url("");
 }
+.top__menu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 .top__menu ul li a p{
 	font-size: 38px;
 	color: #fff;
@@ -86,6 +94,7 @@ header .header__bg{
 	margin-left: -550px;
 	top: 300px;
 	z-index: 100;
+	display: none;
 }
 header .header__portraits{
 	position: absolute;
@@ -94,9 +103,15 @@ header .header__portraits{
 	left: 50%;
 	margin-left: -640px;
 	z-index: 300;
+	display: none;
+}
+header .header__portraits.slideInUp,
+header .header__bg.slideInUp{
+	display: block;
 }
 header .container{
 	z-index: 3000;
+	position: relative;
 }
 .caption__header__block{
 	text-align: center;
@@ -235,7 +250,7 @@ header  button +p{
   color: rgb(0, 0, 0);
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: -10px;
 }
 .interior__section .photo__slider{
 	width: 1020px;
@@ -339,15 +354,15 @@ bottom: 0px;
 	background: #ff2633;	
 }
 .interior__section{
-	padding-bottom: 150px;
-	margin-bottom: 100px;
+	padding-bottom: 110px;
 }
 .stamp{
 	position: absolute;
 	display: block;
-	right: 30px;
+	right: 20px;
 	z-index: 8000;
-	bottom: -150px;
+	bottom: -100px;
+	pointer-events: none;
 }
 
 
@@ -357,13 +372,36 @@ bottom: 0px;
   color: rgb(206, 0, 12);
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .personal__section .television__slider{
 	width: 100%;
 	position: relative;
 	height: 300px;
 }
+.personal__section .television__slider .but_l{
+	position: absolute;
+	top: 140px;
+width: 50px;
+height: 50px;
+z-index: 10000;
+right: 40px;
+border-radius: 50%;
+cursor: pointer;
+transition: all 0.2s ease-in;
+}
+
+.personal__section .television__slider .but_r{
+		position: absolute;
+	top: 205px;
+width: 50px;
+height: 50px;
+z-index: 10000;
+right: 40px;
+border-radius: 50%;
+cursor: pointer;
+}
+
 .television__hover{
 	position: absolute;
 	width: 100%;
@@ -414,7 +452,7 @@ z-index: 500;
 	position: relative;
 	margin-top: 250px;
 	background: #ce000c;
-	padding-top: 50px;
+	padding-top: 20px;
 	z-index: 3000;
 }
 .menu__section__top{
@@ -439,7 +477,6 @@ z-index: 500;
 	background: #ce000c;
 	z-index: 5000;
 	position: relative;
-	padding-bottom: 100px;
 }
 .menu__section h5{
   font-size: 31px;
@@ -469,6 +506,8 @@ background: #d7b212;
 	position: relative;
 	height: 270px;
 	width: 380px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .menu_block>div::after{
 content: "";
@@ -495,12 +534,12 @@ background: url("../img/");
   text-align: center;
 }
 .menu_block{
-	width: 380px;
+	width: 500px;
 	display: block;
 	float: left;
 	min-height: 1px;
 	width: 50%;
-	height: 570px;
+	height: 480px;
 }
 .menu__slider{
 	display: none;
@@ -515,4 +554,390 @@ background: url("../img/");
 	height: 100%;
 }
 
+.menu__section__bot{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background: url("../img/after__header__top.png") 50% 0px;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	transform: rotate(180deg);
+	z-index: 2000;
+}
+.promo__section{
+	padding-top: 220px;	
+}
+.promo__section h2{
+  font-size: 55px;
+  font-family: "RedOctoberFat";
+  color: rgb(206, 0, 12);
+  line-height: 1.2;
+  text-align: center;
 
+
+}
+.promo__section p{
+  font-size: 32px;
+  font-family: "B52";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+}
+.promo__section .calendar__block .month{
+  font-size: 56px;
+  font-family: "RedOctoberFat";
+  color: rgb(253, 254, 214);
+  line-height: 1.2;
+  text-align: center;
+
+
+}
+.promo__section .calendar__block{
+	width: 440px;
+	height: 425px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	background: url("../img/calendar__bg.png") 50% 0px no-repeat;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	padding-top: 23px;
+}
+.promo__section .calendar__block .calendar__bottom{
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.promo__section .calendar__block .day{
+  font-size: 168px;
+  font-family: "RedOctoberFat";
+  color: rgb(44, 44, 44);
+  line-height: 1;
+  text-align: center;
+}
+.promo__section .calendar__block .weekday{
+  font-size: 38px;
+  font-family: "B52";
+  color: rgb(44, 44, 44);
+  line-height: 1;
+  margin-top: -7px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+.promo__section .calendar__block .holiday{
+  font-size: 36px;
+  font-family: "B52";
+  color: rgb(44, 44, 44);
+  line-height: 1.2;
+  text-align: center;
+}
+.promo__section .calendar__block .sale{
+  font-size: 25px;
+  font-family: "B52";
+  color: rgb(44, 44, 44);
+  line-height: 1.2;
+  text-align: center;
+white-space: nowrap;
+
+}
+.promo__button p{
+  font-size: 24px;
+  font-family: "RedOctoberFat";
+  color: rgb(206, 0, 12);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 3px 0px rgba(255, 255, 255, 0.004);
+}
+.promo__button{
+	margin-top: 10px;
+}
+.reviews .star__block{
+	text-align: center;
+}
+.reviews .star__block img{
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+}
+.reviews .star__block .star{
+	width: 100%;
+	height: auto;
+	display: block;	
+}
+.reviews h2{
+  font-size: 50px;
+  margin-top: 15px;	
+  margin-bottom: 15px;	
+  font-family: "RedOctoberFat";
+  color: rgb(206, 0, 12);
+  line-height: 1.2;
+  text-align: center;
+}
+.review__block .client__block .for__img{
+	-webkit-box-shadow: 0 0 32px rgba(0,0,0,.15), inset 0 0 29px rgba(0,0,0,.23);
+	-moz-box-shadow: 0 0 32px rgba(0,0,0,.15), inset 0 0 29px rgba(0,0,0,.23);
+	box-shadow: 0 0 32px rgba(0,0,0,.15), inset 0 0 29px rgba(0,0,0,.23);
+	width: 320px;
+	border-radius: 35px;
+	height: 250px;
+	display: block;
+	overflow: hidden;
+	background: blue;
+}
+.review__block .client__block .for__img img{
+	height:100%;
+	width: auto;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.review__block{
+	clear: both;
+	margin-top: 30px;
+}
+.review__block.review__block2 p{
+	float: left;
+	width: 750px;
+}
+.review__block .client__block.left{
+	margin-right: 45px;
+	float: left;
+	width: 320px;
+}
+.review__block .client__block.right{
+	margin-left: 45px;
+	float: right;
+	width: 320px;
+}
+.review__block .client__block .name{
+  font-size: 32px;
+  font-family: "BadScript";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  width: 320px;
+   transform: skewX(-7deg)  rotate(-7deg);
+  margin-top: 25px;
+}
+.review__block p{
+  font-size: 26px;
+  font-family: "B52";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+.promo__image1{
+	position: absolute;
+	z-index: 000;
+	top: -140px;
+	left: -30px;
+	width: auto;
+	height: auto;
+	display: block;
+}
+.promo__image2{
+	position: absolute;
+	z-index: 00;
+	top: 270px;
+	right: -40px;
+}
+.promo__image3{
+	position: absolute;
+	z-index: 000;
+	top: -230px;
+	right: -10px;
+}
+.promo__image4{
+	position: absolute;
+	z-index: 000;
+	top: 450px;
+	left: -20px;
+}
+.promo__image1 img,
+.promo__image3 img,
+.promo__image4 img,
+.promo__image2 img{
+	display: block;
+}
+.promo__section .container{
+	position: relative;
+}
+.promo__section .container p{
+	position: relative;
+}
+.contacts{
+	height: 200px;
+	background: #ce000c;
+	padding-top: 35px;
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+	z-index: 3000;
+}
+.contacts h2{
+  font-size: 51px;
+  font-family: "RedOctoberFat";
+  color: rgb(253, 254, 214);
+  line-height: 1.2;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.contacts p{
+  font-size: 30px;
+  font-family: "RedOctoberFat";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+.contacts span{
+  color: rgb(252, 209, 22);
+} 
+.reviews .container{
+	position: relative;
+	padding-bottom: 180px;
+}
+.promo__images{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0;
+	bottom: -200px;
+}
+.promo__image5{
+	position: absolute;
+	right: -90px;
+	top: 70px;
+	z-index: -5;
+}
+.map .container{
+	position: relative;
+}
+.map__block{
+	position: absolute;
+	right: 0;
+	display: block;
+	top: 50px;
+	width: 320px;
+	height: 350px;
+	padding-top: 60px;
+	background: url("../img/map.png") no-repeat;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.map__block p{
+  font-size: 20px;
+  font-family: "RedOctoberFat";
+  color: rgb(253, 254, 214);
+  line-height: 1.2;
+  text-align: center;
+}
+.map__block a{
+	font-size: 25px;
+	font-family: "RedOctoberFat";
+  color: rgb(253, 254, 214);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.map__block a span{
+	font-size: 28px;
+  color: rgb(252, 209, 22);
+
+
+}
+.map__block button{
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 20px 15px;
+}
+.map__block button p{
+  font-size: 22px;
+  font-family: "RedOctoberFat";
+  color: rgb(206, 0, 12);
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  text-shadow: 0px 3px 0px rgba(255, 255, 255, 0.004);
+}
+footer{
+	background: #ce000c;
+	position: relative;
+	text-align: center;
+	height: 50px;
+	margin-top: -15px;
+	z-index: 3000;
+}
+footer a{
+display: block;
+width: 100px;
+height: auto;
+position: absolute;
+top: -80px;
+left: 50%;
+margin-left: -200px;
+}
+.hiddens{
+	visibility: hidden;
+}
+.hiddens.animated{
+	visibility: visible;
+}
+
+.menu__section{
+	position: relative;
+}
+.ussr__logo2{
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	width: 120px;
+	z-index: 9000;
+	top: 720px;
+}
+.ussr__logo2 img{
+	width: 120px;
+}
+.menu__dots{
+	display: block;
+	text-align: center;
+	margin-top: -70px;
+position: relative;
+z-index: 8000;
+
+}
+.menu__dots .dot{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #fdfed6;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.menu__dots .dot.active{
+	background: #d7da67;
+}
+.owl-nav.disabled{
+	display: none;
+}
+body{
+	overflow-x: hidden;
+	position: relative;
+}
+.wrap{
+	width: 100%;
+	overflow-x: hidden;
+}
