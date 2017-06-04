@@ -1,0 +1,9 @@
+body {
+  display: block;
+  background-image: -webkit-linear-gradient(top, #77ad27, #568604);
+  background-image: -moz-linear-gradient(top, #77ad27, #568604);
+  background-image: -o-linear-gradient(top, #77ad27, #568604);
+  background-image: -ms-linear-gradient(top, #77ad27, #568604);
+  background-image: linear-gradient(to bottom, #77ad27, #568604); }
+
+/*# sourceMappingURL=style.css.map */
