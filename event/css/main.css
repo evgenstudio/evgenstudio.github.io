@@ -14,7 +14,9 @@
 	color: #666;
 	opacity: 1;
 }
-
+.logo{
+	display: none;
+}
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	
@@ -61,7 +63,7 @@ h5{
 	margin-bottom: 0;
 }
 img{
-	width: 70%;
+	width: 80%;
 	text-align: right;
 	height: auto;
 }

@@ -13,10 +13,19 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 .text-right{
-	text-align: center;
+	display: none;
 }
 .text-left{
 	text-align: center;
+}
+.logo{
+	display: block;
+}
+img{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 }
 
