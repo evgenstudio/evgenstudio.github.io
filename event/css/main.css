@@ -1,0 +1,74 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+    outline-offset: 0px;
+}
+*:focus{
+	outline:none;
+}
+/*Элемент выше для того, чтобы не было цвето у фокусированных*/
+
+body {
+	font-family: "Akrobat", sans-serif;
+	font-size: 23px;
+	text-align: center;
+	/*
+background: radial-gradient(at top, rgba(226,232,237,0.2), rgba(226,232,237,1)) ;
+*/
+background: rgba(240,240,250,1);
+height: 100%;
+height: 100vh;
+}
+h1{
+	color: rgb(40,144,165);
+}
+.col-md-6{
+	text-align: left;
+}
+a{
+	color: #000;
+}
+h5, h6{
+	font-size: 22px;
+	margin-top: 20px;
+}
+h5{
+	font-size: 24px;
+	margin-bottom: 0;
+}
+img{
+	width: 70%;
+	text-align: right;
+	height: auto;
+}
+p{
+	line-height: 1.6;
+	font-size: 26px;
+}
+.text-right{
+	text-align: right;
+}
