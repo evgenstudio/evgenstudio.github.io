@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60"
+	 enable-background="new 0 0 60 60" xml:space="preserve">
+<title>Compasssafari</title>
+<desc>Created with Sketch.</desc>
+<circle id="Oval-1468" sketch:type="MSShapeGroup" fill="none" stroke="#568604" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="30.5" cy="33.5" r="24.5">
+</circle>
+<circle id="Oval-1468_1_" sketch:type="MSShapeGroup" fill="#D6F7CB" stroke="#568604" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="30.5" cy="5.5" r="3.5">
+</circle>
+<path id="Line" sketch:type="MSShapeGroup" fill="none" stroke="#568604" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" d="
+	M30,12v2"/>
+<path id="Line_1_" sketch:type="MSShapeGroup" fill="none" stroke="#568604" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" d="
+	M30,53v2"/>
+<path id="Line_2_" sketch:type="MSShapeGroup" fill="none" stroke="#568604" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" d="
+	M52,34h-2"/>
+<path id="Line_3_" sketch:type="MSShapeGroup" fill="none" stroke="#568604" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" d="
+	M11,34H9"/>
+<g id="Triangle-54-_x2B_-Triangle-55" transform="translate(24.000000, 31.000000) rotate(-315.000000) translate(-24.000000, -31.000000) translate(21.000000, 11.000000)" sketch:type="MSShapeGroup">
+	
+		<polygon id="Triangle-54" fill="#D6F7CB" stroke="#568604" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="
+		8.7,-2.8 11.7,17.2 5.7,17.2 	"/>
+	
+		<polygon id="Triangle-55" fill="#D6F7CB" stroke="#568604" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="
+		8.7,37.2 5.7,17.2 11.7,17.2 	"/>
+</g>
+</svg>
