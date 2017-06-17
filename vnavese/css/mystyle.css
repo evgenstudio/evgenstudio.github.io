@@ -97,6 +97,12 @@ body{
 }
 .center_text span{
     line-height: 35px;
+        line-height: 28px;
+    font-size: 23px;
+    text-align: center;
+    font-family: LatoB, sans-serif;
+    font-weight: 700;
+
 }
 
 .right_text{
@@ -105,7 +111,7 @@ body{
     line-height: 28px;
     text-align: right;
     font-family: "LatoB";
-    color: #3EAD71;
+    color: #F8AE4E;
     font-weight: 900;
     padding-top: 10px;
     padding-left: 0; 
@@ -152,12 +158,14 @@ h1{
   line-height: 1;
   text-align: center;
   font-weight: 900;
+  white-space: nowrap;
   letter-spacing: 0.03em;
 margin-bottom: 50px;
 }
 h1 span{
     line-height: 80px;
-    font-size: 29px;
+    font-size: 34px;
+    color: #F7AB4F;
 }
 h1 +p{
     font-size: 29px;
@@ -172,7 +180,7 @@ h1 +p{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 1px solid #3EAD71;
+    border: 1px solid #F8AE4E;
 }
 .icon +p{
     font-size: 18px;
@@ -205,7 +213,7 @@ h1 +p{
     padding-top: 10px;
 }
 #wrapper h4{
-    color: #3EAD71;
+    color: #F8AE4E;
     font-size: 26px;
     font-weight: 100;
     text-transform: uppercase;
@@ -273,7 +281,7 @@ h1 +p{
 }
 #steps form .step4 p input{
     width: 75px;
-    border: 1px solid #3EAD71;
+    border: 1px solid #F8AE4E;
     border-radius: 7px;
   
     margin-right: 20px;
@@ -303,7 +311,7 @@ h1 +p{
 #wrapper #steps form .step3 legend,
 #wrapper #steps form .step4 legend,
 #wrapper #steps form .last legend{
-    color: #3EAD71;
+    color: #F8AE4E;
     font-size: 26px;
     font-weight: 100;
     font-family: "LatoB";
@@ -313,7 +321,7 @@ h1 +p{
     width: 38px;
     height: 38px;
     background: none;
-    border: 3px solid #3EAD71;
+    border: 3px solid #F8AE4E;
     border-radius: 5px; 
     vertical-align: middle;
     margin-right: 10px;
@@ -350,7 +358,7 @@ h1 +p{
     color: #fff;
 }
 .price #price{
-    color: #3EAD71;
+    color: #F8AE4E;
     font-size: 28px;
 }
 .sale_form{
@@ -378,9 +386,10 @@ h1 +p{
     margin-bottom: 25px;
 }
  .sale_form .sale_num{
-    font-size: 28px;
-   color: #3EAD71;
-   font-weight: 700;
+   font-size: 27px;
+color: #F8AE4E;
+font-family: LatoB;
+font-weight: 100;
  }
  .sale_form.active{
     height: 210px;
@@ -457,7 +466,7 @@ h1 +p{
  }
 
  #steps form button{
-    background: #3EAD71;
+    background: #F8AE4E;
     border: none;
     text-shadow: none;
     color: #fff;
@@ -466,7 +475,7 @@ h1 +p{
 
  }
  #steps form button:hover{
-    background: #3EAD71;
+    background: #F8AE4E;
     color: #fff;
     text-shadow: none;
  }
@@ -580,7 +589,7 @@ left: -529px;
     line-height: 30px;
   }
   .absol_icon .right_cont p span{
-    color: #3EAD71; padding-left: 10px;
+    color: #F8AE4E; padding-left: 10px;
   }
    .absol_icon .right_cont p.text{
     margin-top: 25px;
@@ -593,7 +602,7 @@ left: -529px;
     width: 140px;
     margin-right: 30px;
     border-radius: 50%;
-    border: 1px solid #3EAD71;
+    border: 1px solid #F8AE4E;
     margin-top: -20px;
     background: url("../images/stolb.png") no-repeat 50% 50%;
    }
@@ -650,7 +659,7 @@ color: rgb(63, 60, 79);
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    border: 2px solid #3EAD71;
+    border: 2px solid #F8AE4E;
     padding-top: 50px;
     text-align: center;
     padding-left: 30px;
@@ -675,7 +684,7 @@ color: rgb(63, 60, 79);
 text-align: left;
 }
 .name_i{
-    border: 1px solid #3EAD71;
+    border: 1px solid #F8AE4E;
     height: 40px;
     border-radius: 20px;
     width: 100%;
@@ -694,7 +703,7 @@ margin-bottom: 20px;
 background: url("../images/form_i.png") no-repeat 30px 10px;
 }
 .tel_i{
-    border: 1px solid #3EAD71;
+    border: 1px solid #F8AE4E;
     height: 40px;
     border-radius: 20px;
     width: 100%;
@@ -888,4 +897,11 @@ padding-left: 90px;
 .step.last{
     width: 720px;
 margin-left: -10px;
+}
+#navigation{
+    visibility:hidden  !important;
+
+}
+#last_butt #special{
+    visibility: visible !important;
 }

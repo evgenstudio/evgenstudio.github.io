@@ -74,6 +74,7 @@
 		aa= aa*1000;
 		 $("#salee").text(aa);
 	});
+	
 	$('.next__butt').click(function(){
 		$('#navigation li:nth-child(' + (parseInt(current)+1) + ') a').click();
 		aa = parseInt(current)+1 -2;
