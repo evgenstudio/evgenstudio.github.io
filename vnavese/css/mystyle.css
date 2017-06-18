@@ -174,13 +174,13 @@ h1 +p{
     margin-bottom: 40px;
 }
 .icon{
-    width: 65px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 1px solid #F8AE4E;
+    border: none;
 }
 .icon +p{
     font-size: 18px;
@@ -786,12 +786,16 @@ background: url("../images/form_tel.png") no-repeat 30px 10px;
 .container .col-xs-8{
     transition:  all 1s ease-in;
     width: 100%;
+    float: right;
 }
 .container .col-xs-8.active{
     width: 760px;
-    margin-right: 40px;
+    margin-right: 00px;
     transition:  all 1s ease-in;
-
+}
+.container .col-xs-2{
+    width: 250px;
+    right: 40px;
 }
 #wrapper{
     margin-left: auto;
@@ -852,7 +856,6 @@ footer{
 #steps form .step p label{
   font-size: 20px;
   color: rgb(255, 255, 255);
-  font-weight: bold;
   line-height: 1.098;
 }
 #steps form .last input:not([type=radio]){
@@ -904,4 +907,41 @@ margin-left: -10px;
 }
 #last_butt #special{
     visibility: visible !important;
+}
+.icon +p:hover{
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.5),0px 0px 6px rgba(255,255,255,0.5);
+}
+
+.telephone{
+    width: 160px;
+min-height: 20px;
+margin-top: 15px;
+color: #FFFFFF;
+text-align: center;
+font-family: Lato, sans-serif;
+font-size: 13px;
+font-weight: 400;
+padding: 6px;
+}
+.tel__butt{
+    background: #F8AE4E;
+width: 160px;
+border: none;
+margin-top: 20px;
+margin: 0px;
+text-align: center;
+box-shadow: none;
+border-radius: 5px;
+margin-top: 7px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+
+}
+.tel__butt p{
+    font-size: 13px;
+font-family: 'Lato';
+color: rgb(45, 45, 45);
+margin-left: 0px;
+text-align: center;
 }

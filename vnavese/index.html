@@ -6,6 +6,7 @@
         <meta name="description" content="Fancy Sliding Form with jQuery" />
         <meta name="keywords" content="jquery, form, sliding, usability, css3, validation, javascript"/>
         <meta name="viewport" content="width=1400">
+        <link rel="shortcut icon" href="img/fav.ico" />
         <link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/styl.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/mystyle.css" type="text/css" media="screen"/>
@@ -81,16 +82,16 @@
             </p>-->
            <div class="row hhrow">
                <div class="col-xs-4">
-                   <img src="images/icon1.jpg" alt="" class="icon icon1">
-                   <p>Витые столбы</p>
+                   <img src="images/icon11.png" alt="" class="icon icon1">
+                   <p>Премиум поликарбонат</p>
                </div>
                <div class="col-xs-4">
-                   <img src="images/icon2.jpg" alt="" class="icon icon2">
-                   <p>Кованные элементы</p>
+                   <img src="images/icon12.png" alt="" class="icon icon2">
+                   <p>Премиум краска Хаммирайт</p>
                </div>
                <div class="col-xs-4">
-                   <img src="images/icon3.jpg" alt="" class="icon icon3">
-                   <p>Производство и монтаж за 10 дней</p>
+                   <img src="images/icon13.png" alt="" class="icon icon3">
+                   <p>Гарантия 5 лет</p>
                </div>
            </div>
            </div>
@@ -105,6 +106,30 @@
            </div>
            <div class="container pt0">
                 <div class="row">
+                 <div class="col-xs-2" style=" padding-top:10px;">
+                    <div class="sale_form">
+                        <div class="sale_box">
+                           <p>Пройдите тест до конца 
+                                и успейте получить персональную скидку
+                                НА ВСЕ РАБОТЫ:</p>
+                           <p class="itogo">Итого скидка:</p>
+                           <p class="sale_num"><span id="salee">30000</span> руб.</p>
+                        </div>
+                    </div>
+                    <div class="bb" style="height:40px;"></div>
+                    <div class="sale_form">
+                        <div class="sale_box">
+                           <p>Узнайте сроки и условия монтажа! <br>Вам ответит наш инженер <br> в течение 5 минут</p>
+                           <form action="">
+                             <input type="text" class="telephone" id="consult" placeholder="Введите номер телефона">
+                             <button type="button" class="tel__butt">
+                                <p>Заказать консультацию</p>
+                             </button>
+                           </form>
+                        </div>
+                    </div>
+                    
+                </div>
                 <div class="col-xs-8">
                 <div id="wrapper">
                     <div id="steps" class="clearfix">
@@ -134,8 +159,7 @@
                             </fieldset>
                             <fieldset class="step step2">
                                 <legend>  Укажите удаленность от МКАД до объекта:</legend>
-                                <p style=" font-size: 18px;   color: rgb(255, 255, 255);
-  line-height: 1.219;">Вопрос 2 из 5</p>
+                                <p style=" font-size: 18px;   color: rgb(255, 255, 255);  line-height: 1.219;">Вопрос 2 из 5</p>
                                 <p>
                                     <input type="radio" name="range" value="1" id="radio2_1" />
                                     <label for="radio2_1"><span class="for_item"></span>до 15 км</label>
@@ -253,8 +277,10 @@
 
 
                                     <h5 style="margin-bottom:20px">
-                                    Получите на почту результат расчета <br>
-                                    + гарантийный сертификат на 3 года</h5>
+                                      Ваша персональная скидка   <span id="final_sale"></span> рублей. <br>
+                                      Заполните форму чтобы мы Вас нашли
+
+                                    </h5>
                                 <p>
                                     <label for="name">Имя</label>
                                     <input id="name" name="name" type="text" placeholder="Ваше имя" AUTOCOMPLETE=OFF />
@@ -315,17 +341,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-xs-2" style="width:15%; padding-top:10px;">
-                    <div class="sale_form">
-                        <div class="sale_box">
-                           <p>Пройдите тест до конца 
-                                и успейте получить персональную скидку
-                                НА ВСЕ РАБОТЫ:</p>
-                           <p class="itogo">Итого скидка:</p>
-                           <p class="sale_num"><span id="salee">1000</span> руб.</p>
-                        </div>
-                    </div>
-                    </div>
+               
                 
                 </div>
             </div>
@@ -418,6 +434,7 @@ vnavese.ru</a>
                 $(".my_cont").addClass("active");
                 $(".sale_form").addClass("active");
                 $(".container .col-xs-8").addClass("active");
+
                 /*kk= $(".navi_right .checked").length;
                 kk=kk*1000;
                 kk=kk+1000;
@@ -434,7 +451,14 @@ vnavese.ru</a>
                 }
 
             });
-       
+            var timerId = setInterval(function() {
+              if($(".sale_form").hasClass("active")){
+                  a = $("#salee").html();
+                  a = parseInt(a);
+                  a = a-50;
+                  $("#salee").html(a);
+                }
+                }, 1000);
 
            
 
@@ -474,6 +498,12 @@ vnavese.ru</a>
                  
                 
             };  
+            $("#special").click(function(){
+              a = $("#salee").html();
+              clearInterval(timerId);
+              $("#final_sale").html(a);
+            })
+            /*
              $(".icon1").click(function(){
                 $(".absol_icon1").addClass("active");
             });
@@ -486,6 +516,7 @@ vnavese.ru</a>
              $(".icon").mouseleave(function(){
                  $(".absol_icon.active").removeClass("active");
              });
+             */
              $("#tel").click(function(){
                 $(".absol_form").addClass("active");
                 $(".absol_bg_form").addClass("active");
@@ -516,7 +547,15 @@ vnavese.ru</a>
    $(this).attr('placeholder',$(this).data('placeholder'));
  });
  });
+            
 
+// через 5 сек остановить повторы
+/*
+setTimeout(function() {
+  clearInterval(timerId);
+  alert( 'стоп' );
+}, 5000);
+*/
 
   $("#formElem").submit(function() {
         $.ajax({
